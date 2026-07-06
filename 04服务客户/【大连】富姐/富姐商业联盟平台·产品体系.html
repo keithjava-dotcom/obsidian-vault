@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>富姐商业联盟平台 · 产品体系</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  @page {
+    size: A4 portrait;
+    margin: 16mm;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif;
+    background: #f5f6f8;
+    color: #1a1a2e;
+    display: flex;
+    justify-content: center;
+  }
+
+  .page {
+    max-width: 178mm;
+    width: 100%;
+    background: #fff;
+    padding: 10mm 8mm;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+    page-break-inside: avoid;
+  }
+
+  h1 {
+    font-size: 22pt;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2mm;
+    letter-spacing: 0.5px;
+  }
+
+  .subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 10pt;
+    margin-bottom: 8mm;
+  }
+
+  .row {
+    display: flex;
+    gap: 4mm;
+    justify-content: center;
+  }
+
+  .row-top { margin-bottom: 4mm; }
+
+  .card {
+    flex: 1;
+    border-radius: 3mm;
+    overflow: hidden;
+    background: #fff;
+    border: 0.5mm solid #e8ecf1;
+    display: flex;
+    flex-direction: column;
+    page-break-inside: avoid;
+  }
+
+  .card-header {
+    padding: 3mm 3mm 2mm;
+    text-align: center;
+    color: #fff;
+  }
+  .card-header .tier   { font-size: 9pt; opacity: 0.8; margin-bottom: 0.5mm; }
+  .card-header .name   { font-size: 13pt; font-weight: 700; }
+  .card-header .price  { font-size: 9pt; margin-top: 1mm; opacity: 0.9; }
+  .card-header .duration { font-size: 8pt; opacity: 0.75; margin-top: 0.5mm; }
+
+  .card-body { padding: 2.5mm 3mm; flex: 1; }
+  .card-body ul { list-style: none; padding: 0; }
+  .card-body li {
+    font-size: 8.5pt;
+    padding: 1.2mm 0 1.2mm 3.5mm;
+    position: relative;
+    line-height: 1.45;
+    color: #333;
+    border-bottom: 0.3mm solid #f0f2f5;
+  }
+  .card-body li:last-child { border-bottom: none; }
+  .card-body li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2.8mm;
+    width: 1.2mm; height: 1.2mm;
+    border-radius: 50%;
+  }
+
+  .card-footer {
+    padding: 2mm 3mm;
+    text-align: center;
+    font-size: 8pt;
+    font-weight: 600;
+    border-top: 0.3mm solid #f0f2f5;
+  }
+
+  /* 颜色 */
+  .c-green  .card-header { background: #10b981; }
+  .c-green  li::before   { background: #10b981; }
+  .c-green  .card-footer  { color: #10b981; }
+
+  .c-blue   .card-header { background: #3b82f6; }
+  .c-blue   li::before   { background: #3b82f6; }
+  .c-blue   .card-footer  { color: #3b82f6; }
+
+  .c-purple .card-header { background: #8b5cf6; }
+  .c-purple li::before   { background: #8b5cf6; }
+  .c-purple .card-footer  { color: #8b5cf6; }
+
+  .c-amber  .card-header { background: #f59e0b; }
+  .c-amber  li::before   { background: #f59e0b; }
+  .c-amber  .card-footer  { color: #f59e0b; }
+
+  .c-rose   .card-header { background: #ec4899; }
+  .c-rose   li::before   { background: #ec4899; }
+  .c-rose   .card-footer  { color: #ec4899; }
+
+  .note {
+    margin-top: 5mm;
+    padding: 3mm 4mm;
+    background: #fef9e7;
+    border-left: 1mm solid #f59e0b;
+    border-radius: 2mm;
+    font-size: 8.5pt;
+    color: #666;
+    line-height: 1.5;
+    page-break-inside: avoid;
+  }
+  .note strong { color: #1a1a2e; }
+
+  @media print {
+    body { background: #fff; }
+    .page { box-shadow: none; border-radius: 0; padding: 0; max-width: 100%; }
+    .card { break-inside: avoid; }
+    .note { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>富姐商业联盟平台</h1>
+  <p class="subtitle">合伙人产品体系 · 2026年6月</p>
+
+  <!-- 第一行：3张 -->
+  <div class="row row-top">
+
+    <div class="card c-green">
+      <div class="card-header">
+        <div class="tier">🥉</div>
+        <div class="name">企业合伙人</div>
+        <div class="price">1 万元</div>
+        <div class="duration">长期会员</div>
+      </div>
+      <div class="card-body">
+        <ul>
+          <li>产品全国基地推广</li>
+          <li>展位五折</li>
+          <li>短视频培训</li>
+          <li>全域电商平台推广</li>
+          <li>推荐资源20%分润</li>
+          <li>送疗愈初阶产品</li>
+          <li>进私域群·共享全国资源</li>
+        </ul>
+      </div>
+      <div class="card-footer">入门·有产品缺销路</div>
+    </div>
+
+    <div class="card c-blue">
+      <div class="card-header">
+        <div class="tier">🥈</div>
+        <div class="name">企业版</div>
+        <div class="price">3.86 万元</div>
+        <div class="duration">3天2夜</div>
+      </div>
+      <div class="card-body">
+        <ul>
+          <li>送3个1万企业名额</li>
+          <li>团队学IP运营·直播·社群</li>
+          <li>私域社群打造</li>
+          <li>电商平台全渠道打通</li>
+          <li>推荐奖25%</li>
+          <li>企业家心力+团队凝聚力</li>
+          <li>线下2次复训·陪跑1年</li>
+        </ul>
+      </div>
+      <div class="card-footer">有团队·学全链运营</div>
+    </div>
+
+    <div class="card c-purple">
+      <div class="card-header">
+        <div class="tier">🥈</div>
+        <div class="name">创业版</div>
+        <div class="price">3.86 万元</div>
+        <div class="duration">3天2夜</div>
+      </div>
+      <div class="card-body">
+        <ul>
+          <li>送3个1万企业名额</li>
+          <li>个人IP全域打造</li>
+          <li>推荐奖25%</li>
+          <li>团队奖5%</li>
+          <li>线下2次免费复训</li>
+          <li>IP运营团队陪跑1年</li>
+        </ul>
+      </div>
+      <div class="card-footer">个人创业·做IP</div>
+    </div>
+
+  </div>
+
+  <!-- 第二行：2张 -->
+  <div class="row">
+
+    <div class="card c-amber">
+      <div class="card-header">
+        <div class="tier">🥇</div>
+        <div class="name">城市合伙人</div>
+        <div class="price">5.9万（前5名）→ 9.8万</div>
+        <div class="duration">4天3夜</div>
+      </div>
+      <div class="card-body">
+        <ul>
+          <li>平台运营全链路复制</li>
+          <li>产品池营销通路打通</li>
+          <li>平台IP整体运营复制</li>
+          <li>大会全链路·人员复制支持</li>
+          <li>总部流量扶持+获客课程</li>
+          <li>年终分红权</li>
+        </ul>
+      </div>
+      <div class="card-footer">复制平台到你的城市</div>
+    </div>
+
+    <div class="card c-rose">
+      <div class="card-header">
+        <div class="tier">🏡</div>
+        <div class="name">商业民宿合伙人</div>
+        <div class="price">3.86 万元（待定）</div>
+        <div class="duration">待定</div>
+      </div>
+      <div class="card-body">
+        <ul>
+          <li>需自有民宿场地</li>
+          <li>资源对接·活动场地提供</li>
+          <li>承接全国大会住宿餐饮</li>
+          <li>承接富姐课程场地</li>
+          <li>民宿IP主理人资格</li>
+        </ul>
+      </div>
+      <div class="card-footer">自持民宿·待确认</div>
+    </div>
+
+  </div>
+
+  <div class="note">
+    <strong>📌 说明</strong>：两个3.86万档并列，<strong>企业版</strong>侧重团队全渠道运营，<strong>创业版</strong>侧重个人IP打造。<br>
+    赠送项目已取消（与富姐确认）。本方案为草稿，待三方确认后定稿。
+  </div>
+</div>
+</body>
+</html>

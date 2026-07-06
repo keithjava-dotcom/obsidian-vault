@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777047391914-f84lqrstw",
+  "providerId": "claude",
+  "title": "然后我存一条个人经验，我突然想到的，我觉得这个东西非常重要，就是如何去挑选题",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777047391914,
+  "updatedAt": 1777084898519,
+  "lastResponseAt": 1777047493394,
+  "sessionId": "969c2ca4-8f89-4db0-ac5b-f5db56dfddc0",
+  "providerState": {
+    "providerSessionId": "969c2ca4-8f89-4db0-ac5b-f5db56dfddc0"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 7303,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 7303,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

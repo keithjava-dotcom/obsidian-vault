@@ -1,0 +1,23 @@
+{
+  "id": "conv-1778428714475-lof2bn8s6",
+  "providerId": "claude",
+  "title": "给你一个经验，刚才跟AI聊天的时候相当多，就是大部分的老板是没有内核的，怎么办。",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1778428714475,
+  "updatedAt": 1778458965025,
+  "lastResponseAt": 1778429247853,
+  "sessionId": "2f982ec2-9e40-4d82-876d-b9cee9f67602",
+  "providerState": {
+    "providerSessionId": "2f982ec2-9e40-4d82-876d-b9cee9f67602"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 29224,
+    "cacheReadInputTokens": 20918,
+    "contextWindow": 200000,
+    "contextTokens": 50143,
+    "percentage": 25,
+    "contextWindowIsAuthoritative": true
+  }
+}

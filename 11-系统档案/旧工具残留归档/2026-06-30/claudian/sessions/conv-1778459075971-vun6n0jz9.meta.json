@@ -1,0 +1,23 @@
+{
+  "id": "conv-1778459075971-vun6n0jz9",
+  "providerId": "claude",
+  "title": "这是我的读书笔记，我想让你帮我存进去为我日后工作使用，放到新媒体知识-神经元重塑里",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1778459075971,
+  "updatedAt": 1778509691845,
+  "lastResponseAt": 1778464025077,
+  "sessionId": "7cf09213-f6a1-4cf0-bab7-2f0444020a2d",
+  "providerState": {
+    "providerSessionId": "7cf09213-f6a1-4cf0-bab7-2f0444020a2d"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 93731,
+    "cacheReadInputTokens": 20918,
+    "contextWindow": 200000,
+    "contextTokens": 114650,
+    "percentage": 57,
+    "contextWindowIsAuthoritative": true
+  }
+}

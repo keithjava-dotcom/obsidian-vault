@@ -1,0 +1,184 @@
+{
+  "schema_version": 2,
+  "task": "第09稿-同行抱怨没订单我同一天接两个大单",
+  "dagang_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/06-dagang粗坯/2026-06/第08稿-同行抱怨没订单我同一天接两个大单/第08稿-同行抱怨没订单我同一天接两个大单（dagang粗坯）.md",
+  "source_files": [
+    "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/00-碰撞草稿/26.7.28.md"
+  ],
+  "outputs": [
+    {
+      "path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md",
+      "role": "ip_script"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "今天是我妈妈的生日",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/00-碰撞草稿/26.7.28.md",
+      "evidence": "妈妈过生日",
+      "status": "confirmed"
+    },
+    {
+      "id": "c2",
+      "text": "从小到大妈妈一直支持我",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/00-碰撞草稿/26.7.28.md",
+      "evidence": "从小到大不管我有什么想法您都会支持",
+      "status": "confirmed"
+    },
+    {
+      "id": "c3",
+      "text": "单元房整体打通装修完需要开荒",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/00-碰撞草稿/26.7.28.md",
+      "evidence": "客户买了一个单元整体打通装修好需要开荒",
+      "status": "confirmed"
+    },
+    {
+      "id": "c4",
+      "text": "10万方厂房开荒",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/00-碰撞草稿/26.7.28.md",
+      "evidence": "10万方的厂房开荒",
+      "status": "confirmed"
+    },
+    {
+      "id": "c5",
+      "text": "日入六位数",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/00-碰撞草稿/26.7.28.md",
+      "evidence": "日入六位数以上",
+      "status": "confirmed"
+    },
+    {
+      "id": "c6",
+      "text": "同行抱怨没订单",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/00-碰撞草稿/26.7.28.md",
+      "evidence": "很多家政同行在抱怨订单少、不知道怎么获客",
+      "status": "confirmed"
+    },
+    {
+      "id": "c7",
+      "text": "品牌定位一开始就清晰",
+      "source_type": "opinion",
+      "status": "confirmed",
+      "note": "冉总自身的商业判断表述；dagang标注为需本人验证'一开始'的准确度，但作为IP主观陈述可保留"
+    },
+    {
+      "id": "c8",
+      "text": "有标准的SOP和售后跟踪",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/00-碰撞草稿/26.7.28.md",
+      "evidence": "开展思路→SOP→售后跟踪",
+      "status": "confirmed"
+    },
+    {
+      "id": "c9",
+      "text": "下午两个新人报到学保洁",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/00-碰撞草稿/26.7.28.md",
+      "evidence": "下午还有两个要学习保洁技能的人来公司报道",
+      "status": "confirmed"
+    },
+    {
+      "id": "c10",
+      "text": "晚上带妈妈出去吃饭放松",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/00-碰撞草稿/26.7.28.md",
+      "evidence": "晚上带妈妈放松",
+      "status": "confirmed"
+    },
+    {
+      "id": "c11",
+      "text": "日入六位数的具体业务细节",
+      "source_type": "pending_confirmation",
+      "status": "pending",
+      "presentation": "parenthetical_prompt",
+      "note": "dagang标注BLOCKED：具体业务细节待补充，正文中'日入六位数'作为概括性表述保留"
+    },
+    {
+      "id": "c12",
+      "text": "新人的来源和动机",
+      "source_type": "pending_confirmation",
+      "status": "pending",
+      "presentation": "parenthetical_prompt",
+      "note": "dagang标注BLOCKED：新人背景待补充，正文中仅提及'来公司报到'不展开"
+    }
+  ],
+  "spoken_sections": [
+    {
+      "output_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md",
+      "start_marker": "<!-- IP_SPOKEN_START -->",
+      "end_marker": "<!-- IP_SPOKEN_END -->",
+      "units": [
+        {
+          "text": "今天是我妈妈的生日。",
+          "claim_ids": ["c1"]
+        },
+        {
+          "text": "说实话，我特别开心。",
+          "claim_ids": []
+        },
+        {
+          "text": "从小到大，不管我有什么想法，学习也好、事业也好，我妈从来没拦过我。她就是那种，你做什么她都默默在后面支持你的人。",
+          "claim_ids": ["c2"]
+        },
+        {
+          "text": "所以我一直觉得，只要有她在，我就可以勇敢地往前走。",
+          "claim_ids": []
+        },
+        {
+          "text": "就今天这个日子，同一天，我接了俩大单。",
+          "claim_ids": ["c3", "c4"]
+        },
+        {
+          "text": "一个单元房，客户把一整层买下来打通了，装修完要开荒。一个10万方的厂房开荒。日入六位数。",
+          "claim_ids": ["c3", "c4", "c5"]
+        },
+        {
+          "text": "有意思的是什么？",
+          "claim_ids": []
+        },
+        {
+          "text": "现在好多家政同行在抱怨——没单，不知道怎么获客。",
+          "claim_ids": ["c6"]
+        },
+        {
+          "text": "我同一天，接了俩大单。",
+          "claim_ids": ["c3", "c4"]
+        },
+        {
+          "text": "差别在哪？",
+          "claim_ids": []
+        },
+        {
+          "text": "我进这行的时候，品牌这块，一开始就想清楚了。我不是先开店再想我是谁——我是先想清楚\u201c一冉要做什么样的家政\u201d，再往下走的。从开展思路、到标准的SOP、到售后跟踪——这些东西，少一样都不行。",
+          "claim_ids": ["c7", "c8"]
+        },
+        {
+          "text": "说白了，不是我今天运气好碰上了。是这些事，我之前全做了。",
+          "claim_ids": []
+        },
+        {
+          "text": "你想去哪，自己得先知道。自己都说不清楚要去哪，别人怎么跟你走？",
+          "claim_ids": []
+        },
+        {
+          "text": "下午还有两个新人来公司报到，学保洁。公司没停，一直在进人。",
+          "claim_ids": ["c9"]
+        },
+        {
+          "text": "晚上我带我妈出去，吃顿饭，放松一下。",
+          "claim_ids": ["c10"]
+        },
+        {
+          "text": "做成事，不代表不能生活。目标想清楚了，每天都是有条不紊的。",
+          "claim_ids": []
+        }
+      ]
+    }
+  ]
+}

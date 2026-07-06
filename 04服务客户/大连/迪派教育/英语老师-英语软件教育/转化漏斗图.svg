@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 680" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif">
+  <defs>
+    <linearGradient id="f1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="f2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10b981"/><stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="f3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="f4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ef4444"/><stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.12"/></filter>
+  </defs>
+
+  <rect width="800" height="680" fill="#f8fafc" rx="12"/>
+
+  <!-- Title -->
+  <text x="400" y="36" text-anchor="middle" fill="#1e293b" font-size="20" font-weight="bold">英语提分软件 · 团队矩阵转化漏斗</text>
+
+  <!-- ===== LAYER 1: 团队矩阵 ===== -->
+  <polygon points="60,70 740,70 660,175 140,175" fill="url(#f1)" opacity="0.92" filter="url(#shadow)"/>
+  <text x="400" y="102" text-anchor="middle" fill="#fff" font-size="17" font-weight="bold">① 团队老师 IP 矩阵</text>
+  <text x="400" y="128" text-anchor="middle" fill="#dbeafe" font-size="12">各开各号 · 各讲各的侧重点 · 统一输出方向</text>
+  <!-- Teacher tags -->
+  <rect x="155" y="144" width="80" height="22" rx="11" fill="rgba(255,255,255,0.2)"/>
+  <text x="195" y="159" text-anchor="middle" fill="#bfdbfe" font-size="10">A·小学提分</text>
+  <rect x="250" y="144" width="80" height="22" rx="11" fill="rgba(255,255,255,0.2)"/>
+  <text x="290" y="159" text-anchor="middle" fill="#bfdbfe" font-size="10">B·初中提分</text>
+  <rect x="345" y="144" width="80" height="22" rx="11" fill="rgba(255,255,255,0.2)"/>
+  <text x="385" y="159" text-anchor="middle" fill="#bfdbfe" font-size="10">C·考试冲刺</text>
+  <rect x="440" y="144" width="80" height="22" rx="11" fill="rgba(255,255,255,0.2)"/>
+  <text x="480" y="159" text-anchor="middle" fill="#bfdbfe" font-size="10">D·学习方法</text>
+  <rect x="535" y="144" width="80" height="22" rx="11" fill="rgba(255,255,255,0.2)"/>
+  <text x="575" y="159" text-anchor="middle" fill="#bfdbfe" font-size="10">E·家长心理</text>
+
+  <!-- Arrow 1 -->
+  <text x="400" y="205" text-anchor="middle" fill="#94a3b8" font-size="18">▼</text>
+  <text x="400" y="219" text-anchor="middle" fill="#64748b" font-size="10">各号导流 → 统一私域池</text>
+
+  <!-- ===== LAYER 2: 私域统一 ===== -->
+  <polygon points="140,232 660,232 620,320 180,320" fill="url(#f2)" opacity="0.92" filter="url(#shadow)"/>
+  <text x="400" y="264" text-anchor="middle" fill="#fff" font-size="17" font-weight="bold">② 私域统一管理</text>
+  <text x="400" y="288" text-anchor="middle" fill="#d1fae5" font-size="12">多个老师 · 多个入口 · 同一个池子</text>
+  <text x="400" y="306" text-anchor="middle" fill="#6ee7b7" font-size="11">统一SOP跟进 → 不急着卖 → 先建立信任</text>
+
+  <!-- Arrow 2 -->
+  <text x="400" y="350" text-anchor="middle" fill="#94a3b8" font-size="18">▼</text>
+  <text x="400" y="364" text-anchor="middle" fill="#64748b" font-size="10">邀请进各自直播间</text>
+
+  <!-- ===== LAYER 3: 集体直播 ===== -->
+  <polygon points="180,376 620,376 590,470 210,470" fill="url(#f3)" opacity="0.92" filter="url(#shadow)"/>
+  <text x="400" y="408" text-anchor="middle" fill="#fff" font-size="17" font-weight="bold">③ 团队老师集体开播</text>
+  <text x="400" y="432" text-anchor="middle" fill="#fef3c7" font-size="12">集体备课 · 各讲各的 · 轮流开播</text>
+  <text x="400" y="452" text-anchor="middle" fill="#fde68a" font-size="11">不卖课 · 不讲价格 · 只讲怎么提分</text>
+
+  <!-- Arrow 3 -->
+  <text x="400" y="500" text-anchor="middle" fill="#94a3b8" font-size="18">▼</text>
+  <text x="400" y="514" text-anchor="middle" fill="#64748b" font-size="10">直播间 → APP试用</text>
+
+  <!-- ===== LAYER 4: APP交付 ===== -->
+  <polygon points="210,526 590,526 560,610 240,610" fill="url(#f4)" opacity="0.92" filter="url(#shadow)"/>
+  <text x="400" y="558" text-anchor="middle" fill="#fff" font-size="17" font-weight="bold">④ APP 统一交付</text>
+  <text x="400" y="582" text-anchor="middle" fill="#fecaca" font-size="13">所有老师 · 所有渠道 · 同一个软件</text>
+  <text x="400" y="600" text-anchor="middle" fill="#fca5a5" font-size="11">卖的是工具，不是人工 · 边际成本几乎为零</text>
+
+  <!-- Footer -->
+  <text x="400" y="650" text-anchor="middle" fill="#94a3b8" font-size="11">一个人的信任是加法 · 一个团队的信任是乘法</text>
+  <text x="400" y="668" text-anchor="middle" fill="#cbd5e1" font-size="10">迪派教育 · 英语提分软件 · 2026.07</text>
+</svg>

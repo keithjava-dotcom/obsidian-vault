@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777475751482-s9bqdsqty",
+  "providerId": "claude",
+  "title": "求助，给我整不会了，这咋剪辑？她讲一讲。给自己讲跑偏了",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777475751482,
+  "updatedAt": 1777536943859,
+  "lastResponseAt": 1777475791573,
+  "sessionId": "aac1da57-270a-449a-b112-019a670b7399",
+  "providerState": {
+    "providerSessionId": "aac1da57-270a-449a-b112-019a670b7399"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 18409,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 18409,
+    "percentage": 9,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "conv-1776916742616-ug0ebgbbc",
+  "providerId": "claude",
+  "title": "请扫描以下路径：",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1776916742616,
+  "updatedAt": 1776927092693,
+  "lastResponseAt": 1776916749585,
+  "sessionId": "b07ac44a-8700-4e25-b1b7-c15b8bdcf7db",
+  "providerState": {
+    "providerSessionId": "b07ac44a-8700-4e25-b1b7-c15b8bdcf7db"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

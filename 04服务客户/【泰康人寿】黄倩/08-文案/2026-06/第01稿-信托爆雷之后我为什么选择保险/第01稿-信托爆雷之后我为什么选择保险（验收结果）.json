@@ -1,0 +1,974 @@
+{
+  "task": "第01稿-信托爆雷之后我为什么选择保险",
+  "status": "PASS",
+  "summary": {
+    "total": 85,
+    "passed": 85,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "id": "source-files-present",
+      "passed": true,
+      "evidence": {
+        "count": 1
+      }
+    },
+    {
+      "id": "outputs-present",
+      "passed": true,
+      "evidence": {
+        "count": 1
+      }
+    },
+    {
+      "id": "claims-present",
+      "passed": true,
+      "evidence": {
+        "count": 23
+      }
+    },
+    {
+      "id": "spoken-evidence-schema-v2",
+      "passed": true,
+      "evidence": {
+        "schema_version": 2,
+        "ip_script_outputs": 1,
+        "spoken_sections": 1
+      }
+    },
+    {
+      "id": "source:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+      "passed": true,
+      "evidence": "file exists"
+    },
+    {
+      "id": "output:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md",
+      "passed": true,
+      "evidence": "file exists"
+    },
+    {
+      "id": "readback:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md",
+      "passed": true,
+      "evidence": {
+        "bytes": 5073,
+        "sha256": "91524bda8df4b8d293b121d8e27e3765833de092404c4465c6ef64a65d696dd7"
+      }
+    },
+    {
+      "id": "claim:c1",
+      "passed": true,
+      "evidence": {
+        "text": "黄倩前职是信托公司，经历信托暴雷，并看到家庭和投资人的遭遇。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c2",
+      "passed": true,
+      "evidence": {
+        "text": "她由此追问安全感。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c3",
+      "passed": true,
+      "evidence": {
+        "text": "她曾经对金融行业失望，但仍然留恋。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c4",
+      "passed": true,
+      "evidence": {
+        "text": "她在金融行业会自驱学习，怕出错、说错话、不够严谨。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c5",
+      "passed": true,
+      "evidence": {
+        "text": "她曾在基金、证券、保险之间犹豫，最初不看好保险。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c6",
+      "passed": true,
+      "evidence": {
+        "text": "她考了基金和证券从业资格证，曾更偏向证券公司。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c7",
+      "passed": true,
+      "evidence": {
+        "text": "她对炒股不感冒，A股行情也不好，迟迟没有决定。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c8",
+      "passed": true,
+      "evidence": {
+        "text": "2024年年底泰康大连虎滩湾社区正式落地。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c9",
+      "passed": true,
+      "evidence": {
+        "text": "她之前了解过泰康养老社区，对养老社区有好感。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c10",
+      "passed": true,
+      "evidence": {
+        "text": "她对卖保险仍带有偏见。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c11",
+      "passed": true,
+      "evidence": {
+        "text": "她认为养老社区与过往信托经历、高客经营相符，也符合安全感追求，因此加入泰康。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c12",
+      "passed": true,
+      "evidence": {
+        "text": "加入后很多人以为从信托到保险是降维打击，但她认为完全不一样。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c13",
+      "passed": true,
+      "evidence": {
+        "text": "她认为保险不仅是产品，更是解决方案。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c14",
+      "passed": true,
+      "evidence": {
+        "text": "她认为家庭需求、方案匹配和资金位置都需要严谨思考。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c15",
+      "passed": true,
+      "evidence": {
+        "text": "她成为泰康HWP。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c16",
+      "passed": true,
+      "evidence": {
+        "text": "她未来方向是养老规划和传承。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c17",
+      "passed": true,
+      "evidence": {
+        "text": "她希望给客户的方案谨慎、准确和全面。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:o1",
+      "passed": true,
+      "evidence": {
+        "text": "收益重要，但安全感可能更重要。",
+        "source_type": "opinion",
+        "status": "opinion"
+      }
+    },
+    {
+      "id": "claim:o2",
+      "passed": true,
+      "evidence": {
+        "text": "家庭需要想清楚资金位置、使用人、使用时间和关键作用。",
+        "source_type": "opinion",
+        "status": "opinion"
+      }
+    },
+    {
+      "id": "claim:o3",
+      "passed": true,
+      "evidence": {
+        "text": "养老社区、保险方案和高客经营共同解决家庭晚年与下一代安排。",
+        "source_type": "opinion",
+        "status": "opinion"
+      }
+    },
+    {
+      "id": "claim:o4",
+      "passed": true,
+      "evidence": {
+        "text": "不是降维，而是一段新的修行。",
+        "source_type": "opinion",
+        "status": "opinion"
+      }
+    },
+    {
+      "id": "claim:o5",
+      "passed": true,
+      "evidence": {
+        "text": "不谈一夜暴富，也不拿焦虑逼客户做决定。",
+        "source_type": "opinion",
+        "status": "opinion"
+      }
+    },
+    {
+      "id": "claim:o6",
+      "passed": true,
+      "evidence": {
+        "text": "帮客户把财富的下半场想清楚。",
+        "source_type": "opinion",
+        "status": "opinion"
+      }
+    },
+    {
+      "id": "spoken-section-output:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md",
+      "passed": true,
+      "evidence": {
+        "output_listed_as_ip_script": true,
+        "output_read": true
+      }
+    },
+    {
+      "id": "spoken-section-markers:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md",
+      "passed": true,
+      "evidence": {
+        "start_marker": "<!-- IP_SPOKEN_START -->",
+        "end_marker": "<!-- IP_SPOKEN_END -->",
+        "start_found": true,
+        "end_found": true,
+        "marker_order_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:很多人听说我从信托来到保险，会问我一个问题：",
+      "passed": true,
+      "evidence": {
+        "text": "很多人听说我从信托来到保险，会问我一个问题：",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c12"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:你原来接触的是三百万起步的信托。",
+      "passed": true,
+      "evidence": {
+        "text": "你原来接触的是三百万起步的信托。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c12"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:现在做保险，是不是降维了？",
+      "passed": true,
+      "evidence": {
+        "text": "现在做保险，是不是降维了？",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c12"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:其实刚开始，我自己也带着这个偏见。",
+      "passed": true,
+      "evidence": {
+        "text": "其实刚开始，我自己也带着这个偏见。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c12"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:后来我发现，完全不是。",
+      "passed": true,
+      "evidence": {
+        "text": "后来我发现，完全不是。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c12"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:我的前职是信托公司。",
+      "passed": true,
+      "evidence": {
+        "text": "我的前职是信托公司。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c1"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:经历信托暴雷那两年，我看到过太多家庭和投资人的遭遇。",
+      "passed": true,
+      "evidence": {
+        "text": "经历信托暴雷那两年，我看到过太多家庭和投资人的遭遇。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c1"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:那时候我才意识到，对一个家庭来说，收益当然重要。",
+      "passed": true,
+      "evidence": {
+        "text": "那时候我才意识到，对一个家庭来说，收益当然重要。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c2",
+          "o1"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:但安全感，可能更重要。",
+      "passed": true,
+      "evidence": {
+        "text": "但安全感，可能更重要。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c2",
+          "o1"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:一个人手里有一笔钱，最难的不是听谁说收益高。",
+      "passed": true,
+      "evidence": {
+        "text": "一个人手里有一笔钱，最难的不是听谁说收益高。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "o2"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:而是想清楚：",
+      "passed": true,
+      "evidence": {
+        "text": "而是想清楚：",
+        "exact_line_found": true,
+        "claim_ids": [
+          "o2"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:这笔钱到底放在哪里？",
+      "passed": true,
+      "evidence": {
+        "text": "这笔钱到底放在哪里？",
+        "exact_line_found": true,
+        "claim_ids": [
+          "o2"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:未来谁来用？",
+      "passed": true,
+      "evidence": {
+        "text": "未来谁来用？",
+        "exact_line_found": true,
+        "claim_ids": [
+          "o2"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:怎么用？",
+      "passed": true,
+      "evidence": {
+        "text": "怎么用？",
+        "exact_line_found": true,
+        "claim_ids": [
+          "o2"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:什么时候用？",
+      "passed": true,
+      "evidence": {
+        "text": "什么时候用？",
+        "exact_line_found": true,
+        "claim_ids": [
+          "o2"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:能不能在关键时候，真的起到作用？",
+      "passed": true,
+      "evidence": {
+        "text": "能不能在关键时候，真的起到作用？",
+        "exact_line_found": true,
+        "claim_ids": [
+          "o2"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:所以信托暴雷之后，我一直在想：",
+      "passed": true,
+      "evidence": {
+        "text": "所以信托暴雷之后，我一直在想：",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c1"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:到底去哪里，能够寻找到这种安全感？",
+      "passed": true,
+      "evidence": {
+        "text": "到底去哪里，能够寻找到这种安全感？",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c2"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:那段时间，我也考虑过基金公司和证券公司。",
+      "passed": true,
+      "evidence": {
+        "text": "那段时间，我也考虑过基金公司和证券公司。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c5",
+          "c6"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:我还考了基金和证券的从业资格证。",
+      "passed": true,
+      "evidence": {
+        "text": "我还考了基金和证券的从业资格证。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c5",
+          "c6"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:但我自己对炒股并不感冒。",
+      "passed": true,
+      "evidence": {
+        "text": "但我自己对炒股并不感冒。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c7"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:当时 A 股的市场行情，也不是非常好。",
+      "passed": true,
+      "evidence": {
+        "text": "当时 A 股的市场行情，也不是非常好。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c7"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:所以这个决定，我迟迟没有做。",
+      "passed": true,
+      "evidence": {
+        "text": "所以这个决定，我迟迟没有做。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c7"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:直到 2024 年年底，泰康大连虎滩湾社区正式落地。",
+      "passed": true,
+      "evidence": {
+        "text": "直到 2024 年年底，泰康大连虎滩湾社区正式落地。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c8"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:这个消息，让我重新看了一次保险这件事。",
+      "passed": true,
+      "evidence": {
+        "text": "这个消息，让我重新看了一次保险这件事。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "o3"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:之前在信托公司时，我就了解过泰康的养老社区。",
+      "passed": true,
+      "evidence": {
+        "text": "之前在信托公司时，我就了解过泰康的养老社区。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c9"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:我对养老社区本身，是有好感的。",
+      "passed": true,
+      "evidence": {
+        "text": "我对养老社区本身，是有好感的。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c9"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:只是对于卖保险这件事，当时还是带着一些偏见。",
+      "passed": true,
+      "evidence": {
+        "text": "只是对于卖保险这件事，当时还是带着一些偏见。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c12"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:后来我想明白了。",
+      "passed": true,
+      "evidence": {
+        "text": "后来我想明白了。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c11",
+          "o3"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:养老社区、保险方案，和我过去做信托、高客经营的经历，是能接上的。",
+      "passed": true,
+      "evidence": {
+        "text": "养老社区、保险方案，和我过去做信托、高客经营的经历，是能接上的。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c11",
+          "o3"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:它们背后解决的，其实都是同一个问题：",
+      "passed": true,
+      "evidence": {
+        "text": "它们背后解决的，其实都是同一个问题：",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c11",
+          "o3"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:一个家庭，怎么把晚年和下一代安排得更稳妥。",
+      "passed": true,
+      "evidence": {
+        "text": "一个家庭，怎么把晚年和下一代安排得更稳妥。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c11",
+          "o3"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:所以我最后加入了泰康。",
+      "passed": true,
+      "evidence": {
+        "text": "所以我最后加入了泰康。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c11",
+          "o3"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:加入之后，我才发现，保险真的不是简单卖一个产品。",
+      "passed": true,
+      "evidence": {
+        "text": "加入之后，我才发现，保险真的不是简单卖一个产品。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c13"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:它更像是一个家庭解决方案。",
+      "passed": true,
+      "evidence": {
+        "text": "它更像是一个家庭解决方案。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c13"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:一个家庭有什么需求，要对接什么方案。",
+      "passed": true,
+      "evidence": {
+        "text": "一个家庭有什么需求，要对接什么方案。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c14",
+          "c16"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:什么样的钱，应该放在什么位置。",
+      "passed": true,
+      "evidence": {
+        "text": "什么样的钱，应该放在什么位置。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c14",
+          "c16"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:养老规划和传承，应该怎么一起考虑。",
+      "passed": true,
+      "evidence": {
+        "text": "养老规划和传承，应该怎么一起考虑。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c14",
+          "c16"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:每一个问题，都需要很严谨、很充分地思考。",
+      "passed": true,
+      "evidence": {
+        "text": "每一个问题，都需要很严谨、很充分地思考。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c14",
+          "c16"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:所以对我而言，从信托来到保险，成为泰康的 HWP，不是降维。",
+      "passed": true,
+      "evidence": {
+        "text": "所以对我而言，从信托来到保险，成为泰康的 HWP，不是降维。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c12"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:它更像是一段新的修行。",
+      "passed": true,
+      "evidence": {
+        "text": "它更像是一段新的修行。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "o4"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:未来我的主要方向，也会放在两件事上。",
+      "passed": true,
+      "evidence": {
+        "text": "未来我的主要方向，也会放在两件事上。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c16"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:一件是养老规划。",
+      "passed": true,
+      "evidence": {
+        "text": "一件是养老规划。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c16"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:一件是传承。",
+      "passed": true,
+      "evidence": {
+        "text": "一件是传承。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c16"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:我希望未来给到客户的每一个方案，都是谨慎、准确和全面的。",
+      "passed": true,
+      "evidence": {
+        "text": "我希望未来给到客户的每一个方案，都是谨慎、准确和全面的。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c17"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:相对来讲，我可能不是一个特别会热情推销的人。",
+      "passed": true,
+      "evidence": {
+        "text": "相对来讲，我可能不是一个特别会热情推销的人。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c17"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:但我希望自己是一个能认真把问题想清楚的人。",
+      "passed": true,
+      "evidence": {
+        "text": "但我希望自己是一个能认真把问题想清楚的人。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c17"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:不跟你谈一夜暴富。",
+      "passed": true,
+      "evidence": {
+        "text": "不跟你谈一夜暴富。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "o5"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:也不拿焦虑逼你做决定。",
+      "passed": true,
+      "evidence": {
+        "text": "也不拿焦虑逼你做决定。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "o5"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md:只是用严谨、克制、负责的方式，帮你把财富的下半场想清楚。",
+      "passed": true,
+      "evidence": {
+        "text": "只是用严谨、克制、负责的方式，帮你把财富的下半场想清楚。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "o6"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-coverage:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md",
+      "passed": true,
+      "evidence": {
+        "spoken_line_count": 50,
+        "registered_unit_count": 50,
+        "uncovered_lines": [],
+        "unused_units": []
+      }
+    },
+    {
+      "id": "dagang-exists",
+      "passed": true,
+      "evidence": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/06-dagang粗坯/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（dagang粗坯）.md"
+    },
+    {
+      "id": "dagang-fact-status",
+      "passed": true,
+      "evidence": {
+        "approved": false,
+        "ready": true,
+        "contradiction": false
+      }
+    }
+  ],
+  "generatedAt": "2026-06-28T04:04:36.274Z"
+}

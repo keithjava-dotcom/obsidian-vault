@@ -1,0 +1,23 @@
+{
+  "id": "conv-1776659818366-fuglznb3a",
+  "providerId": "claude",
+  "title": "帮我做一个工作复盘，我将2个板块的反馈和思考已经下入文件里了，需要以下几个维度的数据统计：",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1776659818367,
+  "updatedAt": 1776661362578,
+  "lastResponseAt": 1776660171590,
+  "sessionId": "2c618af1-acc5-4742-9afd-51cc2d1c1f09",
+  "providerState": {
+    "providerSessionId": "2c618af1-acc5-4742-9afd-51cc2d1c1f09"
+  },
+  "currentNote": "04服务客户/一冉家政/新媒体工作复盘/4.13日-4.19日.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 24734,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 24734,
+    "percentage": 12
+  }
+}

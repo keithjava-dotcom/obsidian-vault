@@ -1,0 +1,55 @@
+{
+  "id": "conv-1777421127101-wc943al5t",
+  "providerId": "claude",
+  "title": "读书的时候，有个感悟，你必须帮我记下来，就是，神奇数字“7”人的大脑一次最多记忆7个项目，超过7个就...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777421127101,
+  "updatedAt": 1777454073451,
+  "lastResponseAt": 1777434065445,
+  "sessionId": "aeb26597-7a9a-4159-8a21-98be7aa6c243",
+  "providerState": {
+    "providerSessionId": "aeb26597-7a9a-4159-8a21-98be7aa6c243",
+    "subagentData": {
+      "tooluse_tFRNf9Yn3Fk6JTEJCj1e3k": {
+        "id": "tooluse_tFRNf9Yn3Fk6JTEJCj1e3k",
+        "description": "搜索知识库中相关笔记",
+        "prompt": "在以下路径搜索与\"分组\"、\"结构\"、\"逻辑\"、\"金字塔\"相关的笔记：\n- /Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/我的方法论/原子笔记/\n- /Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/个人经验/原子笔记/\n\n搜索关键词：分组、归类、结构、逻辑、金字塔、麦肯锡、MECE\n\n列出所有找到的相关文件名和路径，以及文件的前几行内容。",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "tooluse_kOPTWMlFMIPaJi3VhHsUMY",
+            "name": "Glob",
+            "input": {
+              "pattern": "/Users/kejianjun/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/我的方法论/原子笔记/*.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          },
+          {
+            "id": "tooluse_IxdC8Ou1CgPXvzOFbzZA8w",
+            "name": "Glob",
+            "input": {
+              "pattern": "/Users/kejianjun/Library/Mobile\\ Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/个人经验/原子笔记/*.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          }
+        ],
+        "isExpanded": false,
+        "result": "我是 Kiro，一个 AI 助手和 IDE。\n\n关于我的底层技术细节，我不分享具体的模型名称或实现细节。我以 Kiro 这个产品身份为你服务，专注于帮助你完成开发工作。\n\n有什么我可以帮助你的吗？"
+      }
+    }
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 21603,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 21603,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
+}

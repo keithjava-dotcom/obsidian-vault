@@ -1,0 +1,24 @@
+{
+  "id": "conv-1778161481115-og67ty5rn",
+  "providerId": "claude",
+  "title": "Claudian,我需要你做一次测试性质的审查。",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1778161481117,
+  "updatedAt": 1778258402835,
+  "lastResponseAt": 1778163171198,
+  "sessionId": "4676bb64-8ed3-40c7-9283-e91cbadc94fc",
+  "providerState": {
+    "providerSessionId": "4676bb64-8ed3-40c7-9283-e91cbadc94fc"
+  },
+  "currentNote": "04服务客户/大连/心理咨询室/菲菲/08-文案/第07稿-AI起草-2026.5.7.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 58035,
+    "cacheReadInputTokens": 20918,
+    "contextWindow": 200000,
+    "contextTokens": 78954,
+    "percentage": 39,
+    "contextWindowIsAuthoritative": true
+  }
+}

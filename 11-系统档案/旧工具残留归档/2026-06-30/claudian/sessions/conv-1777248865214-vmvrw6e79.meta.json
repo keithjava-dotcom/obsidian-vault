@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777248865214-vmvrw6e79",
+  "providerId": "claude",
+  "title": "这是我操盘的一冉集团的新媒体部门，下面是团队中的工作量，我想让你帮我做一个工作量大统计。",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777248865214,
+  "updatedAt": 1777279027237,
+  "lastResponseAt": 1777249094578,
+  "sessionId": "ba26e839-063e-4912-bdda-07c4abfe9f21",
+  "providerState": {
+    "providerSessionId": "ba26e839-063e-4912-bdda-07c4abfe9f21"
+  },
+  "currentNote": "04服务客户/大连/一冉家政/新媒体工作复盘/4.27日-周会复盘.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 36185,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 36185,
+    "percentage": 18,
+    "contextWindowIsAuthoritative": true
+  }
+}

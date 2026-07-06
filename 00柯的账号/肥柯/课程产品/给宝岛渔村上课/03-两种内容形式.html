@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>两种内容形式</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#f5f5f4;font-family:-apple-system,"PingFang SC","Noto Sans SC",sans-serif;display:flex;justify-content:center;padding:40px 20px}
+.card{max-width:900px;width:100%;background:#fff;border-radius:16px;padding:32px;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+h1{text-align:center;font-size:24px;color:#1a1a1a;margin-bottom:4px}
+.sub{text-align:center;color:#888;font-size:14px;margin-bottom:20px}
+svg{width:100%;height:auto;display:block}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>两种内容形式</h1>
+<p class="sub">短视频所有结构只有这两种 · 画面上可以有无数种变体</p>
+
+<svg viewBox="0 0 850 780" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="sh" x="-4%" y="-4%" width="108%" height="108%">
+    <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+  </filter>
+  <marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M0,0 L10,5 L0,10" fill="#7C3AED"/>
+  </marker>
+  <marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M0,0 L10,5 L0,10" fill="#BE185D"/>
+  </marker>
+</defs>
+
+<!-- 左侧：清单式 -->
+<rect x="30" y="50" width="380" height="50" rx="12" fill="#7C3AED" filter="url(#sh)"/>
+<text x="220" y="82" text-anchor="middle" fill="#fff" font-size="18" font-weight="700">A：清单式（信息媒体）</text>
+
+<rect x="30" y="115" width="380" height="40" rx="8" fill="#EDE9FE"/>
+<text x="220" y="142" text-anchor="middle" fill="#6D28D9" font-size="14" font-weight="600">有主题 → 主题下多个信息点 → 论证主题</text>
+
+<!-- 清单式流程 -->
+<rect x="50" y="175" width="160" height="55" rx="8" fill="#8B5CF6" filter="url(#sh)"/>
+<text x="130" y="200" text-anchor="middle" fill="#fff" font-size="13" font-weight="600">主题</text>
+<text x="130" y="218" text-anchor="middle" fill="#d6c4f7" font-size="11">生日宴必点八大菜</text>
+
+<line x1="210" y1="202" x2="240" y2="202" stroke="#7C3AED" stroke-width="2" marker-end="url(#a1)"/>
+
+<rect x="245" y="175" width="145" height="55" rx="8" fill="#A78BFA" filter="url(#sh)"/>
+<text x="317" y="194" text-anchor="middle" fill="#fff" font-size="13" font-weight="600">信息点1-8</text>
+<text x="317" y="212" text-anchor="middle" fill="#e0d4f9" font-size="11">每5-7秒一个</text>
+<text x="317" y="224" text-anchor="middle" fill="#e0d4f9" font-size="10">清蒸鲈鱼/小兰花/...</text>
+
+<line x1="317" y1="230" x2="317" y2="255" stroke="#7C3AED" stroke-width="2" marker-end="url(#a1)"/>
+
+<rect x="110" y="260" width="220" height="40" rx="20" fill="#C4B5FD"/>
+<text x="220" y="286" text-anchor="middle" fill="#5B21B6" font-size="13" font-weight="600">观众获得信息刺激</text>
+
+<!-- 清单式特点 -->
+<rect x="30" y="325" width="380" height="140" rx="10" fill="#FAFAFA" stroke="#E2E8F0" stroke-width="1"/>
+<text x="220" y="350" text-anchor="middle" fill="#475569" font-size="14" font-weight="600">特点</text>
+<text x="50" y="375" fill="#64748B" font-size="12">✅ 门槛最低，出片最快</text>
+<text x="50" y="397" fill="#64748B" font-size="12">✅ 天然契合高效性+5-7秒原则+多轨道性</text>
+<text x="50" y="419" fill="#64748B" font-size="12">✅ 信息密度高，观众持续被刺激</text>
+<text x="50" y="441" fill="#64748B" font-size="12">⚠️ 别跑偏——主题是什么就说是什么</text>
+
+<!-- 右侧：发展式 -->
+<rect x="440" y="50" width="380" height="50" rx="12" fill="#BE185D" filter="url(#sh)"/>
+<text x="630" y="82" text-anchor="middle" fill="#fff" font-size="18" font-weight="700">B：发展式（故事推进）</text>
+
+<rect x="440" y="115" width="380" height="40" rx="8" fill="#FCE7F3"/>
+<text x="630" y="142" text-anchor="middle" fill="#BE185D" font-size="14" font-weight="600">背景 → 冲突 → 解决（通用故事结构）</text>
+
+<!-- 发展式流程 -->
+<!-- 背景 -->
+<rect x="460" y="175" width="160" height="55" rx="8" fill="#DB2777" filter="url(#sh)"/>
+<text x="540" y="194" text-anchor="middle" fill="#fff" font-size="13" font-weight="600">① 背景</text>
+<text x="540" y="212" text-anchor="middle" fill="#f9c8de" font-size="11">老人喜欢吃一道菜</text>
+<text x="540" y="224" text-anchor="middle" fill="#f9c8de" font-size="11">但店里没有</text>
+
+<line x1="620" y1="202" x2="640" y2="202" stroke="#BE185D" stroke-width="2" marker-end="url(#a2)"/>
+
+<!-- 冲突 -->
+<rect x="645" y="175" width="155" height="55" rx="8" fill="#F43F5E" filter="url(#sh)"/>
+<text x="722" y="194" text-anchor="middle" fill="#fff" font-size="13" font-weight="600">② 冲突</text>
+<text x="722" y="212" text-anchor="middle" fill="#fbd0da" font-size="11">没有 ⚡ 也不会做</text>
+
+<line x1="722" y1="230" x2="722" y2="255" stroke="#BE185D" stroke-width="2" marker-end="url(#a2)"/>
+
+<!-- 解决 -->
+<rect x="570" y="260" width="220" height="40" rx="20" fill="#FDA4AF"/>
+<text x="680" y="286" text-anchor="middle" fill="#9F1239" font-size="13" font-weight="600">③ 老板跨越2000公里去取</text>
+
+<!-- 发展式特点 -->
+<rect x="440" y="325" width="380" height="140" rx="10" fill="#FAFAFA" stroke="#E2E8F0" stroke-width="1"/>
+<text x="630" y="350" text-anchor="middle" fill="#475569" font-size="14" font-weight="600">特点</text>
+<text x="460" y="375" fill="#64748B" font-size="12">✅ 有共鸣，故事天然吸引人</text>
+<text x="460" y="397" fill="#64748B" font-size="12">✅ 可包装成逆袭/取悦/感动故事</text>
+<text x="460" y="419" fill="#64748B" font-size="12">✅ 能植入老板人设和品牌特点</text>
+<text x="460" y="441" fill="#64748B" font-size="12">⚠️ 需要真实素材，门槛稍高</text>
+
+<!-- 底部对比表 -->
+<rect x="30" y="495" width="790" height="260" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+
+<text x="425" y="525" text-anchor="middle" fill="#1E293B" font-size="16" font-weight="700">🎯 怎么选</text>
+
+<line x1="30" y1="540" x2="820" y2="540" stroke="#E2E8F0" stroke-width="1"/>
+
+<text x="120" y="565" text-anchor="middle" fill="#475569" font-size="13" font-weight="600">维度</text>
+<text x="320" y="565" text-anchor="middle" fill="#7C3AED" font-size="13" font-weight="600">清单式</text>
+<text x="530" y="565" text-anchor="middle" fill="#BE185D" font-size="13" font-weight="600">发展式</text>
+
+<line x1="30" y1="575" x2="820" y2="575" stroke="#E2E8F0" stroke-width="0.5"/>
+
+<text x="100" y="598" fill="#64748B" font-size="12">难度</text>
+<text x="320" y="598" text-anchor="middle" fill="#7C3AED" font-size="12" font-weight="600">低（会列清单就行）</text>
+<text x="530" y="598" text-anchor="middle" fill="#BE185D" font-size="12" font-weight="600">中（需要故事素材）</text>
+
+<text x="100" y="622" fill="#64748B" font-size="12">出片效率</text>
+<text x="320" y="622" text-anchor="middle" fill="#7C3AED" font-size="12" font-weight="600">高（半天就能出）</text>
+<text x="530" y="622" text-anchor="middle" fill="#BE185D" font-size="12" font-weight="600">中（需剪辑叙事）</text>
+
+<text x="100" y="646" fill="#64748B" font-size="12">适合阶段</text>
+<text x="320" y="646" text-anchor="middle" fill="#7C3AED" font-size="12" font-weight="600">初期首选 ✅</text>
+<text x="530" y="646" text-anchor="middle" fill="#BE185D" font-size="12" font-weight="600">素材积累后进入</text>
+
+<text x="100" y="670" fill="#64748B" font-size="12">宝岛渔村应用</text>
+<text x="320" y="670" text-anchor="middle" fill="#7C3AED" font-size="12" font-weight="600">八大菜/环境六个特点/200道菜</text>
+<text x="530" y="670" text-anchor="middle" fill="#BE185D" font-size="12" font-weight="600">厨子到2000平老板的逆袭</text>
+
+<text x="100" y="694" fill="#64748B" font-size="12">优势</text>
+<text x="320" y="694" text-anchor="middle" fill="#7C3AED" font-size="12" font-weight="600">信息密度高，观众爽</text>
+<text x="530" y="694" text-anchor="middle" fill="#BE185D" font-size="12" font-weight="600">有共鸣，容易转评赞</text>
+
+<text x="100" y="718" fill="#64748B" font-size="12">建议拍摄形式</text>
+<text x="320" y="718" text-anchor="middle" fill="#7C3AED" font-size="12" font-weight="600">口播/旁白</text>
+<text x="530" y="718" text-anchor="middle" fill="#BE185D" font-size="12" font-weight="600">旁白/他拍</text>
+
+<text x="425" y="755" text-anchor="middle" fill="#94A3B8" font-size="12">📌 初学重点：先吃透清单式！门槛低、出片快、有数据后迭代</text>
+</svg>
+</div>
+</body>
+</html>

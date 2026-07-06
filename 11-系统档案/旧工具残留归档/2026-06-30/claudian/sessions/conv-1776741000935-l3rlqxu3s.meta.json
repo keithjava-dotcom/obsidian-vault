@@ -1,0 +1,1152 @@
+{
+  "id": "conv-1776741000935-l3rlqxu3s",
+  "providerId": "claude",
+  "title": "你是我的Obsidian知识库管理员。我给你的是一套新媒体课程的原始文字稿，你需要完成以下任务，直接...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1776741000935,
+  "updatedAt": 1776744871598,
+  "lastResponseAt": 1776744811480,
+  "sessionId": "b544e524-e4b4-4c6e-aac5-16af12203ca5",
+  "providerState": {
+    "providerSessionId": "b544e524-e4b4-4c6e-aac5-16af12203ca5",
+    "subagentData": {
+      "tooluse_9P4eEXDH1MmWrRnPDpai1U": {
+        "id": "tooluse_9P4eEXDH1MmWrRnPDpai1U",
+        "description": "Read source file and existing Huahuo notes",
+        "prompt": "Read the following files and return their full contents:\n\n1. File at vault path: `01新媒体知识库-源文件/2-舒老师-有情绪的文字.md`\n   Vault root: `/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库`\n   Full path: `/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/01新媒体知识库-源文件/2-舒老师-有情绪的文字.md`\n\n2. List all .md files under:\n   `/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/花火商学院/原子笔记/`\n\nReturn the full content of file 1, and the list of all filenames for file 2.",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "tooluse_lWThla5g76FASm3phzNfP7",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/01新媒体知识库-源文件/2-舒老师-有情绪的文字.md"
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "File content (457.5KB) exceeds maximum allowed size (256KB). Use offset and limit parameters to read specific portions of the file, or search for specific content instead of reading the whole file."
+          },
+          {
+            "id": "tooluse_uXTwAWZ49bHAhQlgNWiSew",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/*.md",
+              "path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/花火商学院/原子笔记/"
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "<tool_use_error>Directory does not exist: /Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/花火商学院/原子笔记/. Note: your current working directory is /Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库.</tool_use_error>"
+          },
+          {
+            "id": "tooluse_umcKmefMv20lTJjjm1umTE",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/01新媒体知识库-源文件/2-舒老师-有情绪的文字.md",
+              "limit": 5000
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "File content (40110 tokens) exceeds maximum allowed tokens (25000). Use offset and limit parameters to read specific portions of the file, or search for specific content instead of reading the whole file."
+          },
+          {
+            "id": "tooluse_hcanwxiqWXNux7IviNp4p7",
+            "name": "Bash",
+            "input": {
+              "command": "find \"/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库\" -type d -name \"原子笔记\" 2>/dev/null"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记"
+          },
+          {
+            "id": "tooluse_5JTteKpnrXapvjRPTneILt",
+            "name": "Bash",
+            "input": {
+              "command": "find \"/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记\" -type f -name \"*.md\" | sort"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/变现_免费分享是最强变现策略.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/变现_变现三种基本模式.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/变现_变现三角流量信任产品.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/变现_用户价值决定变现方向.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/变现_私域转化路径设计.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_IP与网红的区别.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_人设不等于定位.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_以弱胜强现身说法.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_定位是模糊的方向.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_找到具体用户张小阳.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_理性壁垒加情感羁绊.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_用户与价值是定位核心.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_竞争力六字箴言.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_组合创新叠加价值.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_账号定位五要素.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_跨行信息差优势.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_身份不决定定位.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_过度工具人与过度抽象.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_选题落地定位.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/思考方式_数据是反馈不是评判.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/思考方式_用自己理解世界.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/思考方式_知识必须落实到计划.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/思考方式_行动优先70分原则.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/思考方式_贪多嚼不烂专注一个方向.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/拍摄_产品即符号.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/拍摄_产品拍摄六种视觉手法.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/拍摄_光线与色彩的心理暗示.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/拍摄_帮观众在想象中购物.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_个体经历与普遍经验结合.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_从抽象到具象是基本功.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_具体细节产生故事感.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_可视化把抽象变直观.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_多用短句少用长句.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_开头三秒决定完播率.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_故事感需要人物关系.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_短视频要用直观语言.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_节奏感推高情绪.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/框架_信息量扩充六个维度.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/框架_开头五种钩子类型.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/框架_结尾要有行动指令.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_五种解决方案类型.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_信息差是流量密码.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_八种常规选题类型.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_听到沉默的声音.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_每条视频要有赌注.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_生活展示明线与暗线.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_积累反应机制.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_超量准备选题库.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_选题是需求加解决方案.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_选题要回归用户.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_需求库与解决方案库.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_需求探索四个方法.md"
+          },
+          {
+            "id": "tooluse_TxlX73KqROP3x6roGYyTjx",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/01新媒体知识库-源文件/2-舒老师-有情绪的文字.md",
+              "limit": 10000,
+              "offset": 0
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "File content (40110 tokens) exceeds maximum allowed tokens (25000). Use offset and limit parameters to read specific portions of the file, or search for specific content instead of reading the whole file."
+          }
+        ],
+        "isExpanded": false,
+        "result": "我理解了。我是 Kiro，一个 AI 助手和 IDE。\n\n关于你的请求，我遇到了一个问题：\n\n**文件 1** (`2-舒老师-有情绪的文字.md`) 的大小超过了我的读取限制。这个文件约 457.5KB，内容非常庞大。我无法一次性读取完整内容。如果你需要这个文件的内容，可以告诉我：\n- 你想要文件的哪个部分\n- 或者你想搜索文件中的特定内容\n\n**文件 2** 的 .md 文件列表已找到。实际路径是：\n`/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/`\n\n该目录下共有 **54 个 .md 文件**，包括：\n- 变现相关（5个）\n- 定位相关（15个）\n- 思考方式相关（5个）\n- 拍摄相关（4个）\n- 文案相关（9个）\n- 框架相关（3个）\n- 选题相关（12个）\n\n需要我帮你处理这些文件吗？"
+      },
+      "tooluse_m0TAVVXS0wm4CFhxDYraNf": {
+        "id": "tooluse_m0TAVVXS0wm4CFhxDYraNf",
+        "description": "Read the source file and explore existing vault structure",
+        "prompt": "Read the following files and return their full contents:\n\n1. Read the file at vault path: `01新媒体知识库-源文件/2-舒老师-有情绪的文字.md`\n   (absolute path: `/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/01新媒体知识库-源文件/2-舒老师-有情绪的文字.md`)\n\n2. List all files in the directory: `/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/花火商学院/原子笔记/`\n\nReturn the FULL content of file 1, and the complete file listing of directory 2.",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "tooluse_88TWcSc2WkE1vKFyR1ybIz",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/01新媒体知识库-源文件/2-舒老师-有情绪的文字.md"
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "File content (457.5KB) exceeds maximum allowed size (256KB). Use offset and limit parameters to read specific portions of the file, or search for specific content instead of reading the whole file."
+          },
+          {
+            "id": "tooluse_bCPlNzKXdEd5UjHgRIHlmo",
+            "name": "Bash",
+            "input": {
+              "command": "ls -la \"/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/花火商学院/原子笔记/\""
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "Exit code 1\nls: /Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/花火商学院/原子笔记/: No such file or directory"
+          },
+          {
+            "id": "tooluse_iQ0BXSr7aJ8ByWYME73kMx",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/01新媒体知识库-源文件/2-舒老师-有情绪的文字.md",
+              "limit": 5000
+            },
+            "status": "error",
+            "isExpanded": false,
+            "result": "File content (40110 tokens) exceeds maximum allowed tokens (25000). Use offset and limit parameters to read specific portions of the file, or search for specific content instead of reading the whole file."
+          },
+          {
+            "id": "tooluse_Roa84KqFdy4xaoxLqazJuD",
+            "name": "Bash",
+            "input": {
+              "command": "find \"/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/花火商学院\" -type d -name \"原子笔记\" 2>/dev/null"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "(Bash completed with no output)"
+          }
+        ],
+        "isExpanded": false,
+        "result": "The file at path 1 is too large to read in full (457.5KB, exceeds the 256KB limit). The Read tool requires using offset and limit parameters to read it in sections.\n\nThe directory at path 2 does not exist. The search for \"原子笔记\" within the 花火商学院 directory returned no results.\n\n**Summary:**\n\n1. **File 1** (`2-舒老师-有情绪的文字.md`): This file exists but is 457.5KB, exceeding the maximum read size. To retrieve its contents, you would need to:\n   - Specify an offset and limit to read it in chunks\n   - Or search for specific content within it using Grep\n\n2. **Directory 2** (`花火商学院/原子笔记/`): This directory does not exist at the specified path. The parent directory `花火商学院` may not exist, or the subdirectory name may be different.\n\nWould you like me to:\n- Read the large file in sections (specify which sections)?\n- Search for specific content within the large file?\n- Explore the actual structure of the `花火商学院` directory to find the correct path?"
+      },
+      "tooluse_OhCVRX6AH64AiOXep1P27m": {
+        "id": "tooluse_OhCVRX6AH64AiOXep1P27m",
+        "description": "Read Huahuo atomic notes for cross-linking",
+        "prompt": "Read the following files and return their full content (title + first 3 lines of body for each):\n\nDirectory: `/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/`\n\nFiles to read (read ALL of them):\n- 文案_个体经历与普遍经验结合.md\n- 文案_从抽象到具象是基本功.md\n- 文案_具体细节产生故事感.md\n- 文案_可视化把抽象变直观.md\n- 文案_多用短句少用长句.md\n- 文案_开头三秒决定完播率.md\n- 文案_故事感需要人物关系.md\n- 文案_短视频要用直观语言.md\n- 文案_节奏感推高情绪.md\n- 定位_IP与网红的区别.md\n- 定位_人设不等于定位.md\n- 定位_以弱胜强现身说法.md\n- 定位_定位是模糊的方向.md\n- 定位_找到具体用户张小阳.md\n- 定位_理性壁垒加情感羁绊.md\n- 定位_用户与价值是定位核心.md\n- 定位_竞争力六字箴言.md\n- 定位_组合创新叠加价值.md\n- 定位_账号定位五要素.md\n- 定位_跨行信息差优势.md\n- 定位_身份不决定定位.md\n- 定位_过度工具人与过度抽象.md\n- 定位_选题落地定位.md\n- 思考方式_数据是反馈不是评判.md\n- 思考方式_用自己理解世界.md\n- 思考方式_知识必须落实到计划.md\n- 思考方式_行动优先70分原则.md\n- 思考方式_贪多嚼不烂专注一个方向.md\n- 选题_五种解决方案类型.md\n- 选题_信息差是流量密码.md\n- 选题_八种常规选题类型.md\n- 选题_听到沉默的声音.md\n- 选题_每条视频要有赌注.md\n- 选题_生活展示明线与暗线.md\n- 选题_积累反应机制.md\n- 选题_超量准备选题库.md\n- 选题_选题是需求加解决方案.md\n- 选题_选题要回归用户.md\n- 选题_需求库与解决方案库.md\n- 选题_需求探索四个方法.md\n\nFor each file, return: filename + the # heading title + first 2-3 lines of body text. Keep it concise.",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "tooluse_C8c3pw0voAh2tV20htMOb9",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_个体经历与普遍经验结合.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [文案, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 个体经历与普遍经验结合\n7\t\n8\t你的个体经历是独特的，但你的情绪是普遍的。越是描述具体的个人细节，越能触发全人类共同的情感。\"独居时病倒，水就在床头爬不起来\"——这是个体经历，但触发了所有独居者的共鸣。当个性化细节被关注，就有了神性时刻。\n9\t\n10\t## 关联\n11\t- [[文案_具体细节产生故事感]]\n12\t- [[文案_故事感需要人物关系]]\n13\t- 适用场景：写情感类内容、想让文案有共鸣感时\n14\t"
+          },
+          {
+            "id": "tooluse_VHvpzFXIXfEvrlaA8Yyok4",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_从抽象到具象是基本功.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [文案, 框架, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 从抽象到具象是创作者的基本功\n7\t\n8\t普通观众看到细节，自己得出观点。创作者要反过来——从抽象观点出发，还原成具象细节。光说\"我很专业\"、\"我很孝顺\"，观众不买账。要提供细节，让观众自己得出结论。好的表达者只负责提供细节，甚至可以设计或虚构细节。\n9\t\n10\t## 关联\n11\t- [[文案_可视化把抽象变直观]]\n12\t- [[文案_具体细节产生故事感]]\n13\t- 适用场景：写文案时感觉太空洞、太抽象时\n14\t"
+          },
+          {
+            "id": "tooluse_EmChfhfByfjlOFAHFt3TPo",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_具体细节产生故事感.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [文案, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 具体细节产生故事感\n7\t\n8\t故事感不是靠\"高级词汇\"，而是靠专属细节。加上时间（5月1号）、地点（白子湾角落的红色招牌）、数量（8杯）、专属名词（来自巴西的台灯）——这些细节让内容变得独一无二，不可复制。泛泛而谈的内容不会有流量，专属细节才能让人感受到真实和重量。\n9\t\n10\t## 关联\n11\t- [[文案_从抽象到具象是基本功]]\n12\t- [[文案_个体经历与普遍经验结合]]\n13\t- [[文案_故事感需要人物关系]]\n14\t- 适用场景：文案感觉空洞、没有温度时\n15\t"
+          },
+          {
+            "id": "tooluse_Fhsi7lrdUevv9z3CsPZ2Ce",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_可视化把抽象变直观.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [文案, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 可视化把抽象变直观\n7\t\n8\t短视频要用直观语言，因为观众在疲惫状态下刷，没有精力联想抽象概念。两个方法：①把\"是……的\"句式变成\"做……的\"句式（be→do，把定义变成动作）；②用\"在某地有某物\"的 there-be 句式（让场景存在感更强）。动作和场面让人一听就懂，而且更有说服力和可信度。\n9\t\n10\t## 关联\n11\t- [[文案_从抽象到具象是基本功]]\n12\t- [[文案_具体细节产生故事感]]\n13\t- 适用场景：文案听起来太绕、太像说明书时\n14\t"
+          },
+          {
+            "id": "tooluse_kp3o600wVRaatvKznHBTOS",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_多用短句少用长句.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [文案, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 多用短句少用长句\n7\t\n8\t短视频文案要多用短句。短句只有主谓宾，没有从句，每句话单独就能理解。长句需要观众记住前半句才能理解后半句，听起来很累。短视频观众注意力短暂，短句让他们此时此刻就明白，不需要记忆负担。\n9\t\n10\t## 关联\n11\t- [[文案_可视化把抽象变直观]]\n12\t- [[文案_节奏感推高情绪]]\n13\t- 适用场景：文案读起来绕口、观众听不进去时\n14\t"
+          },
+          {
+            "id": "tooluse_izmMb57BZpp01QfYyVzIGp",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_开头三秒决定完播率.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [文案, 框架, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 开头三秒决定完播率\n7\t\n8\t短视频开头三秒是最关键的。观众在决定要不要继续看。好的开头要做到：①制造悬念或冲突；②直接说出对用户的价值；③用反常识或反直觉的陈述抓住注意力。开头不行，后面再好也没用。\n9\t\n10\t## 关联\n11\t- [[文案_钩子设计三种方式]]\n12\t- [[框架_信息量扩充六个维度]]\n13\t- 适用场景：视频完播率低、开头留不住人时\n14\t"
+          },
+          {
+            "id": "tooluse_ko0BsG0YvQsh5bfOmsNX9d",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_故事感需要人物关系.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [文案, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 故事感需要人物关系\n7\t\n8\t故事感的核心是人与人之间的纠纷、羁绊或对抗。\"什么人和什么人干什么事\"就是故事。文案里加入人物关系，哪怕只是\"4月16日下午3点，他来到我的家\"，故事感就出来了。人情练达即文章。\n9\t\n10\t## 关联\n11\t- [[文案_具体细节产生故事感]]\n12\t- [[文案_个体经历与普遍经验结合]]\n13\t- 适用场景：文案有细节但还是感觉没有故事感时\n14\t"
+          },
+          {
+            "id": "tooluse_liyOxc5rwpM3ZoyQXeM3Ez",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_短视频要用直观语言.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [文案, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 短视频要用直观语言\n7\t\n8\t短视频平台要用直观语言，不要用抽象语言。抽象语言对应不上具体画面（\"我很孤独\"），直观语言画面感强（\"我站在门口很久，一步都不想迈进去\"）。观众在疲惫状态下刷视频，没有精力联想，直观语言才能被听进去。\n9\t\n10\t## 关联\n11\t- [[文案_可视化两种句式]]\n12\t- [[文案_具体细节产生故事感]]\n13\t- 适用场景：写文案时检查语言是否太抽象\n14\t"
+          },
+          {
+            "id": "tooluse_8ZHVhJTbOvFLHys6AfGKhX",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_节奏感推高情绪.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [文案, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 节奏感推高情绪\n7\t\n8\t文案的节奏感可以推高情绪。方法：①短句叠加，越来越短，形成加速感；②重复关键词，形成咏叹调效果；③用排比句式，制造气势；④在情绪最高点戛然而止，留白。节奏不是音乐，是语言的呼吸。\n9\t\n10\t## 关联\n11\t- [[文案_多用短句少用长句]]\n12\t- [[框架_信息量扩充六个维度]]\n13\t- 适用场景：文案平淡、情绪推不上去时\n14\t"
+          },
+          {
+            "id": "tooluse_6xX3emeFweHRPEkiY1acXX",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_IP与网红的区别.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# IP与网红的区别\n7\t\n8\t网红是被消遣的对象，IP是被追随的对象。网红只能娱乐用户，IP可以通过内容影响粉丝的决策。网红很难为商品赋能，IP可以为原本卖不出去的品提供信任背书。IP的本质和创业公司一样——为特定用户创造特定价值。\n9\t\n10\t## 关联\n11\t- [[定位_用户与价值是定位核心]]\n12\t- [[变现_用户价值决定变现方向]]\n13\t- 适用场景：判断自己要做IP还是网红、理解为什么要做有价值的内容\n14\t"
+          },
+          {
+            "id": "tooluse_TJtx84mjhnhFPeOsVSk8xO",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_人设不等于定位.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 人设不等于定位\n7\t\n8\t人设只是账号定位五要素中的一个部分。很多人把\"我的人设是什么\"等同于\"我的定位是什么\"，这是误区。定位大于人设，人设只有在其他四个要素（价值、用户、类型、风格）确定后才有意义。\n9\t\n10\t## 关联\n11\t- [[定位_账号定位五要素]]\n12\t- [[定位_身份不决定定位]]\n13\t- 适用场景：有人问\"我的人设是什么\"时，先问清楚定位的其他要素\n14\t"
+          },
+          {
+            "id": "tooluse_3vlvldALxwSCtUGu5YANN4",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_以弱胜强现身说法.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 以弱胜强现身说法\n7\t\n8\t你的短板和缺陷可以成为你的课题和使命。不要居高临下说教，而是拿自己的短板示弱，以退为进。微胖的人教微胖穿搭，原生家庭不好的人分享如何克服——身体就是你的表达起点，你的缺陷赋予了内容额外的分量。\n9\t\n10\t## 关联\n11\t- [[定位_竞争力六字箴言]]\n12\t- [[定位_身体是表达的起点]]\n13\t- 适用场景：觉得自己没有优势、长相普通、背景普通时\n14\t"
+          },
+          {
+            "id": "tooluse_CZgVyoKosCwfyyXKaaHaVL",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_定位是模糊的方向.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 定位是模糊的方向\n7\t\n8\t定位不可能一开始就绝对清晰，它是一个大概的方向。你需要先做决策，然后在执行过程中边做边清晰。等百分之百确定再行动，只会浪费机会。\n9\t\n10\t## 关联\n11\t- [[定位_账号定位五要素]]\n12\t- [[定位_行动优先70分原则]]\n13\t- 适用场景：刚开始做账号、纠结要不要开始的时候\n14\t"
+          },
+          {
+            "id": "tooluse_kWF5hs6ZcFfhHS9VWgzGV7",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_找到具体用户张小阳.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 找到具体用户张小阳\n7\t\n8\t想清楚用户是谁，不能泛泛而谈。要想象一个具体的、有血有肉的人，给他起名字，描述他的生活细节、受教育水平、经济状况、消费理念。这个人就是你的\"张小阳\"——你所有内容的判断标准都基于他。\n9\t\n10\t## 关联\n11\t- [[定位_用户与价值是定位核心]]\n12\t- [[定位_用户画像形散神不散]]\n13\t- [[选题_选题要回归用户]]\n14\t- 适用场景：不知道内容该怎么判断好坏时，问\"张小阳会喜欢吗\"\n15\t"
+          },
+          {
+            "id": "tooluse_kJfcPOpVlrXfi8BZQiIhjd",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_理性壁垒加情感羁绊.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 理性壁垒加情感羁绊\n7\t\n8\t一个有竞争力的IP，既要有专业上的理性壁垒（你的专业地位、知识权威），又要有情感上的羁绊（你和粉丝之间的情感连接）。只有专业没有情感，冷冰冰；只有情感没有专业，没有留下来的理由。\n9\t\n10\t## 关联\n11\t- [[定位_组合创新叠加价值]]\n12\t- [[定位_竞争力六字箴言]]\n13\t- 适用场景：做知识付费IP、打造个人品牌时\n14\t"
+          },
+          {
+            "id": "tooluse_3yuUNDMYGBwgoPfpsJrTzq",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_用户与价值是定位核心.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 用户与价值是定位核心\n7\t\n8\t账号定位的核心就是一句话：我给谁提供什么价值。这直接锁定变现方向。如果一开始不清楚\"为哪些用户提供什么价值\"，变现就会模糊、被动、混乱。价值必须是能解决具体问题的实在方法，光有价值观不够。\n9\t\n10\t## 关联\n11\t- [[定位_IP与网红的区别]]\n12\t- [[定位_找到具体用户张小阳]]\n13\t- [[变现_用户价值决定变现方向]]\n14\t- 适用场景：梳理账号方向、规划变现路径时\n15\t"
+          },
+          {
+            "id": "tooluse_2z6I8nenlibiUZBQ0PTID8",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_竞争力六字箴言.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 竞争力六字箴言：正反跨局部弱\n7\t\n8\t打造有竞争力的价值有六个方法：正（正面优势/隔代教育）、反（反差优势/逆向思维）、跨（跨行信息差）、局（局部细分赛道）、部（组合创新叠加价值）、弱（以弱胜强/现身说法）。不需要全走，找到一个有感觉的就够了。\n9\t\n10\t## 关联\n11\t- [[定位_用户与价值是定位核心]]\n12\t- [[定位_以弱胜强现身说法]]\n13\t- [[定位_跨行信息差优势]]\n14\t- 适用场景：觉得自己没有竞争力、不知道如何差异化时\n15\t"
+          },
+          {
+            "id": "tooluse_3pGPEmo18WNZOFy2ZyiyH2",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_组合创新叠加价值.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 组合创新叠加价值\n7\t\n8\t90%的人类创新靠组合。把一个小众兴趣爱好加上大众价值，或者把特殊场景加上朴实价值，就能形成差异化。比如：美食账号+育儿日常，烧烤摊+北漂情感，律师+婚姻故事。常规类型现在很难做，必须加入个人生命体验。\n9\t\n10\t## 关联\n11\t- [[定位_竞争力六字箴言]]\n12\t- [[定位_理性壁垒加情感羁绊]]\n13\t- 适用场景：做常规赛道感觉没有差异化时\n14\t"
+          },
+          {
+            "id": "tooluse_9sYyJy6CEKHeB79ziY5OcB",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_账号定位五要素.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 账号定位五要素\n7\t\n8\t账号定位不只是\"人设\"，它包含五个要素：价值（提供什么）、用户（服务谁）、人设（你是谁）、类型（什么形式）、风格（什么调性）。这五个要素同时存在，共同锁定一个账号。\n9\t\n10\t## 关联\n11\t- [[定位_人设不等于定位]]\n12\t- [[定位_定位是模糊的方向]]\n13\t- [[定位_用户与价值是定位核心]]\n14\t- 适用场景：梳理账号方向、做账号规划时\n15\t"
+          },
+          {
+            "id": "tooluse_Tapd1GWTqZxrc1jSf9AjAE",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_跨行信息差优势.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 跨行信息差优势\n7\t\n8\t在自己行业里可能只是普通人，但对99%不在这个行业的人来说，你就有信息差。以\"跨行者\"身份分享，不用跟同行比专业，而是给外行人讲内行知识。比如：曾经是律师的宝妈，教别的宝妈保护婚内财产。\n9\t\n10\t## 关联\n11\t- [[定位_竞争力六字箴言]]\n12\t- [[选题_信息差是流量密码]]\n13\t- 适用场景：觉得自己在行业内不够专业、没有竞争力时\n14\t"
+          },
+          {
+            "id": "tooluse_u1N7MMPTQF9V0vzCz7WZoH",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_身份不决定定位.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 身份不决定定位\n7\t\n8\t你是什么人，不代表你必须做什么账号。律师不一定做法律号，导演不一定做电影号。你的职业身份只是你的过去，账号定位是你选择提供什么价值——这是两个独立的决策。\n9\t\n10\t## 关联\n11\t- [[定位_账号定位五要素]]\n12\t- [[定位_人设不等于定位]]\n13\t- 适用场景：被自己的职业身份限制了定位想象力时\n14\t"
+          },
+          {
+            "id": "tooluse_dbe723GzVyPPEGaxWYJehM",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_过度工具人与过度抽象.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 过度工具人与过度抽象\n7\t\n8\t账号价值有两个极端要避免：一是过度工具人（每条视频只介绍知识点，像视频版百度百科，没有\"人\"的存在）；二是过度抽象（天天讲情感观点，泛泛而谈，没有给关注你的明确理由）。好的账号在两者之间找到平衡——有具体利他的内容，又有个人理念贯穿。\n9\t\n10\t## 关联\n11\t- [[定位_找到具体用户张小阳]]\n12\t- [[定位_用户与价值是定位核心]]\n13\t- 适用场景：检查自己的内容是否走了极端\n14\t"
+          },
+          {
+            "id": "tooluse_gfc60xTe3JBNLaOUp3mceV",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_选题落地定位.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 选题落地定位\n7\t\n8\t定位是脑中的蓝图，观众看不到。观众能感知到的，是你的每一条视频。所以定位必须通过选题落地——你的每条视频都在帮你完善定位。主页写得再漂亮，视频呈现不出来，没有任何意义。\n9\t\n10\t## 关联\n11\t- [[定位_账号定位五要素]]\n12\t- [[选题_选题是需求加解决方案]]\n13\t- 适用场景：定位想好了但视频感觉跑偏时\n14\t"
+          },
+          {
+            "id": "tooluse_uZgWnfUpIo6qCTqbTSi96a",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/思考方式_数据是反馈不是评判.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [思考方式, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 数据是反馈不是评判\n7\t\n8\t数据不是对你这个人的评判，是对这条内容的反馈。数据差，说明这条内容没有打到用户，不是说你不行。要用科学家的心态看数据：这是一次实验，数据是结果，结论是下次怎么调整。不要用数据来折磨自己。\n9\t\n10\t## 关联\n11\t- [[思考方式_行动优先70分原则]]\n12\t- [[思考方式_复盘是成长的加速器]]\n13\t- 适用场景：数据不好时容易自我否定、想放弃时\n14\t"
+          },
+          {
+            "id": "tooluse_Xb6Cwy8HgAfiINxOlrVJbH",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/思考方式_用自己理解世界.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [思考方式, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 用自己理解世界\n7\t\n8\t你对别人的理解，来自于你对自己的理解。你能感知到别人的善良，是因为你自己也有善良；你能理解别人的恶意，是因为你自己也有过这样的念头。所以，观察自己就是观察世界。对自我的反思，往往比研究别人更能帮你理解人性。\n9\t\n10\t## 关联\n11\t- [[思考方式_行动优先70分原则]]\n12\t- [[定位_找到具体用户张小阳]]\n13\t- 适用场景：想提升对用户的理解、想做出更有共鸣的内容时\n14\t"
+          },
+          {
+            "id": "tooluse_Nn2NxmHrGlAvN4kTyVjljI",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/思考方式_知识必须落实到计划.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [思考方式, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 知识必须落实到计划\n7\t\n8\t听了很多课、记了很多笔记，但没有变成行动计划，等于没学。知识的终点不是\"我懂了\"，而是\"我下周一要做什么\"。每次学完，问自己：这个知识让我改变什么行为？写下来，定好时间，才算真正学会。\n9\t\n10\t## 关联\n11\t- [[思考方式_行动优先70分原则]]\n12\t- [[思考方式_复盘是成长的加速器]]\n13\t- 适用场景：学了很多但感觉没有进步时\n14\t"
+          },
+          {
+            "id": "tooluse_uGHXJ923ZqW8UHLUOxbEMS",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/思考方式_行动优先70分原则.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [思考方式, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 行动优先70分原则\n7\t\n8\t不要等到100分再行动。70分就可以发出去。发出去才有反馈，有反馈才能迭代，迭代才能进步。等到100分，你已经错过了最好的时机，而且你以为的100分，在观众眼里可能只有60分。完成比完美更重要。\n9\t\n10\t## 关联\n11\t- [[思考方式_数据是反馈不是评判]]\n12\t- [[选题_超量准备选题库]]\n13\t- 适用场景：总是拖延、不敢发视频时\n14\t"
+          },
+          {
+            "id": "tooluse_S0qK6Mg3Ncp2tLvbOEU2Az",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/思考方式_贪多嚼不烂专注一个方向.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [思考方式, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 贪多嚼不烂专注一个方向\n7\t\n8\t学了很多方法，每个都想用，结果什么都没做好。不如选一个最有感觉的方向，把它做精、做透。八种选题类型，选一个；六种竞争力方法，选一个。专注比全面更重要，深度比广度更有价值。\n9\t\n10\t## 关联\n11\t- [[思考方式_行动优先70分原则]]\n12\t- [[选题_八种常规选题类型]]\n13\t- [[定位_竞争力六字箴言]]\n14\t- 适用场景：学了很多但不知道从哪里开始时\n15\t"
+          },
+          {
+            "id": "tooluse_Am5qfyANtRemZQL4ubBYGt",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_五种解决方案类型.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 五种解决方案类型\n7\t\n8\t视频的解决方案有五种：①资讯型（信息差，新鲜前沿）；②观点型（纠正认知，颠覆常识）；③步骤技巧型（具体落地的方法）；④生活方式型（让人羡慕或给人指导的故事）；⑤体验型（用娱乐或情绪演绎一个道理）。每条视频至少要有一个明确的赌注。\n9\t\n10\t## 关联\n11\t- [[选题_选题是需求加解决方案]]\n12\t- [[选题_每条视频要有赌注]]\n13\t- [[选题_八种常规选题类型]]\n14\t- 适用场景：想清楚这条视频到底在打什么点时\n15\t"
+          },
+          {
+            "id": "tooluse_3UXb3iC68xZP6xl5EBChSh",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_信息差是流量密码.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 信息差是流量密码\n7\t\n8\t信息差是绝对的流量密码。这里的信息差，是你作为IP和你的粉丝之间的信息差，不是你和同行的信息差。差距越大，含金量越高。做资讯型内容，必须保证信息的新鲜度和前沿性，否则不叫资讯。\n9\t\n10\t## 关联\n11\t- [[选题_五种解决方案类型]]\n12\t- [[定位_跨行信息差优势]]\n13\t- 适用场景：做资讯类内容、判断内容是否有竞争力时\n14\t"
+          },
+          {
+            "id": "tooluse_4ggDL7AYQrJiVJQhDl13Yw",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_八种常规选题类型.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 八种常规选题类型\n7\t\n8\t八种可以直接用的选题类型：①新鲜资讯和洞察；②认知真相（颠覆认知）；③情感深处（掏心掏肺）；④释放热爱；⑤解决问题（具体场景）；⑥精彩过程（挑战/障碍）；⑦生活展示（明线+暗线）；⑧直发内容（转化）。贪多嚼不烂，先选一个做精。\n9\t\n10\t## 关联\n11\t- [[选题_五种解决方案类型]]\n12\t- [[选题_生活展示明线与暗线]]\n13\t- 适用场景：不知道拍什么时，对照这八种类型找方向\n14\t"
+          },
+          {
+            "id": "tooluse_LZ2mizSpD0JLIBUuZKc1S2",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_听到沉默的声音.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 听到沉默的声音\n7\t\n8\t评论区发出声音的人，不代表全部用户。那些点赞不评论的、看了不点赞的、根本没看到你的人，才是更大的沉默群体。只盯着评论区，你会跑偏。要用心去感知那些没说出口的需求——这是反差定位和差异化内容的来源。\n9\t\n10\t## 关联\n11\t- [[选题_积累反应机制]]\n12\t- [[定位_竞争力六字箴言]]\n13\t- 适用场景：做内容方向决策时，不要只听评论区的声音\n14\t"
+          },
+          {
+            "id": "tooluse_0FceAAqNMEnSdoLX8EnWP1",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_每条视频要有赌注.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 每条视频要有赌注\n7\t\n8\t每条视频都要有一个\"赌注\"——你这条视频的核心竞争力是什么。如果是资讯，赌注是信息差够不够新鲜；如果是观点，赌注是观点够不够颠覆；如果是步骤，赌注是方法够不够落地。赌注失效，这条视频就废了。\n9\t\n10\t## 关联\n11\t- [[选题_五种解决方案类型]]\n12\t- [[选题_选题是需求加解决方案]]\n13\t- 适用场景：评估一条视频能不能发出去时\n14\t"
+          },
+          {
+            "id": "tooluse_yJt2yHGMeLoXiwFUY39NqX",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_生活展示明线与暗线.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 生活展示明线与暗线\n7\t\n8\t生活Vlog要有明线和暗线。明线是具体的、有意思的细节（网红地点、特色物品、独特体验），让观众有东西可看；暗线是情感基调和气质（淡淡的、治愈的、孤独的），让观众有感受可共鸣。明线做好了暗线可以少，暗线做好了明线可以少，但至少要有一个。\n9\t\n10\t## 关联\n11\t- [[选题_八种常规选题类型]]\n12\t- [[框架_信息量扩充六个维度]]\n13\t- 适用场景：拍生活Vlog不知道怎么让人看进去时\n14\t"
+          },
+          {
+            "id": "tooluse_xg7tXf716ht9cN5Jz2lzZm",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_积累反应机制.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 积累反应机制\n7\t\n8\t每次看视频，去猜评论区会怎么评论，然后观察实际结果。久而久之，你就积累了\"反应机制\"——知道说什么话观众会点赞，做什么事观众会评论。这是真正的网感，是老博主比新人强的核心原因。\n9\t\n10\t## 关联\n11\t- [[选题_需求探索四个方法]]\n12\t- [[选题_听到沉默的声音]]\n13\t- 适用场景：想提升网感、想更准确预判内容效果时\n14\t"
+          },
+          {
+            "id": "tooluse_PK9edlzuatR5t4xBbzhaq2",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_超量准备选题库.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 超量准备选题库\n7\t\n8\t不要每天只想一个选题就发。要一次性想出5-10个，从中优中选优。你的选题库要持续积累，永远有备选，才不会陷入\"今天想什么就发什么\"的被动状态。好内容是从大量备选中挑出来的，不是逼出来的。\n9\t\n10\t## 关联\n11\t- [[选题_需求库与解决方案库]]\n12\t- [[思考方式_行动优先70分原则]]\n13\t- 适用场景：每天不知道发什么、选题质量不稳定时\n14\t"
+          },
+          {
+            "id": "tooluse_i15OnFejtDSGiSfFG6te0W",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_选题是需求加解决方案.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 选题是需求加解决方案\n7\t\n8\t选题不等于选话题。一个完整的选题包含两个成分：需求（谁要看、为什么要看）和解决方案（你提供什么）。只确定了解决方案，没有确定需求，选题就没做完。同一个解决方案可以对应不同需求，产生多个爆款选题。\n9\t\n10\t## 关联\n11\t- [[选题_需求库与解决方案库]]\n12\t- [[选题_五种解决方案类型]]\n13\t- [[定位_选题落地定位]]\n14\t- 适用场景：想选题但不知道从哪里入手时\n15\t"
+          },
+          {
+            "id": "tooluse_vSzJSQiweVR0tCOg1UwmGF",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_选题要回归用户.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 选题要回归用户\n7\t\n8\t判断一条视频是梗还是自嗨，要回归用户。不要拿到班级群里问同学，同学不是你的用户。要问你真正的目标用户。八个字：回归常识，回归用户。\n9\t\n10\t## 关联\n11\t- [[定位_找到具体用户张小阳]]\n12\t- [[选题_需求探索四个方法]]\n13\t- 适用场景：不确定一条视频好不好、要不要发时\n14\t"
+          },
+          {
+            "id": "tooluse_BgKTVckGPUHIg9WwFCmwFY",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_需求库与解决方案库.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 需求库与解决方案库\n7\t\n8\t做选题要构建两个清单：需求库（用户的痛点、痒点、好奇点）和解决方案库（你能提供的内容形式）。两个库分开积累，随时交叉匹配，一套解决方案可以对应多种需求，就能持续产出爆款选题。\n9\t\n10\t## 关联\n11\t- [[选题_选题是需求加解决方案]]\n12\t- [[选题_超量准备选题库]]\n13\t- [[选题_需求探索四个方法]]\n14\t- 适用场景：建立日常选题工作流时\n15\t"
+          },
+          {
+            "id": "tooluse_vwwSwjSmXoL9TLmj1vIWm9",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_需求探索四个方法.md"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 需求探索四个方法\n7\t\n8\t找需求有四个方法：①自身情感波动（你的情绪波动就是需求信号）；②潜伏同行评论区（看用户在问什么、抱怨什么）；③全平台热榜（知乎、豆瓣、B站、抖音都看）；④深入目标用户的真实生活场景。这是每天必做的功课。\n9\t\n10\t## 关联\n11\t- [[选题_需求库与解决方案库]]\n12\t- [[选题_积累反应机制]]\n13\t- 适用场景：不知道用户需要什么、选题没有方向时\n14\t"
+          }
+        ],
+        "isExpanded": false,
+        "result": "我已完成所有41个文件的读取。以下是每个文件的标题和前2-3行内容：\n\n**文案类**\n\n1. **文案_个体经历与普遍经验结合.md** | 个体经历与普遍经验结合\n   你的个体经历是独特的，但你的情绪是普遍的。越是描述具体的个人细节，越能触发全人类共同的情感。\n\n2. **文案_从抽象到具象是基本功.md** | 从抽象到具象是创作者的基本功\n   普通观众看到细节，自己得出观点。创作者要反过来——从抽象观点出发，还原成具象细节。\n\n3. **文案_具体细节产生故事感.md** | 具体细节产生故事感\n   故事感不是靠\"高级词汇\"，而是靠专属细节。加上时间、地点、数量、专属名词——这些细节让内容变得独一无二。\n\n4. **文案_可视化把抽象变直观.md** | 可视化把抽象变直观\n   短视频要用直观语言，因为观众在疲惫状态下刷，没有精力联想抽象概念。两个方法：①把\"是……的\"句式变成\"做……的\"句式；②用\"在某地有某物\"的there-be句式。\n\n5. **文案_多用短句少用长句.md** | 多用短句少用长句\n   短视频文案要多用短句。短句只有主谓宾，没有从句，每句话单独就能理解。\n\n6. **文案_开头三秒决定完播率.md** | 开头三秒决定完播率\n   短视频开头三秒是最关键的。好的开头要做到：①制造悬念或冲突；②直接说出对用户的价值；③用反常识或反直觉的陈述抓住注意力。\n\n7. **文案_故事感需要人物关系.md** | 故事感需要人物关系\n   故事感的核心是人与人之间的纠纷、羁绊或对抗。\"什么人和什么人干什么事\"就是故事。\n\n8. **文案_短视频要用直观语言.md** | 短视频要用直观语言\n   短视频平台要用直观语言，不要用抽象语言。抽象语言对应不上具体画面，直观语言画面感强。\n\n9. **文案_节奏感推高情绪.md** | 节奏感推高情绪\n   文案的节奏感可以推高情绪。方法：①短句叠加，越来越短，形成加速感；②重复关键词，形成咏叹调效果。\n\n**定位类**\n\n10. **定位_IP与网红的区别.md** | IP与网红的区别\n    网红是被消遣的对象，IP是被追随的对象。网红只能娱乐用户，IP可以通过内容影响粉丝的决策。\n\n11. **定位_人设不等于定位.md** | 人设不等于定位\n    人设只是账号定位五要素中的一个部分。很多人把\"我的人设是什么\"等同于\"我的定位是什么\"，这是误区。\n\n12. **定位_以弱胜强现身说法.md** | 以弱胜强现身说法\n    你的短板和缺陷可以成为你的课题和使命。不要居高临下说教，而是拿自己的短板示弱，以退为进。\n\n13. **定位_定位是模糊的方向.md** | 定位是模糊的方向\n    定位不可能一开始就绝对清晰，它是一个大概的方向。你需要先做决策，然后在执行过程中边做边清晰。\n\n14. **定位_找到具体用户张小阳.md** | 找到具体用户张小阳\n    想清楚用户是谁，不能泛泛而谈。要想象一个具体的、有血有肉的人，给他起名字，描述他的生活细节。\n\n15. **定位_理性壁垒加情感羁绊.md** | 理性壁垒加情感羁绊\n    一个有竞争力的IP，既要有专业上的理性壁垒，又要有情感上的羁绊。只有专业没有情感，冷冰冰；只有情感没有专业，没有留下来的理由。\n\n16. **定位_用户与价值是定位核心.md** | 用户与价值是定位核心\n    账号定位的核心就是一句话：我给谁提供什么价值。这直接锁定变现方向。\n\n17. **定位_竞争力六字箴言.md** | 竞争力六字箴言：正反跨局部弱\n    打造有竞争力的价值有六个方法：正、反、跨、局、部、弱。不需要全走，找到一个有感觉的就够了。\n\n18. **定位_组合创新叠加价值.md** | 组合创新叠加价值\n    90%的人类创新靠组合。把一个小众兴趣爱好加上大众价值，或者把特殊场景加上朴实价值，就能形成差异化。\n\n19. **定位_账号定位五要素.md** | 账号定位五要素\n    账号定位不只是\"人设\"，它包含五个要素：价值、用户、人设、类型、风格。\n\n20. **定位_跨行信息差优势.md** | 跨行信息差优势\n    在自己行业里可能只是普通人，但对99%不在这个行业的人来说，你就有信息差。\n\n21. **定位_身份不决定定位.md** | 身份不决定定位\n    你是什么人，不代表你必须做什么账号。律师不一定做法律号，导演不一定做电影号。\n\n22. **定位_过度工具人与过度抽象.md** | 过度工具人与过度抽象\n    账号价值有两个极端要避免：一是过度工具人；二是过度抽象。好的账号在两者之间找到平衡。\n\n23. **定位_选题落地定位.md** | 选题落地定位\n    定位是脑中的蓝图，观众看不到。观众能感知到的，是你的每一条视频。所以定位必须通过选题落地。\n\n**选题类**\n\n24. **选题_五种解决方案类型.md** | 五种解决方案类型\n    视频的解决方案有五种：①资讯型；②观点型；③步骤技巧型；④生活方式型；⑤体验型。\n\n25. **选题_信息差是流量密码.md** | 信息差是流量密码\n    信息差是绝对的流量密码。这里的信息差，是你作为IP和你的粉丝之间的信息差，不是你和同行的信息差。\n\n26. **选题_八种常规选题类型.md** | 八种常规选题类型\n    八种可以直接用的选题类型：①新鲜资讯和洞察；②认知真相；③情感深处；④释放热爱；⑤解决问题；⑥精彩过程；⑦生活展示；⑧直发内容。\n\n27. **选题_听到沉默的声音.md** | 听到沉默的声音\n    评论区发出声音的人，不代表全部用户。那些点赞不评论的、看了不点赞的、根本没看到你的人，才是更大的沉默群体。\n\n28. **选题_每条视频要有赌注.md** | 每条视频要有赌注\n    每条视频都要有一个\"赌注\"——你这条视频的核心竞争力是什么。赌注失效，这条视频就废了。\n\n29. **选题_生活展示明线与暗线.md** | 生活展示明线与暗线\n    生活Vlog要有明线和暗线。明线是具体的、有意思的细节，让观众有东西可看；暗线是情感基调和气质。\n\n30. **选题_积累反应机制.md** | 积累反应机制\n    每次看视频，去猜评论区会怎么评论，然后观察实际结果。久而久之，你就积累了\"反应机制\"。\n\n31. **选题_超量准备选题库.md** | 超量准备选题库\n    不要每天只想一个选题就发。要一次性想出5-10个，从中优中选优。\n\n32. **选题_选题是需求加解决方案.md** | 选题是需求加解决方案\n    选题不等于选话题。一个完整的选题包含两个成分：需求和解决方案。\n\n33. **选题_选题要回归用户.md** | 选题要回归用户\n    判断一条视频是梗还是自嗨，要回归用户。不要拿到班级群里问同学，同学不是你的用户。\n\n34. **选题_需求库与解决方案库.md** | 需求库与解决方案库\n    做选题要构建两个清单：需求库和解决方案库。两个库分开积累，随时交叉匹配。\n\n35. **选题_需求探索四个方法.md** | 需求探索四个方法\n    找需求有四个方法：①自身情感波动；②潜伏同行评论区；③全平台热榜；④深入目标用户的真实生活场景。\n\n**思考方式类**\n\n36. **思考方式_数据是反馈不是评判.md** | 数据是反馈不是评判\n    数据不是对你这个人的评判，是对这条内容的反馈。要用科学家的心态看数据。\n\n37. **思考方式_用自己理解世界.md** | 用自己理解世界\n    你对别人的理解，来自于你对自己的理解。对自我的反思，往往比研究别人更能帮你理解人性。\n\n38. **思考方式_知识必须落实到计划.md** | 知识必须落实到计划\n    听了很多课、记了很多笔记，但没有变成行动计划，等于没学。知识的终点不是\"我懂了\"，而是\"我下周一要做什么\"。\n\n39. **思考方式_行动优先70分原则.md** | 行动优先70分原则\n    不要等到100分再行动。70分就可以发出去。发出去才有反馈，有反馈才能迭代。\n\n40. **思考方式_贪多嚼不烂专注一个方向.md** | 贪多嚼不烂专注一个方向\n    学了很多方法，每个都想用，结果什么都没做好。不如选一个最有感觉的方向，把它做精、做透。"
+      },
+      "tooluse_oFhEGhw6wnJtdkT8UWyd7z": {
+        "id": "tooluse_oFhEGhw6wnJtdkT8UWyd7z",
+        "description": "读取花火商学院原子笔记内容，用于跨库对比",
+        "prompt": "请读取以下目录下所有 .md 文件的内容（每个文件只需读取前30行即可），并返回每个文件的文件名和核心内容摘要（一句话）。\n\n目录：`/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/`\n\n文件列表（54个）：\n文案类：文案_个体经历与普遍经验结合.md、文案_从抽象到具象是基本功.md、文案_具体细节产生故事感.md、文案_可视化把抽象变直观.md、文案_多用短句少用长句.md、文案_开头三秒决定完播率.md、文案_故事感需要人物关系.md、文案_短视频要用直观语言.md、文案_节奏感推高情绪.md\n\n定位类：定位_IP与网红的区别.md、定位_人设不等于定位.md、定位_以弱胜强现身说法.md、定位_定位是模糊的方向.md、定位_找到具体用户张小阳.md、定位_理性壁垒加情感羁绊.md、定位_用户与价值是定位核心.md、定位_竞争力六字箴言.md、定位_组合创新叠加价值.md、定位_账号定位五要素.md、定位_跨行信息差优势.md、定位_身份不决定定位.md、定位_过度工具人与过度抽象.md、定位_选题落地定位.md\n\n选题类：选题_五种解决方案类型.md、选题_信息差是流量密码.md、选题_八种常规选题类型.md、选题_听到沉默的声音.md、选题_每条视频要有赌注.md、选题_生活展示明线与暗线.md、选题_积累反应机制.md、选题_超量准备选题库.md、选题_选题是需求加解决方案.md、选题_选题要回归用户.md、选题_需求库与解决方案库.md、选题_需求探索四个方法.md\n\n变现类：变现_免费分享是最强变现策略.md、变现_变现三种基本模式.md、变现_变现三角流量信任产品.md、变现_用户价值决定变现方向.md、变现_私域转化路径设计.md\n\n思考方式类：思考方式_数据是反馈不是评判.md、思考方式_用自己理解世界.md、思考方式_知识必须落实到计划.md、思考方式_行动优先70分原则.md、思考方式_贪多嚼不烂专注一个方向.md\n\n拍摄类：拍摄_产品即符号.md、拍摄_产品拍摄六种视觉手法.md、拍摄_光线与色彩的心理暗示.md、拍摄_帮观众在想象中购物.md\n\n框架类：框架_信息量扩充六个维度.md、框架_开头五种钩子类型.md、框架_结尾要有行动指令.md\n\n请读取每个文件的前20行，返回文件名和核心观点（一句话）。",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "tooluse_0ZNqA922Wu7IeVcTxwSeh5",
+            "name": "Bash",
+            "input": {
+              "command": "find \"/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/\" -name \"*.md\" -type f"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/思考方式_贪多嚼不烂专注一个方向.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_八种常规选题类型.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/拍摄_光线与色彩的心理暗示.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_找到具体用户张小阳.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_超量准备选题库.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_账号定位五要素.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_信息差是流量密码.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_个体经历与普遍经验结合.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_过度工具人与过度抽象.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_具体细节产生故事感.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/思考方式_行动优先70分原则.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_需求探索四个方法.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_身份不决定定位.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/框架_开头五种钩子类型.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_需求库与解决方案库.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_故事感需要人物关系.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_生活展示明线与暗线.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_短视频要用直观语言.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_从抽象到具象是基本功.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_开头三秒决定完播率.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_每条视频要有赌注.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_多用短句少用长句.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/拍摄_产品拍摄六种视觉手法.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_人设不等于定位.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/拍摄_产品即符号.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/拍摄_帮观众在想象中购物.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_定位是模糊的方向.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/变现_变现三角流量信任产品.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/思考方式_知识必须落实到计划.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_选题要回归用户.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_五种解决方案类型.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/变现_用户价值决定变现方向.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_用户与价值是定位核心.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_跨行信息差优势.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_听到沉默的声音.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_节奏感推高情绪.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/变现_免费分享是最强变现策略.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_理性壁垒加情感羁绊.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_以弱胜强现身说法.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_选题落地定位.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_可视化把抽象变直观.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_IP与网红的区别.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/思考方式_用自己理解世界.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/变现_私域转化路径设计.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/思考方式_数据是反馈不是评判.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_积累反应机制.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_竞争力六字箴言.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/框架_信息量扩充六个维度.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_选题是需求加解决方案.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/框架_结尾要有行动指令.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/变现_变现三种基本模式.md\n/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_组合创新叠加价值.md"
+          },
+          {
+            "id": "tooluse_kRn5wuUyFJmRqkpe4iOSFQ",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_个体经历与普遍经验结合.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [文案, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 个体经历与普遍经验结合\n7\t\n8\t你的个体经历是独特的，但你的情绪是普遍的。越是描述具体的个人细节，越能触发全人类共同的情感。\"独居时病倒，水就在床头爬不起来\"——这是个体经历，但触发了所有独居者的共鸣。当个性化细节被关注，就有了神性时刻。\n9\t\n10\t## 关联\n11\t- [[文案_具体细节产生故事感]]\n12\t- [[文案_故事感需要人物关系]]\n13\t- 适用场景：写情感类内容、想让文案有共鸣感时\n14\t"
+          },
+          {
+            "id": "tooluse_0eRIYswpqzmSd773fjD5yG",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_从抽象到具象是基本功.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [文案, 框架, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 从抽象到具象是创作者的基本功\n7\t\n8\t普通观众看到细节，自己得出观点。创作者要反过来——从抽象观点出发，还原成具象细节。光说\"我很专业\"、\"我很孝顺\"，观众不买账。要提供细节，让观众自己得出结论。好的表达者只负责提供细节，甚至可以设计或虚构细节。\n9\t\n10\t## 关联\n11\t- [[文案_可视化把抽象变直观]]\n12\t- [[文案_具体细节产生故事感]]\n13\t- 适用场景：写文案时感觉太空洞、太抽象时\n14\t"
+          },
+          {
+            "id": "tooluse_NXRGecKn0wBAojdtq46kms",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_具体细节产生故事感.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [文案, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 具体细节产生故事感\n7\t\n8\t故事感不是靠\"高级词汇\"，而是靠专属细节。加上时间（5月1号）、地点（白子湾角落的红色招牌）、数量（8杯）、专属名词（来自巴西的台灯）——这些细节让内容变得独一无二，不可复制。泛泛而谈的内容不会有流量，专属细节才能让人感受到真实和重量。\n9\t\n10\t## 关联\n11\t- [[文案_从抽象到具象是基本功]]\n12\t- [[文案_个体经历与普遍经验结合]]\n13\t- [[文案_故事感需要人物关系]]\n14\t- 适用场景：文案感觉空洞、没有温度时\n15\t"
+          },
+          {
+            "id": "tooluse_SJS37q3YwBQlBXDuf959YQ",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_可视化把抽象变直观.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [文案, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 可视化把抽象变直观\n7\t\n8\t短视频要用直观语言，因为观众在疲惫状态下刷，没有精力联想抽象概念。两个方法：①把\"是……的\"句式变成\"做……的\"句式（be→do，把定义变成动作）；②用\"在某地有某物\"的 there-be 句式（让场景存在感更强）。动作和场面让人一听就懂，而且更有说服力和可信度。\n9\t\n10\t## 关联\n11\t- [[文案_从抽象到具象是基本功]]\n12\t- [[文案_具体细节产生故事感]]\n13\t- 适用场景：文案听起来太绕、太像说明书时\n14\t"
+          },
+          {
+            "id": "tooluse_OlJM6qqMROPcryfJTd1d5z",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_多用短句少用长句.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [文案, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 多用短句少用长句\n7\t\n8\t短视频文案要多用短句。短句只有主谓宾，没有从句，每句话单独就能理解。长句需要观众记住前半句才能理解后半句，听起来很累。短视频观众注意力短暂，短句让他们此时此刻就明白，不需要记忆负担。\n9\t\n10\t## 关联\n11\t- [[文案_可视化把抽象变直观]]\n12\t- [[文案_节奏感推高情绪]]\n13\t- 适用场景：文案读起来绕口、观众听不进去时\n14\t"
+          },
+          {
+            "id": "tooluse_lY35CH88aP1xPjC5jr54Gz",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_开头三秒决定完播率.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [文案, 框架, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 开头三秒决定完播率\n7\t\n8\t短视频开头三秒是最关键的。观众在决定要不要继续看。好的开头要做到：①制造悬念或冲突；②直接说出对用户的价值；③用反常识或反直觉的陈述抓住注意力。开头不行，后面再好也没用。\n9\t\n10\t## 关联\n11\t- [[文案_钩子设计三种方式]]\n12\t- [[框架_信息量扩充六个维度]]\n13\t- 适用场景：视频完播率低、开头留不住人时\n14\t"
+          },
+          {
+            "id": "tooluse_UtvumtvEF5u1vwzdTiRBf3",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_故事感需要人物关系.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [文案, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 故事感需要人物关系\n7\t\n8\t故事感的核心是人与人之间的纠纷、羁绊或对抗。\"什么人和什么人干什么事\"就是故事。文案里加入人物关系，哪怕只是\"4月16日下午3点，他来到我的家\"，故事感就出来了。人情练达即文章。\n9\t\n10\t## 关联\n11\t- [[文案_具体细节产生故事感]]\n12\t- [[文案_个体经历与普遍经验结合]]\n13\t- 适用场景：文案有细节但还是感觉没有故事感时\n14\t"
+          },
+          {
+            "id": "tooluse_SSQgiLr4cyyA6mFDQc3qoL",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_短视频要用直观语言.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [文案, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 短视频要用直观语言\n7\t\n8\t短视频平台要用直观语言，不要用抽象语言。抽象语言对应不上具体画面（\"我很孤独\"），直观语言画面感强（\"我站在门口很久，一步都不想迈进去\"）。观众在疲惫状态下刷视频，没有精力联想，直观语言才能被听进去。\n9\t\n10\t## 关联\n11\t- [[文案_可视化两种句式]]\n12\t- [[文案_具体细节产生故事感]]\n13\t- 适用场景：写文案时检查语言是否太抽象\n14\t"
+          },
+          {
+            "id": "tooluse_0AuMyAlByhGATrxVGzY6x0",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/文案_节奏感推高情绪.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [文案, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 节奏感推高情绪\n7\t\n8\t文案的节奏感可以推高情绪。方法：①短句叠加，越来越短，形成加速感；②重复关键词，形成咏叹调效果；③用排比句式，制造气势；④在情绪最高点戛然而止，留白。节奏不是音乐，是语言的呼吸。\n9\t\n10\t## 关联\n11\t- [[文案_多用短句少用长句]]\n12\t- [[框架_信息量扩充六个维度]]\n13\t- 适用场景：文案平淡、情绪推不上去时\n14\t"
+          },
+          {
+            "id": "tooluse_sINjxtzS3x3yJzhvfcnHJF",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_IP与网红的区别.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# IP与网红的区别\n7\t\n8\t网红是被消遣的对象，IP是被追随的对象。网红只能娱乐用户，IP可以通过内容影响粉丝的决策。网红很难为商品赋能，IP可以为原本卖不出去的品提供信任背书。IP的本质和创业公司一样——为特定用户创造特定价值。\n9\t\n10\t## 关联\n11\t- [[定位_用户与价值是定位核心]]\n12\t- [[变现_用户价值决定变现方向]]\n13\t- 适用场景：判断自己要做IP还是网红、理解为什么要做有价值的内容\n14\t"
+          },
+          {
+            "id": "tooluse_ZtE9TYqDW1Pw74wOv3EKJ1",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_人设不等于定位.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 人设不等于定位\n7\t\n8\t人设只是账号定位五要素中的一个部分。很多人把\"我的人设是什么\"等同于\"我的定位是什么\"，这是误区。定位大于人设，人设只有在其他四个要素（价值、用户、类型、风格）确定后才有意义。\n9\t\n10\t## 关联\n11\t- [[定位_账号定位五要素]]\n12\t- [[定位_身份不决定定位]]\n13\t- 适用场景：有人问\"我的人设是什么\"时，先问清楚定位的其他要素\n14\t"
+          },
+          {
+            "id": "tooluse_Lt7uJ9gNhUDKYaGKEUkqdO",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_以弱胜强现身说法.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 以弱胜强现身说法\n7\t\n8\t你的短板和缺陷可以成为你的课题和使命。不要居高临下说教，而是拿自己的短板示弱，以退为进。微胖的人教微胖穿搭，原生家庭不好的人分享如何克服——身体就是你的表达起点，你的缺陷赋予了内容额外的分量。\n9\t\n10\t## 关联\n11\t- [[定位_竞争力六字箴言]]\n12\t- [[定位_身体是表达的起点]]\n13\t- 适用场景：觉得自己没有优势、长相普通、背景普通时\n14\t"
+          },
+          {
+            "id": "tooluse_4kXtUcgD7Vs9S7IMfrSwn3",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_定位是模糊的方向.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 定位是模糊的方向\n7\t\n8\t定位不可能一开始就绝对清晰，它是一个大概的方向。你需要先做决策，然后在执行过程中边做边清晰。等百分之百确定再行动，只会浪费机会。\n9\t\n10\t## 关联\n11\t- [[定位_账号定位五要素]]\n12\t- [[定位_行动优先70分原则]]\n13\t- 适用场景：刚开始做账号、纠结要不要开始的时候\n14\t"
+          },
+          {
+            "id": "tooluse_09AIEGdQfAyhUeTfHlhGvX",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_找到具体用户张小阳.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 找到具体用户张小阳\n7\t\n8\t想清楚用户是谁，不能泛泛而谈。要想象一个具体的、有血有肉的人，给他起名字，描述他的生活细节、受教育水平、经济状况、消费理念。这个人就是你的\"张小阳\"——你所有内容的判断标准都基于他。\n9\t\n10\t## 关联\n11\t- [[定位_用户与价值是定位核心]]\n12\t- [[定位_用户画像形散神不散]]\n13\t- [[选题_选题要回归用户]]\n14\t- 适用场景：不知道内容该怎么判断好坏时，问\"张小阳会喜欢吗\"\n15\t"
+          },
+          {
+            "id": "tooluse_lPyw1GEqoR8WHsnWuhiQzu",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_理性壁垒加情感羁绊.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 理性壁垒加情感羁绊\n7\t\n8\t一个有竞争力的IP，既要有专业上的理性壁垒（你的专业地位、知识权威），又要有情感上的羁绊（你和粉丝之间的情感连接）。只有专业没有情感，冷冰冰；只有情感没有专业，没有留下来的理由。\n9\t\n10\t## 关联\n11\t- [[定位_组合创新叠加价值]]\n12\t- [[定位_竞争力六字箴言]]\n13\t- 适用场景：做知识付费IP、打造个人品牌时\n14\t"
+          },
+          {
+            "id": "tooluse_SYNwCp7f5tlqxIEOUit80o",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_用户与价值是定位核心.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 用户与价值是定位核心\n7\t\n8\t账号定位的核心就是一句话：我给谁提供什么价值。这直接锁定变现方向。如果一开始不清楚\"为哪些用户提供什么价值\"，变现就会模糊、被动、混乱。价值必须是能解决具体问题的实在方法，光有价值观不够。\n9\t\n10\t## 关联\n11\t- [[定位_IP与网红的区别]]\n12\t- [[定位_找到具体用户张小阳]]\n13\t- [[变现_用户价值决定变现方向]]\n14\t- 适用场景：梳理账号方向、规划变现路径时\n15\t"
+          },
+          {
+            "id": "tooluse_HkgLCzQY9ontgi0WtCCZp5",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_竞争力六字箴言.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 竞争力六字箴言：正反跨局部弱\n7\t\n8\t打造有竞争力的价值有六个方法：正（正面优势/隔代教育）、反（反差优势/逆向思维）、跨（跨行信息差）、局（局部细分赛道）、部（组合创新叠加价值）、弱（以弱胜强/现身说法）。不需要全走，找到一个有感觉的就够了。\n9\t\n10\t## 关联\n11\t- [[定位_用户与价值是定位核心]]\n12\t- [[定位_以弱胜强现身说法]]\n13\t- [[定位_跨行信息差优势]]\n14\t- 适用场景：觉得自己没有竞争力、不知道如何差异化时\n15\t"
+          },
+          {
+            "id": "tooluse_Ci1uDj5B3syA3E69D8wEZB",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_组合创新叠加价值.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 组合创新叠加价值\n7\t\n8\t90%的人类创新靠组合。把一个小众兴趣爱好加上大众价值，或者把特殊场景加上朴实价值，就能形成差异化。比如：美食账号+育儿日常，烧烤摊+北漂情感，律师+婚姻故事。常规类型现在很难做，必须加入个人生命体验。\n9\t\n10\t## 关联\n11\t- [[定位_竞争力六字箴言]]\n12\t- [[定位_理性壁垒加情感羁绊]]\n13\t- 适用场景：做常规赛道感觉没有差异化时\n14\t"
+          },
+          {
+            "id": "tooluse_9bty9fDCjWzTxl9oqzCuXv",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_账号定位五要素.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 账号定位五要素\n7\t\n8\t账号定位不只是\"人设\"，它包含五个要素：价值（提供什么）、用户（服务谁）、人设（你是谁）、类型（什么形式）、风格（什么调性）。这五个要素同时存在，共同锁定一个账号。\n9\t\n10\t## 关联\n11\t- [[定位_人设不等于定位]]\n12\t- [[定位_定位是模糊的方向]]\n13\t- [[定位_用户与价值是定位核心]]\n14\t- 适用场景：梳理账号方向、做账号规划时\n15\t"
+          },
+          {
+            "id": "tooluse_8YLYWRC4DqFXQx8uACed8l",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_跨行信息差优势.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 跨行信息差优势\n7\t\n8\t在自己行业里可能只是普通人，但对99%不在这个行业的人来说，你就有信息差。以\"跨行者\"身份分享，不用跟同行比专业，而是给外行人讲内行知识。比如：曾经是律师的宝妈，教别的宝妈保护婚内财产。\n9\t\n10\t## 关联\n11\t- [[定位_竞争力六字箴言]]\n12\t- [[选题_信息差是流量密码]]\n13\t- 适用场景：觉得自己在行业内不够专业、没有竞争力时\n14\t"
+          },
+          {
+            "id": "tooluse_rwfl5QAPOybNv9gZRzqBhP",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_身份不决定定位.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 身份不决定定位\n7\t\n8\t你是什么人，不代表你必须做什么账号。律师不一定做法律号，导演不一定做电影号。你的职业身份只是你的过去，账号定位是你选择提供什么价值——这是两个独立的决策。\n9\t\n10\t## 关联\n11\t- [[定位_账号定位五要素]]\n12\t- [[定位_人设不等于定位]]\n13\t- 适用场景：被自己的职业身份限制了定位想象力时\n14\t"
+          },
+          {
+            "id": "tooluse_N8xoSjA8eIN3gHZB8TyXjN",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_过度工具人与过度抽象.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 过度工具人与过度抽象\n7\t\n8\t账号价值有两个极端要避免：一是过度工具人（每条视频只介绍知识点，像视频版百度百科，没有\"人\"的存在）；二是过度抽象（天天讲情感观点，泛泛而谈，没有给关注你的明确理由）。好的账号在两者之间找到平衡——有具体利他的内容，又有个人理念贯穿。\n9\t\n10\t## 关联\n11\t- [[定位_找到具体用户张小阳]]\n12\t- [[定位_用户与价值是定位核心]]\n13\t- 适用场景：检查自己的内容是否走了极端\n14\t"
+          },
+          {
+            "id": "tooluse_R2HFXE1ahRBG8ehlo083Zy",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/定位_选题落地定位.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [定位, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 选题落地定位\n7\t\n8\t定位是脑中的蓝图，观众看不到。观众能感知到的，是你的每一条视频。所以定位必须通过选题落地——你的每条视频都在帮你完善定位。主页写得再漂亮，视频呈现不出来，没有任何意义。\n9\t\n10\t## 关联\n11\t- [[定位_账号定位五要素]]\n12\t- [[选题_选题是需求加解决方案]]\n13\t- 适用场景：定位想好了但视频感觉跑偏时\n14\t"
+          },
+          {
+            "id": "tooluse_lHOWJmy6XhCso9FmPHP1Ey",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_五种解决方案类型.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 五种解决方案类型\n7\t\n8\t视频的解决方案有五种：①资讯型（信息差，新鲜前沿）；②观点型（纠正认知，颠覆常识）；③步骤技巧型（具体落地的方法）；④生活方式型（让人羡慕或给人指导的故事）；⑤体验型（用娱乐或情绪演绎一个道理）。每条视频至少要有一个明确的赌注。\n9\t\n10\t## 关联\n11\t- [[选题_选题是需求加解决方案]]\n12\t- [[选题_每条视频要有赌注]]\n13\t- [[选题_八种常规选题类型]]\n14\t- 适用场景：想清楚这条视频到底在打什么点时\n15\t"
+          },
+          {
+            "id": "tooluse_DkjdEIWWT3n4qq4L2fBzun",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_信息差是流量密码.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 信息差是流量密码\n7\t\n8\t信息差是绝对的流量密码。这里的信息差，是你作为IP和你的粉丝之间的信息差，不是你和同行的信息差。差距越大，含金量越高。做资讯型内容，必须保证信息的新鲜度和前沿性，否则不叫资讯。\n9\t\n10\t## 关联\n11\t- [[选题_五种解决方案类型]]\n12\t- [[定位_跨行信息差优势]]\n13\t- 适用场景：做资讯类内容、判断内容是否有竞争力时\n14\t"
+          },
+          {
+            "id": "tooluse_KcIxQSmdezw4yfQ09uIzb5",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_八种常规选题类型.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 八种常规选题类型\n7\t\n8\t八种可以直接用的选题类型：①新鲜资讯和洞察；②认知真相（颠覆认知）；③情感深处（掏心掏肺）；④释放热爱；⑤解决问题（具体场景）；⑥精彩过程（挑战/障碍）；⑦生活展示（明线+暗线）；⑧直发内容（转化）。贪多嚼不烂，先选一个做精。\n9\t\n10\t## 关联\n11\t- [[选题_五种解决方案类型]]\n12\t- [[选题_生活展示明线与暗线]]\n13\t- 适用场景：不知道拍什么时，对照这八种类型找方向\n14\t"
+          },
+          {
+            "id": "tooluse_lcVP5CXbf3fsmKazr6lmdL",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_听到沉默的声音.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 听到沉默的声音\n7\t\n8\t评论区发出声音的人，不代表全部用户。那些点赞不评论的、看了不点赞的、根本没看到你的人，才是更大的沉默群体。只盯着评论区，你会跑偏。要用心去感知那些没说出口的需求——这是反差定位和差异化内容的来源。\n9\t\n10\t## 关联\n11\t- [[选题_积累反应机制]]\n12\t- [[定位_竞争力六字箴言]]\n13\t- 适用场景：做内容方向决策时，不要只听评论区的声音\n14\t"
+          },
+          {
+            "id": "tooluse_MVeHJ1zwBBumUyU3b4pLzt",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_每条视频要有赌注.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 每条视频要有赌注\n7\t\n8\t每条视频都要有一个\"赌注\"——你这条视频的核心竞争力是什么。如果是资讯，赌注是信息差够不够新鲜；如果是观点，赌注是观点够不够颠覆；如果是步骤，赌注是方法够不够落地。赌注失效，这条视频就废了。\n9\t\n10\t## 关联\n11\t- [[选题_五种解决方案类型]]\n12\t- [[选题_选题是需求加解决方案]]\n13\t- 适用场景：评估一条视频能不能发出去时\n14\t"
+          },
+          {
+            "id": "tooluse_lIDq8a49JBFZmUQiMtUCpM",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_生活展示明线与暗线.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 生活展示明线与暗线\n7\t\n8\t生活Vlog要有明线和暗线。明线是具体的、有意思的细节（网红地点、特色物品、独特体验），让观众有东西可看；暗线是情感基调和气质（淡淡的、治愈的、孤独的），让观众有感受可共鸣。明线做好了暗线可以少，暗线做好了明线可以少，但至少要有一个。\n9\t\n10\t## 关联\n11\t- [[选题_八种常规选题类型]]\n12\t- [[框架_信息量扩充六个维度]]\n13\t- 适用场景：拍生活Vlog不知道怎么让人看进去时\n14\t"
+          },
+          {
+            "id": "tooluse_qzTcNuuB2b927QR26j6WJD",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_积累反应机制.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 积累反应机制\n7\t\n8\t每次看视频，去猜评论区会怎么评论，然后观察实际结果。久而久之，你就积累了\"反应机制\"——知道说什么话观众会点赞，做什么事观众会评论。这是真正的网感，是老博主比新人强的核心原因。\n9\t\n10\t## 关联\n11\t- [[选题_需求探索四个方法]]\n12\t- [[选题_听到沉默的声音]]\n13\t- 适用场景：想提升网感、想更准确预判内容效果时\n14\t"
+          },
+          {
+            "id": "tooluse_efFXpOKulUxklIr0QmAR7R",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_超量准备选题库.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 超量准备选题库\n7\t\n8\t不要每天只想一个选题就发。要一次性想出5-10个，从中优中选优。你的选题库要持续积累，永远有备选，才不会陷入\"今天想什么就发什么\"的被动状态。好内容是从大量备选中挑出来的，不是逼出来的。\n9\t\n10\t## 关联\n11\t- [[选题_需求库与解决方案库]]\n12\t- [[思考方式_行动优先70分原则]]\n13\t- 适用场景：每天不知道发什么、选题质量不稳定时\n14\t"
+          },
+          {
+            "id": "tooluse_S8GN4b7adxISpXozjFsH62",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_选题是需求加解决方案.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 选题是需求加解决方案\n7\t\n8\t选题不等于选话题。一个完整的选题包含两个成分：需求（谁要看、为什么要看）和解决方案（你提供什么）。只确定了解决方案，没有确定需求，选题就没做完。同一个解决方案可以对应不同需求，产生多个爆款选题。\n9\t\n10\t## 关联\n11\t- [[选题_需求库与解决方案库]]\n12\t- [[选题_五种解决方案类型]]\n13\t- [[定位_选题落地定位]]\n14\t- 适用场景：想选题但不知道从哪里入手时\n15\t"
+          },
+          {
+            "id": "tooluse_HSyJ5aoUR68Se8paKO7R3f",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_选题要回归用户.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 选题要回归用户\n7\t\n8\t判断一条视频是梗还是自嗨，要回归用户。不要拿到班级群里问同学，同学不是你的用户。要问你真正的目标用户。八个字：回归常识，回归用户。\n9\t\n10\t## 关联\n11\t- [[定位_找到具体用户张小阳]]\n12\t- [[选题_需求探索四个方法]]\n13\t- 适用场景：不确定一条视频好不好、要不要发时\n14\t"
+          },
+          {
+            "id": "tooluse_tLZwdwTGLBRauhee3ACDMx",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_需求库与解决方案库.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 需求库与解决方案库\n7\t\n8\t做选题要构建两个清单：需求库（用户的痛点、痒点、好奇点）和解决方案库（你能提供的内容形式）。两个库分开积累，随时交叉匹配，一套解决方案可以对应多种需求，就能持续产出爆款选题。\n9\t\n10\t## 关联\n11\t- [[选题_选题是需求加解决方案]]\n12\t- [[选题_超量准备选题库]]\n13\t- [[选题_需求探索四个方法]]\n14\t- 适用场景：建立日常选题工作流时\n15\t"
+          },
+          {
+            "id": "tooluse_gTAQSz55n2ES8tTvmreydQ",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/选题_需求探索四个方法.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [选题, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 需求探索四个方法\n7\t\n8\t找需求有四个方法：①自身情感波动（你的情绪波动就是需求信号）；②潜伏同行评论区（看用户在问什么、抱怨什么）；③全平台热榜（知乎、豆瓣、B站、抖音都看）；④深入目标用户的真实生活场景。这是每天必做的功课。\n9\t\n10\t## 关联\n11\t- [[选题_需求库与解决方案库]]\n12\t- [[选题_积累反应机制]]\n13\t- 适用场景：不知道用户需要什么、选题没有方向时\n14\t"
+          },
+          {
+            "id": "tooluse_3CvnmyCpUjrjgBZIariCN8",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/变现_免费分享是最强变现策略.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [变现, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 免费分享是最强的变现策略\n7\t\n8\t免费分享你懂的东西，是最强的变现策略。判断标准：别人不花钱不会告诉你的，或者你花了很多钱才学会的——这些才值得免费分享。免费分享积累信任，信任才能变现。舍不得孩子套不着狼，免费是战略，不是亏损。\n9\t\n10\t## 关联\n11\t- [[变现_用户价值决定变现方向]]\n12\t- [[定位_用户与价值是定位核心]]\n13\t- 适用场景：纠结要不要免费分享干货时\n14\t"
+          },
+          {
+            "id": "tooluse_cSmNQrHL57cTbCDElGKVz8",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/变现_变现三种基本模式.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [变现, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 变现三种基本模式\n7\t\n8\t变现有三种基本模式：①广告（品牌合作、植入）；②电商（带货、自营产品）；③知识付费（课程、咨询、社群）。三种模式对粉丝量和信任度的要求不同：广告看数据，电商看精准度，知识付费看信任深度。不要等粉丝多了再想变现，从第一天就要想清楚。\n9\t\n10\t## 关联\n11\t- [[变现_私域转化路径设计]]\n12\t- [[变现_知识付费的信任门槛]]\n13\t- [[定位_账号定位五要素]]\n14\t- 适用场景：想清楚账号最终靠什么赚钱时\n15\t"
+          },
+          {
+            "id": "tooluse_2OtGAog3B8d9RqCeEPOd4L",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/变现_变现三角流量信任产品.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [变现, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 变现三角：流量、信任、产品\n7\t\n8\t变现需要三个要素同时具备：流量（有人看）、信任（有人信）、产品（有东西卖）。三角缺一不可。很多人有流量没信任，卖不动；有信任没流量，卖不出去；有流量有信任没产品，白白浪费。先想清楚自己缺哪条腿。\n9\t\n10\t## 关联\n11\t- [[变现_私域转化路径设计]]\n12\t- [[变现_知识付费产品设计]]\n13\t- [[定位_理性壁垒加情感羁绊]]\n14\t- 适用场景：想变现但不知道从哪里入手时\n15\t"
+          },
+          {
+            "id": "tooluse_FO5qcDTrQOkqnoAHgPjduj",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/变现_用户价值决定变现方向.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [变现, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 用户价值决定变现方向\n7\t\n8\t当你的账号聚集了一群渴望某种价值的用户，这个账号就非常值钱。变现方向有三种：①自己创造产品（课程、社群）；②在平台找符合需求的商品带货；③在现实中找项目推荐（做中介）。选哪种，取决于你喜不喜欢做这件事，以及变现效率高不高。\n9\t\n10\t## 关联\n11\t- [[定位_用户与价值是定位核心]]\n12\t- [[变现_变现三种基本模式]]\n13\t- 适用场景：有了粉丝但不知道怎么变现时\n14\t"
+          },
+          {
+            "id": "tooluse_dziW3pUhDmmkM4SRxFQlLA",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/变现_私域转化路径设计.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [变现, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 私域转化路径设计\n7\t\n8\t公域流量要导入私域才能高效变现。路径：视频→评论区/主页→微信/社群→成交。每一步都要有明确的钩子和理由。私域的核心是信任，不是骚扰。进了私域还要持续提供价值，不能一进来就卖东西。\n9\t\n10\t## 关联\n11\t- [[变现_变现三角流量信任产品]]\n12\t- [[框架_结尾要有行动指令]]\n13\t- 适用场景：想把公域粉丝转化为付费用户时\n14\t"
+          },
+          {
+            "id": "tooluse_p7ohpcj8VS0erYbO1RTyUA",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/思考方式_数据是反馈不是评判.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [思考方式, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 数据是反馈不是评判\n7\t\n8\t数据不是对你这个人的评判，是对这条内容的反馈。数据差，说明这条内容没有打到用户，不是说你不行。要用科学家的心态看数据：这是一次实验，数据是结果，结论是下次怎么调整。不要用数据来折磨自己。\n9\t\n10\t## 关联\n11\t- [[思考方式_行动优先70分原则]]\n12\t- [[思考方式_复盘是成长的加速器]]\n13\t- 适用场景：数据不好时容易自我否定、想放弃时\n14\t"
+          },
+          {
+            "id": "tooluse_4U7Jsd2KYZK9AKrlj9LTXq",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/思考方式_用自己理解世界.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [思考方式, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 用自己理解世界\n7\t\n8\t你对别人的理解，来自于你对自己的理解。你能感知到别人的善良，是因为你自己也有善良；你能理解别人的恶意，是因为你自己也有过这样的念头。所以，观察自己就是观察世界。对自我的反思，往往比研究别人更能帮你理解人性。\n9\t\n10\t## 关联\n11\t- [[思考方式_行动优先70分原则]]\n12\t- [[定位_找到具体用户张小阳]]\n13\t- 适用场景：想提升对用户的理解、想做出更有共鸣的内容时\n14\t"
+          },
+          {
+            "id": "tooluse_5Wa2bHxQZra9gKTkZxGe8H",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/思考方式_知识必须落实到计划.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [思考方式, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 知识必须落实到计划\n7\t\n8\t听了很多课、记了很多笔记，但没有变成行动计划，等于没学。知识的终点不是\"我懂了\"，而是\"我下周一要做什么\"。每次学完，问自己：这个知识让我改变什么行为？写下来，定好时间，才算真正学会。\n9\t\n10\t## 关联\n11\t- [[思考方式_行动优先70分原则]]\n12\t- [[思考方式_复盘是成长的加速器]]\n13\t- 适用场景：学了很多但感觉没有进步时\n14\t"
+          },
+          {
+            "id": "tooluse_8Tb9so34HKssRsEo5i6OYt",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/思考方式_行动优先70分原则.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [思考方式, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 行动优先70分原则\n7\t\n8\t不要等到100分再行动。70分就可以发出去。发出去才有反馈，有反馈才能迭代，迭代才能进步。等到100分，你已经错过了最好的时机，而且你以为的100分，在观众眼里可能只有60分。完成比完美更重要。\n9\t\n10\t## 关联\n11\t- [[思考方式_数据是反馈不是评判]]\n12\t- [[选题_超量准备选题库]]\n13\t- 适用场景：总是拖延、不敢发视频时\n14\t"
+          },
+          {
+            "id": "tooluse_1FpwHgbQVo0IanPeX6n6s2",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/思考方式_贪多嚼不烂专注一个方向.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [思考方式, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 贪多嚼不烂专注一个方向\n7\t\n8\t学了很多方法，每个都想用，结果什么都没做好。不如选一个最有感觉的方向，把它做精、做透。八种选题类型，选一个；六种竞争力方法，选一个。专注比全面更重要，深度比广度更有价值。\n9\t\n10\t## 关联\n11\t- [[思考方式_行动优先70分原则]]\n12\t- [[选题_八种常规选题类型]]\n13\t- [[定位_竞争力六字箴言]]\n14\t- 适用场景：学了很多但不知道从哪里开始时\n15\t"
+          },
+          {
+            "id": "tooluse_pc4rWGjnTQ6Jqlg551ihjt",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/拍摄_产品即符号.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [拍摄, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 产品即符号\n7\t\n8\t每一个产品本身也是一个符号。拿着咖啡拍口播，你就是\"活跃在大城市、喜欢星巴克的人\"。在劳斯莱斯里讲创业，在星巴克里讲工作方法——物品在帮你表达人设。要学会用产品和物品来构建和强化你的IP形象。\n9\t\n10\t## 关联\n11\t- [[拍摄_帮观众在想象中购物]]\n12\t- [[定位_组合创新叠加价值]]\n13\t- 适用场景：想通过日常物品强化人设时\n14\t"
+          },
+          {
+            "id": "tooluse_uATPD0R8vQJj8re6jS3aa7",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/拍摄_产品拍摄六种视觉手法.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [拍摄, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 产品拍摄六种视觉手法\n7\t\n8\t产品拍摄有六种视觉手法：①对比（极端情况下展示产品优势）；②相似（让产品与用户想象的场景产生联结）；③中介物（用熟悉的物体表达产品特性，如信封里拿出电脑）；④感官刺激（色彩、泡沫、声音唤醒潜意识）；⑤材质与光线（逆光、暖光营造质感）；⑥比喻（用其他物体代替不方便展示的）。\n9\t\n10\t## 关联\n11\t- [[拍摄_帮观众在想象中购物]]\n12\t- [[拍摄_光线与色彩的心理暗示]]\n13\t- 适用场景：拍产品视频不知道怎么让产品看起来更好时\n14\t"
+          },
+          {
+            "id": "tooluse_Or6fOHzr9Ep6mc7L9jg86r",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/拍摄_光线与色彩的心理暗示.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [拍摄, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 光线与色彩的心理暗示\n7\t\n8\t光线和色彩会直接影响观众对产品的感受。暖光让食物看起来新鲜诱人，蓝光让肉看起来像腐肉；逆光穿透玻璃展示透明感，侧逆光表现轮廓；泡沫让人感觉干净和柔软；冰块让人感觉清凉爽快。要用光线和色彩跟观众的潜意识对话。\n9\t\n10\t## 关联\n11\t- [[拍摄_产品拍摄六种视觉手法]]\n12\t- [[拍摄_帮观众在想象中购物]]\n13\t- 适用场景：拍食物、饮品、护肤品等产品时\n14\t"
+          },
+          {
+            "id": "tooluse_jgA7nZ9FhTwUdJ4oULd1VI",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/拍摄_帮观众在想象中购物.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [拍摄, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 帮观众在想象中购物\n7\t\n8\t卖产品不是卖功能，是卖用户使用产品时的想象和感受。苏打水配冰块，是卖夏天的爽感；高跟鞋配高档餐厅，是卖优雅的想象；耳机在地铁里拍，是让观众想象自己在地铁使用。要想清楚：这个产品满足观众什么场景的想象？\n9\t\n10\t## 关联\n11\t- [[拍摄_产品拍摄六种视觉手法]]\n12\t- [[拍摄_产品即符号]]\n13\t- 适用场景：拍带货视频、设计产品展示场景时\n14\t"
+          },
+          {
+            "id": "tooluse_mvaFwrIefwwopoBiGINOTT",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/框架_信息量扩充六个维度.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [文案, 框架, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 信息量扩充六个维度\n7\t\n8\t扩充信息量有六个维度：①向下细分（并列清单或递进次序）；②向上汇总（越具体越覆盖广）；③向内折叠（体验深度和情感浓度）；④情感转折（否定和反转）；⑤逻辑转折（意想不到的跳跃感）；⑥情感升温（情绪积累爆发）。信息量本质上是体验的深度。\n9\t\n10\t## 关联\n11\t- [[文案_从抽象到具象是基本功]]\n12\t- [[选题_生活展示明线与暗线]]\n13\t- 适用场景：视频感觉信息量不够、内容太单薄时\n14\t"
+          },
+          {
+            "id": "tooluse_aog2VnJaIp0C49JbNgTcuU",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/框架_开头五种钩子类型.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [文案, 框架, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 开头五种钩子类型\n7\t\n8\t开头钩子有五种：①利益钩（直接说出对用户的好处）；②悬念钩（制造信息缺口，让人想知道答案）；③冲突钩（展示矛盾或对立）；④共鸣钩（说出用户心里的话）；⑤反常识钩（颠覆用户的既有认知）。每条视频选一个，不要叠加太多。\n9\t\n10\t## 关联\n11\t- [[框架_开头三秒决定完播率]]\n12\t- [[文案_从抽象到具象是基本功]]\n13\t- 适用场景：写开头时不知道用什么方式抓住观众\n14\t"
+          },
+          {
+            "id": "tooluse_53NgZmOlQ5WBLCaV0tK4ci",
+            "name": "Read",
+            "input": {
+              "file_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/02新媒体知识-神经元重塑/花火商学院/原子笔记/框架_结尾要有行动指令.md",
+              "limit": 20
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "1\t---\n2\ttags: [文案, 框架, 花火商学院, 待链接]\n3\t来源: 花火商学院\n4\t日期: 2026-04-20\n5\t---\n6\t# 结尾要有行动指令\n7\t\n8\t视频结尾不要自然消失，要给观众一个明确的行动指令（CTA）。可以是：关注、评论、收藏、转发，或者引导到下一条视频。结尾的行动指令要和内容逻辑衔接，不能突兀地插入。没有CTA的视频，互动数据会明显更差。\n9\t\n10\t## 关联\n11\t- [[框架_开头三秒决定完播率]]\n12\t- [[变现_私域转化路径设计]]\n13\t- 适用场景：视频互动率低、粉丝不知道下一步做什么时\n14\t"
+          }
+        ],
+        "isExpanded": false,
+        "result": "完成。以下是54个文件的核心内容摘要：\n\n**文案类（9个）**\n1. 文案_个体经历与普遍经验结合.md - 个体细节触发普遍情感，越具体越有共鸣\n2. 文案_从抽象到具象是基本功.md - 创作者要从抽象观点还原成具象细节让观众自己得出结论\n3. 文案_具体细节产生故事感.md - 专属细节（时间、地点、数量、名词）让内容独一无二\n4. 文案_可视化把抽象变直观.md - 用动作和场景替代抽象定义让观众一听就懂\n5. 文案_多用短句少用长句.md - 短句无从句观众无记忆负担，适合短视频平台\n6. 文案_开头三秒决定完播率.md - 开头要制造悬念、说出价值或用反常识抓住注意力\n7. 文案_故事感需要人物关系.md - 故事核心是人与人的纠纷、羁绊或对抗\n8. 文案_短视频要用直观语言.md - 直观语言有画面感，抽象语言观众疲惫时听不进去\n9. 文案_节奏感推高情绪.md - 短句叠加、重复关键词、排比句式、留白制造节奏感\n\n**定位类（14个）**\n1. 定位_IP与网红的区别.md - IP被追随能影响决策，网红被消遣只能娱乐\n2. 定位_人设不等于定位.md - 定位包含五要素，人设只是其中之一\n3. 定位_以弱胜强现身说法.md - 用自己的短板示弱，缺陷赋予内容额外分量\n4. 定位_定位是模糊的方向.md - 定位不需百分百确定，边做边清晰比等待更重要\n5. 定位_找到具体用户张小阳.md - 想象具体有血有肉的用户作为内容判断标准\n6. 定位_理性壁垒加情感羁绊.md - IP需要专业权威和情感连接两者兼备\n7. 定位_用户与价值是定位核心.md - 定位核心是\"给谁提供什么价值\"直接锁定变现\n8. 定位_竞争力六字箴言.md - 正反跨局部弱六种方法打造竞争力\n9. 定位_组合创新叠加价值.md - 90%创新靠组合，小众兴趣加大众价值形成差异\n10. 定位_账号定位五要素.md - 价值、用户、人设、类型、风格五要素共同锁定账号\n11. 定位_跨行信息差优势.md - 跨行者身份利用信息差给外行讲内行知识\n12. 定位_身份不决定定位.md - 职业身份只是过去，定位是选择提供什么价值\n13. 定位_过度工具人与过度抽象.md - 避免两个极端，在具体利他和个人理念间找平衡\n14. 定位_选题落地定位.md - 定位通过每条视频落地，视频呈现不出来定位无意义\n\n**选题类（12个）**\n1. 选题_五种解决方案类型.md - 资讯、观点、步骤、生活方式、体验五种解决方案类型\n2. 选题_信息差是流量密码.md - 信息差是IP和粉丝间的差距，差距越大含金量越高\n3. 选题_八种常规选题类型.md - 资讯、认知、情感、热爱、解决、过程、展示、转化八种\n4. 选题_听到沉默的声音.md - 沉默群体的需求比评论区声音更重要\n5. 选题_每条视频要有赌注.md - 每条视频要有核心竞争力作为赌注\n6. 选题_生活展示明线与暗线.md - 明线是有意思细节，暗线是情感基调\n7. 选题_积累反应机制.md - 猜评论结果积累反应机制是真正的网感\n8. 选题_超量准备选题库.md - 一次想5-10个选题从中优中选优\n9. 选题_选题是需求加解决方案.md - 完整选题包含需求和解决方案两个成分\n10. 选题_选题要回归用户.md - 判断内容好坏要问真正的目标用户\n11. 选题_需求库与解决方案库.md - 分开积累两个库随时交叉匹配产出爆款\n12. 选题_需求探索四个方法.md - 情感波动、评论区、热榜、真实场景四个方法找需求\n\n**变现类（5个）**\n1. 变现_免费分享是最强变现策略.md - 免费分享积累信任，信任才能变现\n2. 变现_变现三种基本模式.md - 广告、电商、知识付费三种模式对应不同要求\n3. 变现_变现三角流量信任产品.md - 变现需要流量、信任、产品三要素同时具备\n4. 变现_用户价值决定变现方向.md - 用户需求决定自创产品、带货还是做中介\n5. 变现_私域转化路径设计.md - 公域导私域的路径是视频→评论→微信→成交\n\n**思考方式类（5个）**\n1. 思考方式_数据是反馈不是评判.md - 数据是对内容的反馈不是对人的评判\n2. 思考方式_用自己理解世界.md - 对别人的理解来自对自己的理解\n3. 思考方式_知识必须落实到计划.md - 知识终点是\"下周一要做什么\"不是\"我懂了\"\n4. 思考方式_行动优先70分原则.md - 70分就发出去，完成比完美更重要\n5. 思考方式_贪多嚼不烂专注一个方向.md - 专注比全面更重要，深度比广度更有价值\n\n**拍摄类（4个）**\n1. 拍摄_产品即符号.md - 产品本身是符号，物品帮助表达和强化IP形象\n2. 拍摄_产品拍摄六种视觉手法.md - 对比、相似、中介物、感官刺激、材质光线、比喻\n3. 拍摄_光线与色彩的心理暗示.md - 光线色彩直接影响观众感受，要与潜意识对话\n4. 拍摄_帮观众在想象中购物.md - 卖的是使用场景的想象和感受不是产品功能\n\n**框架类（3个）**\n1. 框架_信息量扩充六个维度.md - 细分、汇总、折叠、情感转折、逻辑转折、情感升温\n2. 框架_开头五种钩子类型.md - 利益、悬念、冲突、共鸣、反常识五种钩子\n3. 框架_结尾要有行动指令.md - 结尾要给观众明确的CTA引导下一步行动"
+      }
+    }
+  },
+  "currentNote": "01新媒体知识库-源文件/2-舒老师-有情绪的文字.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 156335,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 156335,
+    "percentage": 78
+  }
+}

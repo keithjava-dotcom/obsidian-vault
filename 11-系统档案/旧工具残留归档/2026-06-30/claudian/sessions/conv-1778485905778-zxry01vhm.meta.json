@@ -1,0 +1,23 @@
+{
+  "id": "conv-1778485905778-zxry01vhm",
+  "providerId": "claude",
+  "title": "请帮我做一份给Claude的完整系统状态简报，",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1778485905779,
+  "updatedAt": 1778487353380,
+  "lastResponseAt": 1778487353380,
+  "sessionId": "ba1a4ca7-597d-4d50-8a38-db7c461f485f",
+  "providerState": {
+    "providerSessionId": "ba1a4ca7-597d-4d50-8a38-db7c461f485f"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 26151,
+    "cacheReadInputTokens": 20918,
+    "contextWindow": 200000,
+    "contextTokens": 47070,
+    "percentage": 24,
+    "contextWindowIsAuthoritative": true
+  }
+}

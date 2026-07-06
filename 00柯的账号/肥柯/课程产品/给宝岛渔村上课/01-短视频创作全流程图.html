@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>短视频创作全流程</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#f5f5f4;font-family:-apple-system,"PingFang SC","Noto Sans SC",sans-serif;display:flex;justify-content:center;padding:40px 20px}
+.card{max-width:1100px;width:100%;background:#fff;border-radius:16px;padding:32px;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+h1{text-align:center;font-size:24px;color:#1a1a1a;margin-bottom:4px}
+.sub{text-align:center;color:#888;font-size:14px;margin-bottom:16px}
+svg{width:100%;height:auto;display:block}
+.legend{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-top:16px;padding:14px;background:#fafafa;border-radius:10px;font-size:13px;color:#555}
+.legend-item{display:flex;align-items:center;gap:6px}
+.legend-dot{width:14px;height:14px;border-radius:4px}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>短视频创作全流程</h1>
+<p class="sub">给宝岛渔村 · Day1 知识点总图</p>
+
+<svg viewBox="0 0 1040 830" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M0,0 L10,5 L0,10" fill="#94A3B8"/>
+  </marker>
+  <filter id="sh" x="-4%" y="-4%" width="108%" height="108%">
+    <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+  </filter>
+</defs>
+
+<!-- ====== 底色背景线 ====== -->
+<path d="M520,160 L520,780" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="6,4"/>
+
+<!-- ====== 第一行：核心理念 ====== -->
+<rect x="120" y="30" width="800" height="56" rx="28" fill="#1a1a1a" filter="url(#sh)"/>
+<text x="520" y="66" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">核心理念：流量≠价值 · 流量是手段，价值是目的</text>
+
+<!-- ====== 主线箭头（竖向） ====== -->
+<line x1="520" y1="86" x2="520" y2="118" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="520" y1="218" x2="520" y2="250" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrow)"/>
+
+<!-- ====== 第二行：三块并列 ====== -->
+
+<!-- 🔥 流量 -->
+<rect x="30" y="120" width="280" height="98" rx="12" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5" filter="url(#sh)"/>
+<text x="170" y="152" text-anchor="middle" fill="#1D4ED8" font-size="17" font-weight="700">🔥 搞流量</text>
+<text x="170" y="175" text-anchor="middle" fill="#3B82F6" font-size="12">信息密度 · 娱乐本质</text>
+<text x="170" y="195" text-anchor="middle" fill="#64748B" font-size="11">流量是入场券，不等于赚钱</text>
+
+<!-- 💎 提价值 -->
+<rect x="380" y="120" width="280" height="98" rx="12" fill="#FFF7ED" stroke="#F97316" stroke-width="1.5" filter="url(#sh)"/>
+<text x="520" y="152" text-anchor="middle" fill="#C2410C" font-size="17" font-weight="700">💎 提价值</text>
+<text x="520" y="175" text-anchor="middle" fill="#F97316" font-size="12">定位 · 用户 · 优势</text>
+<text x="520" y="195" text-anchor="middle" fill="#64748B" font-size="11">只有愿意花钱的才叫用户</text>
+
+<!-- 🎯 选题 -->
+<rect x="730" y="120" width="280" height="98" rx="12" fill="#F0FDF4" stroke="#22C55E" stroke-width="1.5" filter="url(#sh)"/>
+<text x="870" y="152" text-anchor="middle" fill="#15803D" font-size="17" font-weight="700">🎯 选题</text>
+<text x="870" y="175" text-anchor="middle" fill="#22C55E" font-size="12">连接用户需求×自身优势</text>
+<text x="870" y="195" text-anchor="middle" fill="#64748B" font-size="11">低成本测试，可行就推</text>
+
+<!-- ====== 分叉箭头 ====== -->
+<g fill="none" stroke="#94A3B8" stroke-width="1.5">
+  <line x1="170" y1="218" x2="170" y2="250"/>
+  <line x1="520" y1="218" x2="520" y2="250"/>
+  <line x1="870" y1="218" x2="870" y2="250"/>
+</g>
+
+<!-- ====== 第三行：展开 ====== -->
+
+<!-- 流量展开 -->
+<rect x="20" y="255" width="300" height="72" rx="10" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1" filter="url(#sh)"/>
+<text x="170" y="285" text-anchor="middle" fill="#1D4ED8" font-size="14" font-weight="600">短视频八大特性（自检标准）</text>
+<text x="170" y="308" text-anchor="middle" fill="#64748B" font-size="11">满足3-4个即可 · 1个极致也行</text>
+
+<!-- 价值展开 -->
+<rect x="370" y="255" width="300" height="72" rx="10" fill="#FED7AA" stroke="#F97316" stroke-width="1" filter="url(#sh)"/>
+<text x="520" y="285" text-anchor="middle" fill="#C2410C" font-size="14" font-weight="600">定位两步法</text>
+<text x="520" y="308" text-anchor="middle" fill="#64748B" font-size="11">① 确定目标用户 · ② 分析自身优势</text>
+
+<!-- 选题展开 -->
+<rect x="720" y="255" width="300" height="72" rx="10" fill="#BBF7D0" stroke="#22C55E" stroke-width="1" filter="url(#sh)"/>
+<text x="870" y="285" text-anchor="middle" fill="#15803D" font-size="14" font-weight="600">选题维度</text>
+<text x="870" y="308" text-anchor="middle" fill="#64748B" font-size="11">用户需求类 + 自身优势类</text>
+
+<!-- ====== 箭头到第四行 ====== -->
+<g fill="none" stroke="#94A3B8" stroke-width="1.5">
+  <line x1="170" y1="327" x2="170" y2="370"/>
+  <line x1="520" y1="327" x2="520" y2="370"/>
+  <line x1="870" y1="327" x2="870" y2="370"/>
+</g>
+
+<!-- ====== 第四行：内容+拍摄 ====== -->
+<rect x="30" y="375" width="290" height="50" rx="10" fill="#8B5CF6" filter="url(#sh)"/>
+<text x="175" y="406" text-anchor="middle" fill="#fff" font-size="15" font-weight="600">📝 内容形式（2种）</text>
+
+<rect x="380" y="375" width="290" height="50" rx="10" fill="#EC4899" filter="url(#sh)"/>
+<text x="525" y="406" text-anchor="middle" fill="#fff" font-size="15" font-weight="600">🎬 拍摄形式（3种）</text>
+
+<rect x="730" y="375" width="290" height="50" rx="10" fill="#14B8A6" filter="url(#sh)"/>
+<text x="875" y="406" text-anchor="middle" fill="#fff" font-size="15" font-weight="600">📱 拍摄基础</text>
+
+<!-- ====== 内容形式子项 ====== -->
+<rect x="30" y="440" width="140" height="70" rx="8" fill="#EDE9FE"/>
+<text x="100" y="465" text-anchor="middle" fill="#6D28D9" font-size="13" font-weight="600">清单式</text>
+<text x="100" y="485" text-anchor="middle" fill="#8B5CF6" font-size="11">主题+多个信息点</text>
+<text x="100" y="500" text-anchor="middle" fill="#8B5CF6" font-size="11">生日宴八大菜</text>
+
+<rect x="180" y="440" width="140" height="70" rx="8" fill="#EDE9FE"/>
+<text x="250" y="465" text-anchor="middle" fill="#6D28D9" font-size="13" font-weight="600">发展式</text>
+<text x="250" y="485" text-anchor="middle" fill="#8B5CF6" font-size="11">背景+冲突+解决</text>
+<text x="250" y="500" text-anchor="middle" fill="#8B5CF6" font-size="11">老板学菜故事</text>
+
+<!-- 拍摄形式子项 -->
+<rect x="380" y="440" width="90" height="70" rx="8" fill="#FCE7F3"/>
+<text x="425" y="465" text-anchor="middle" fill="#BE185D" font-size="13" font-weight="600">口播</text>
+<text x="425" y="485" text-anchor="middle" fill="#DB2777" font-size="11">对着镜头讲</text>
+
+<rect x="475" y="440" width="90" height="70" rx="8" fill="#FCE7F3"/>
+<text x="520" y="465" text-anchor="middle" fill="#BE185D" font-size="13" font-weight="600">他拍</text>
+<text x="520" y="485" text-anchor="middle" fill="#DB2777" font-size="11">第三视角</text>
+
+<rect x="570" y="440" width="90" height="70" rx="8" fill="#FCE7F3"/>
+<text x="615" y="465" text-anchor="middle" fill="#BE185D" font-size="13" font-weight="600">旁白</text>
+<text x="615" y="485" text-anchor="middle" fill="#DB2777" font-size="11">画面+配音</text>
+
+<!-- 拍摄基础子项 -->
+<rect x="730" y="440" width="135" height="70" rx="8" fill="#CCFBF1"/>
+<text x="797" y="465" text-anchor="middle" fill="#0F766E" font-size="13" font-weight="600">景别四件套</text>
+<text x="797" y="485" text-anchor="middle" fill="#14B8A6" font-size="11">远→中→近→特</text>
+<text x="797" y="500" text-anchor="middle" fill="#14B8A6" font-size="11">手机0.5→1→2-3→4-8x</text>
+
+<rect x="875" y="440" width="145" height="70" rx="8" fill="#CCFBF1"/>
+<text x="947" y="465" text-anchor="middle" fill="#0F766E" font-size="13" font-weight="600">构图</text>
+<text x="947" y="485" text-anchor="middle" fill="#14B8A6" font-size="11">三分构图 / 居中</text>
+<text x="947" y="500" text-anchor="middle" fill="#14B8A6" font-size="11">先拍到再拍好看</text>
+
+<!-- ====== 箭头到底部 ====== -->
+<line x1="520" y1="520" x2="520" y2="565" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrow)"/>
+
+<!-- ====== 第五行：产出 ====== -->
+<rect x="120" y="570" width="800" height="80" rx="40" fill="#1a1a1a" filter="url(#sh)"/>
+<text x="520" y="602" text-anchor="middle" fill="#fff" font-size="18" font-weight="700">🎬 今日产出</text>
+<text x="520" y="628" text-anchor="middle" fill="#94A3B8" font-size="13">今天下午拍一条视频 · 明天上午教剪辑 · 持续迭代</text>
+
+<!-- ====== 八大特性小标签 ====== -->
+<g transform="translate(0,540)">
+<rect x="60" y="0" width="38" height="22" rx="6" fill="#DBEAFE"/><text x="79" y="16" text-anchor="middle" fill="#1D4ED8" font-size="10">高效</text>
+<rect x="110" y="0" width="38" height="22" rx="6" fill="#DCFCE7"/><text x="129" y="16" text-anchor="middle" fill="#15803D" font-size="10">时效</text>
+<rect x="160" y="0" width="38" height="22" rx="6" fill="#FEF3C7"/><text x="179" y="16" text-anchor="middle" fill="#A16207" font-size="10">任意</text>
+<rect x="210" y="0" width="38" height="22" rx="6" fill="#FCE7F3"/><text x="229" y="16" text-anchor="middle" fill="#BE185D" font-size="10">反差</text>
+<rect x="260" y="0" width="38" height="22" rx="6" fill="#F5F3FF"/><text x="279" y="16" text-anchor="middle" fill="#6D28D9" font-size="10">持续</text>
+<rect x="310" y="0" width="50" height="22" rx="6" fill="#FEF3C7"/><text x="335" y="16" text-anchor="middle" fill="#A16207" font-size="10">5-7秒</text>
+<rect x="735" y="0" width="38" height="22" rx="6" fill="#CCFBF1"/><text x="754" y="16" text-anchor="middle" fill="#0F766E" font-size="10">多轨</text>
+<rect x="785" y="0" width="38" height="22" rx="6" fill="#FFF1F2"/><text x="804" y="16" text-anchor="middle" fill="#BE123C" font-size="10">长视</text>
+</g>
+
+<!-- 底部 -->
+<text x="520" y="705" text-anchor="middle" fill="#aaa" font-size="12">给宝岛渔村 · 柯建军 Day1课程</text>
+</svg>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:#3B82F6"></div> 流量</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#F97316"></div> 价值</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#22C55E"></div> 选题</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#8B5CF6"></div> 内容形式</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#EC4899"></div> 拍摄形式</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#14B8A6"></div> 拍摄基础</div>
+  <div class="legend-item" style="color:#94A3B8;font-size:12px">← 八大特性标签参考</div>
+</div>
+</div>
+</body>
+</html>

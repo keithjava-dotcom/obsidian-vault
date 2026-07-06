@@ -1,0 +1,114 @@
+{
+  "schema_version": 2,
+  "task": "第01稿-做了20多条作品我犯了老板最常犯的错",
+  "status": "content_pending_human_review",
+  "dagang_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/芝加哥/柯建军-新媒体顾问/06-dagang粗坯/第01稿-做了20多条作品我犯了老板最常犯的错（dagang粗坯）.md",
+  "source_files": [
+    "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/芝加哥/柯建军-新媒体顾问/00-碰撞草稿/思路碰撞/1-做了20多条作品，我发现自己也犯了老板最常犯的错.md",
+    "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/芝加哥/柯建军-新媒体顾问/03-定位方案.md",
+    "/Users/kejianjun/.openclaw/shared_messages/output.md"
+  ],
+  "outputs": [
+    {
+      "path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/芝加哥/柯建军-新媒体顾问/08-文案/第01稿-做了20多条作品我犯了老板最常犯的错（IP口语稿）.md",
+      "role": "ip_script"
+    },
+    {
+      "path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/芝加哥/柯建军-新媒体顾问/08-文案/第01稿-做了20多条作品我犯了老板最常犯的错（拍摄标注稿）.md",
+      "role": "shooting_notes"
+    },
+    {
+      "path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/芝加哥/柯建军-新媒体顾问/08-文案/第01稿-做了20多条作品我犯了老板最常犯的错（BROLL补拍清单）.md",
+      "role": "broll_list"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "做了20多条作品，自己的账号还没做起来。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/芝加哥/柯建军-新媒体顾问/00-碰撞草稿/思路碰撞/1-做了20多条作品，我发现自己也犯了老板最常犯的错.md",
+      "evidence": "做了20多条作品，我也犯了老板们常犯的错误。觉得这个选题非常好，我天天教别人做100多个账号，结果自己的账号也没做起来。",
+      "status": "confirmed"
+    },
+    {
+      "id": "c2",
+      "text": "柯建军经常教客户和学生画面形式不重要，但自己偏用相机拍，导致看起来假。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/芝加哥/柯建军-新媒体顾问/00-碰撞草稿/思路碰撞/1-做了20多条作品，我发现自己也犯了老板最常犯的错.md",
+      "evidence": "我经常跟所有的客户、包括所有的学生、还有所有老板讲，拍摄的画面形式不怎么重要，但是结果我偏偏非得用相机拍，导致在我的表现力和内容不足以支撑画面形式的时候，整体看起来就特别假。",
+      "status": "confirmed"
+    },
+    {
+      "id": "c3",
+      "text": "之前的视频容易太专业、太说教，短视频观众更多是来消遣，不是来被教育。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/芝加哥/柯建军-新媒体顾问/00-碰撞草稿/思路碰撞/1-做了20多条作品，我发现自己也犯了老板最常犯的错.md",
+      "evidence": "第三个错误就是太过于讲专业。其实在短视频平台上，大部分人看内容都是来消遣的，并不是来被教育的，但是我之前的视频确实容易有说教感。",
+      "status": "confirmed"
+    },
+    {
+      "id": "c4",
+      "text": "后台数据大部分1000多、2000多，偶尔几万。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/芝加哥/柯建军-新媒体顾问/00-碰撞草稿/思路碰撞/1-做了20多条作品，我发现自己也犯了老板最常犯的错.md",
+      "evidence": "我的后台数据大部分都处于刚刚合格的状态，1000多、2000多，偶尔会出个几万。",
+      "status": "confirmed"
+    },
+    {
+      "id": "c5",
+      "text": "四个自查维度为获得感、惊喜感、表达力、感染力。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/芝加哥/柯建军-新媒体顾问/00-碰撞草稿/思路碰撞/1-做了20多条作品，我发现自己也犯了老板最常犯的错.md",
+      "evidence": "第一个是获得感...第二个是惊喜感...第三个是表达力...最后一个是感染力。",
+      "status": "confirmed_as_user_material",
+      "note": "未作为抖音官方标准使用，只作为本条内容的自查维度。"
+    },
+    {
+      "id": "c6",
+      "text": "随口讲的东西有些播放量十几万，好好写的稿子反而起不来。",
+      "source_type": "user_confirmed",
+      "source_path": "/Users/kejianjun/.openclaw/shared_messages/output.md",
+      "evidence": "2026-06-25 协作记录中，用户校对补充后 dagang 写入：随口讲出爆款、写稿束缚、播放量十几万。",
+      "status": "confirmed_by_user_in_session"
+    },
+    {
+      "id": "c7",
+      "text": "有老板反馈：讲得很专业，但自己刷抖音根本刷不到这样的视频。",
+      "source_type": "user_confirmed",
+      "source_path": "/Users/kejianjun/.openclaw/shared_messages/output.md",
+      "evidence": "2026-06-25 协作记录中，用户校对补充后 dagang 写入：老板反馈专业但刷不到。",
+      "status": "confirmed_by_user_in_session"
+    },
+    {
+      "id": "c8",
+      "text": "抖音精选五大类/四大标准是官方标准。",
+      "source_type": "pending_confirmation",
+      "status": "excluded_from_script",
+      "note": "公开搜索未找到可靠来源；当前成稿已降级为“四个自查维度”。"
+    },
+    {
+      "id": "c9",
+      "text": "数据不一定立刻爆，但至少不会再瞎调。",
+      "source_type": "opinion",
+      "status": "allowed_as_conclusion",
+      "note": "结尾观点，已避免“每条内容的数据就不会差”的绝对承诺。"
+    }
+  ],
+  "spoken_sections": [
+    {
+      "output_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/芝加哥/柯建军-新媒体顾问/08-文案/第01稿-做了20多条作品我犯了老板最常犯的错（IP口语稿）.md",
+      "start_marker": "<!-- IP_SPOKEN_START -->",
+      "end_marker": "<!-- IP_SPOKEN_END -->",
+      "claim_ids_used": ["c1", "c2", "c3", "c5", "c6", "c7", "c9"]
+    }
+  ],
+  "p21_sync_check": {
+    "external_standard_check": "未找到可靠来源，已降级为四个自查维度",
+    "dagang_synced": true,
+    "ip_script_synced": true,
+    "shooting_notes_synced": true,
+    "broll_synced": true,
+    "absolute_claim_downgraded": true
+  }
+}

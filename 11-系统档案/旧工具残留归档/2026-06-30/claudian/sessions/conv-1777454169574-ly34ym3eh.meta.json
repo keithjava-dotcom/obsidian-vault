@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777454169574-ly34ym3eh",
+  "providerId": "claude",
+  "title": "这篇稿子是我的学生，我针对它的稿子，我做的思考点评，你觉得可以沉淀出点什么吗？",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777454169575,
+  "updatedAt": 1777536946294,
+  "lastResponseAt": 1777456866351,
+  "sessionId": "d3109987-53f8-4b68-bc19-24a2f391f03d",
+  "providerState": {
+    "providerSessionId": "d3109987-53f8-4b68-bc19-24a2f391f03d"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 53794,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 53794,
+    "percentage": 27,
+    "contextWindowIsAuthoritative": true
+  }
+}

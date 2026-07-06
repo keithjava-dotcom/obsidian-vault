@@ -1,0 +1,23 @@
+{
+  "id": "conv-1776937258470-tuxc9wtaj",
+  "providerId": "claude",
+  "title": "请整理以下素材，提炼关键信息。",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1776937258470,
+  "updatedAt": 1776985107693,
+  "lastResponseAt": 1776951741193,
+  "sessionId": "3ad48237-55a3-40e7-a824-2120242a4fc3",
+  "providerState": {
+    "providerSessionId": "3ad48237-55a3-40e7-a824-2120242a4fc3"
+  },
+  "currentNote": "04服务客户/一冉家政/企业策划/源素材/01：一冉集团-公司讲义.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 44413,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 44413,
+    "percentage": 22
+  }
+}

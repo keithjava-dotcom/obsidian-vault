@@ -1,0 +1,52 @@
+{
+  "schema_version": 2,
+  "content_file": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/心理咨询室/菲菲/08-文案/第12稿-先让自己值钱再谈帮助别人（IP口语稿）.md",
+  "source_dagang": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/心理咨询室/菲菲/06-dagang粗坯/第07稿-先让自己值钱再谈帮助别人（dagang粗坯）.md",
+  "source_material": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/心理咨询室/菲菲/07-沟通记录-辅导孩子录音-2026.6.25日-整理版.md",
+  "status": "content_pending_human_review",
+  "claims": [
+    {
+      "claim": "菲菲曾对年轻人说，当前阶段先不要想着帮助多少人，要先让自己变强。",
+      "evidence": "整理版话题十一：你现在人生的每个阶段，不需要搞那么大阵仗。你需要先让自己强。你先不要说我帮助多少人。",
+      "source_line_hint": "07-沟通记录-辅导孩子录音-2026.6.25日-整理版.md:184-187",
+      "risk": "low"
+    },
+    {
+      "claim": "月赚1000块时去讲影响别人、帮助别人，不容易被信服。",
+      "evidence": "整理版话题十一：如果你说“我现在就想唤醒别人、想帮助别人”，你一个月赚1000块钱——不好使，没人跟你学。",
+      "source_line_hint": "07-沟通记录-辅导孩子录音-2026.6.25日-整理版.md:191",
+      "risk": "low"
+    },
+    {
+      "claim": "变强包括赚钱、认知维度和行动力。",
+      "evidence": "整理版话题十一：变强有两个方面：一个是赚钱，用财富表现出来；第二个是用你的认知维度和行动力表现出来。",
+      "source_line_hint": "07-沟通记录-辅导孩子录音-2026.6.25日-整理版.md:193",
+      "risk": "low"
+    },
+    {
+      "claim": "菲菲原话包含“你不要整飘了，飘了的人回来是很难的”。",
+      "evidence": "整理版话题十一：你不要整飘了，飘了的人回来是很难的。",
+      "source_line_hint": "07-沟通记录-辅导孩子录音-2026.6.25日-整理版.md:191",
+      "risk": "low"
+    },
+    {
+      "claim": "月变现10万的结果会让别人更愿意听。",
+      "evidence": "整理版话题十一：如果你说“这些我都学透了，我一个月变现10万块”，别人就听你的。",
+      "source_line_hint": "07-沟通记录-辅导孩子录音-2026.6.25日-整理版.md:195",
+      "risk": "medium",
+      "note": "作为菲菲原话中的示例数字使用，非本稿承诺结果。"
+    }
+  ],
+  "model_bridging": [
+    {
+      "text": "你自己都还没有站稳，你说的话就没有重量。",
+      "basis": "对原文“没有结果、不好使、没人跟你学”的口语化桥接。",
+      "risk": "low"
+    },
+    {
+      "text": "先让自己值钱不是自私。",
+      "basis": "dagang 主题收束，非新增事实。",
+      "risk": "low"
+    }
+  ]
+}

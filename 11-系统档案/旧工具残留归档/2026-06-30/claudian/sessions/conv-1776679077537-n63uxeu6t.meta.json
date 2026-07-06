@@ -1,0 +1,23 @@
+{
+  "id": "conv-1776679077537-n63uxeu6t",
+  "providerId": "claude",
+  "title": "你是我的Obsidian知识库管理员。我给你的是一套新媒体课程的原始文字稿，你需要完成以下任务，直接...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1776679077537,
+  "updatedAt": 1776744872788,
+  "lastResponseAt": 1776731530324,
+  "sessionId": "ebdd5d85-092d-4005-ab7c-d83558d188f4",
+  "providerState": {
+    "providerSessionId": "ebdd5d85-092d-4005-ab7c-d83558d188f4"
+  },
+  "currentNote": "01新媒体知识库-源文件/1-花火商学院（系统知识）.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 146984,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 146984,
+    "percentage": 73
+  }
+}

@@ -1,0 +1,345 @@
+{
+  "schema_version": 2,
+  "task": "第07稿-全员放假省里来人了",
+  "dagang_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/06-dagang粗坯/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（dagang粗坯）.md",
+  "source_files": [
+    "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md"
+  ],
+  "outputs": [
+    {
+      "path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md",
+      "role": "ip_script"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "昨天本来全员放假。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+      "evidence": "今天本来是全员放假的",
+      "status": "confirmed"
+    },
+    {
+      "id": "c2",
+      "text": "省里巾帼家政专委会的徐主任来了，给一冉送牌子。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+      "evidence": "这不省里来人了哈哈 巾帼家政专委会主任给我送牌子来了",
+      "status": "confirmed"
+    },
+    {
+      "id": "c3",
+      "text": "辽宁省职业技能培训协会授牌。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+      "evidence": "辽宁省职业技能培训协会的的授牌",
+      "status": "confirmed"
+    },
+    {
+      "id": "c4",
+      "text": "一冉家政开通各类专项等级资格证的报考直通车。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+      "evidence": "自此我们一冉家政开通了报考 各类专项等级资格证的直通车",
+      "status": "confirmed"
+    },
+    {
+      "id": "c5",
+      "text": "家政这个民生行业链接一老一小，连接所有家庭。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+      "evidence": "家政这个民生行业它链接着一老一小就连接中所有家庭",
+      "status": "confirmed"
+    },
+    {
+      "id": "c6",
+      "text": "主任说企业场域设计符合他们的考场网点。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+      "evidence": "同时说我们企业场域设计完全符合他们的考场网点",
+      "status": "confirmed"
+    },
+    {
+      "id": "c7",
+      "text": "一冉承接了双进家的培训。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+      "evidence": "今年我们一冉还承接了双进家的培训",
+      "status": "confirmed"
+    },
+    {
+      "id": "c8",
+      "text": "徐主任这次来了解各单位进度和需要解决的发展问题。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+      "evidence": "来了解一下我们各单位的进度，同时又不仅仅是给我们送这块牌子，更多的是看看我们会员单位还有什么需要解决的问题",
+      "status": "confirmed"
+    },
+    {
+      "id": "c9",
+      "text": "冉总被授牌和交流增加前行动能，坚定行业选择。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+      "evidence": "这些信息都无形中给我很大动能，坚定自己的选择方向这个行业它没有错",
+      "status": "confirmed"
+    },
+    {
+      "id": "c10",
+      "text": "冉总接下来会梳理好后立即行动。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+      "evidence": "今天主任的到来我们给我们增加了前行的动能，我们梳理好后会立即行动",
+      "status": "confirmed"
+    },
+    {
+      "id": "c11",
+      "text": "帮助生育友好岗女性灵活就业。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+      "evidence": "帮助更多“生育友好岗”的广大女性，灵活就业",
+      "status": "confirmed"
+    },
+    {
+      "id": "c12",
+      "text": "帮助迷茫择业的人低成本高质量创业。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+      "evidence": "帮助更多迷茫择业的人可以低成本高质量创业",
+      "status": "confirmed"
+    },
+    {
+      "id": "c13",
+      "text": "家政行业需要标准化和专业服务。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+      "evidence": "接下来我们锚定目标坚持打造标准化服务",
+      "status": "confirmed"
+    },
+    {
+      "id": "o1",
+      "text": "这不是多一块牌子那么简单。",
+      "source_type": "opinion",
+      "evidence": "基于授牌、报考直通车、主任现场评价和原文“给我很大动能”的口语化判断，不作为客观事实。",
+      "status": "opinion"
+    },
+    {
+      "id": "o2",
+      "text": "家政不是低人一等的活，这条路值得被重新看见。",
+      "source_type": "opinion",
+      "evidence": "基于原文“坚定自己的选择方向这个行业它没有错”和定位方案的行业认知表达，属于观点收束。",
+      "status": "opinion"
+    },
+    {
+      "id": "o3",
+      "text": "做得标不标准、专不专业，家庭能感受到。",
+      "source_type": "opinion",
+      "evidence": "基于“链接一老一小”“锚定标准化服务”的观点化表达，不冒充外部标准。",
+      "status": "opinion"
+    }
+  ],
+  "spoken_sections": [
+    {
+      "output_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md",
+      "start_marker": "<!-- IP_SPOKEN_START -->",
+      "end_marker": "<!-- IP_SPOKEN_END -->",
+      "units": [
+        {
+          "text": "昨天本来全员放假。",
+          "claim_ids": [
+            "c1"
+          ]
+        },
+        {
+          "text": "结果省里巾帼家政专委会的徐主任来了。",
+          "claim_ids": [
+            "c2"
+          ]
+        },
+        {
+          "text": "给一冉送了一块牌子。",
+          "claim_ids": [
+            "c2"
+          ]
+        },
+        {
+          "text": "辽宁省职业技能培训协会授牌。",
+          "claim_ids": [
+            "c3"
+          ]
+        },
+        {
+          "text": "说实话，这不是多一块牌子那么简单。",
+          "claim_ids": [
+            "o1"
+          ]
+        },
+        {
+          "text": "它意味着什么？",
+          "claim_ids": [
+            "o1"
+          ]
+        },
+        {
+          "text": "从这以后，我们一冉家政，开通了各类专项等级资格证的报考直通车。",
+          "claim_ids": [
+            "c4"
+          ]
+        },
+        {
+          "text": "这件事，对我触动挺大的。",
+          "claim_ids": [
+            "c9"
+          ]
+        },
+        {
+          "text": "因为做家政这些年，我最怕别人把这行看轻了。",
+          "claim_ids": [
+            "o2"
+          ]
+        },
+        {
+          "text": "总有人觉得，家政不就是伺候人吗？",
+          "claim_ids": [
+            "o2"
+          ]
+        },
+        {
+          "text": "可真干到最后你会发现。",
+          "claim_ids": [
+            "o2"
+          ]
+        },
+        {
+          "text": "家政这个民生行业，链接的是一老一小。",
+          "claim_ids": [
+            "c5"
+          ]
+        },
+        {
+          "text": "连着的是一个个家庭。",
+          "claim_ids": [
+            "c5"
+          ]
+        },
+        {
+          "text": "你做得标不标准，专不专业，人家家里是能感受到的。",
+          "claim_ids": [
+            "o3",
+            "c13"
+          ]
+        },
+        {
+          "text": "主任昨天在我们这看了一圈。",
+          "claim_ids": [
+            "c6"
+          ]
+        },
+        {
+          "text": "她说，我们企业的场域设计，完全符合他们的考场网点。",
+          "claim_ids": [
+            "c6"
+          ]
+        },
+        {
+          "text": "这句话，我听完心里特别有劲。",
+          "claim_ids": [
+            "c9"
+          ]
+        },
+        {
+          "text": "因为你一直坚持的事，突然有人告诉你：",
+          "claim_ids": [
+            "c9"
+          ]
+        },
+        {
+          "text": "这条路是对的。",
+          "claim_ids": [
+            "c9"
+          ]
+        },
+        {
+          "text": "今年我们一冉还承接了双进家的培训。",
+          "claim_ids": [
+            "c7"
+          ]
+        },
+        {
+          "text": "主任这次来，也不只是送牌子。",
+          "claim_ids": [
+            "c8"
+          ]
+        },
+        {
+          "text": "她还要看我们各单位推进到哪一步了。",
+          "claim_ids": [
+            "c8"
+          ]
+        },
+        {
+          "text": "还有哪些发展上的问题，需要实际解决。",
+          "claim_ids": [
+            "c8"
+          ]
+        },
+        {
+          "text": "所以接下来，我们就梳理好，马上行动。",
+          "claim_ids": [
+            "c10"
+          ]
+        },
+        {
+          "text": "继续把标准化服务往前推。",
+          "claim_ids": [
+            "c13"
+          ]
+        },
+        {
+          "text": "帮更多生育友好岗的女性，灵活就业。",
+          "claim_ids": [
+            "c11"
+          ]
+        },
+        {
+          "text": "也帮更多迷茫择业的人，低成本、高质量地创业。",
+          "claim_ids": [
+            "c12"
+          ]
+        },
+        {
+          "text": "我今天想说的不是我拿了一块牌子。",
+          "claim_ids": [
+            "o1"
+          ]
+        },
+        {
+          "text": "而是家政这条路，它没有错。",
+          "claim_ids": [
+            "c9",
+            "o2"
+          ]
+        },
+        {
+          "text": "只要我们真把标准做出来，把服务做好。",
+          "claim_ids": [
+            "c13",
+            "o3"
+          ]
+        },
+        {
+          "text": "这个行业，就一定值得被重新看见。",
+          "claim_ids": [
+            "o2"
+          ]
+        }
+      ]
+    }
+  ],
+  "fix_notes": [
+    "删除未核实的“官方授牌/省里考点标准”表达，改回素材可支持的“协会授牌/他们的考场网点”。",
+    "删除主体归属错置的“一冉做双进家培训总考执行”，改为“一冉承接双进家培训；主任来了解进度和问题”。",
+    "删除“低端出苦力没饭吃了”等外部模型狠句，改为标准化和业务价值表达。",
+    "重建 spoken_sections 逐行证据登记。"
+  ]
+}

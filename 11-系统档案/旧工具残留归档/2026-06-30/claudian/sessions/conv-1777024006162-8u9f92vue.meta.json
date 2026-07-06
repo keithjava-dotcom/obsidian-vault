@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777024006162-8u9f92vue",
+  "providerId": "claude",
+  "title": "帮我给赵姐 做一份账号定位报告。",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777024006163,
+  "updatedAt": 1777043072070,
+  "lastResponseAt": 1777027083356,
+  "sessionId": "bff44923-4e21-4060-af37-d618a467a917",
+  "providerState": {
+    "providerSessionId": "bff44923-4e21-4060-af37-d618a467a917"
+  },
+  "currentNote": "04服务客户/心理咨询室/赵姐/00-赵姐-基本信息.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 75543,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 75543,
+    "percentage": 38,
+    "contextWindowIsAuthoritative": true
+  }
+}

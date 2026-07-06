@@ -1,0 +1,24 @@
+{
+  "id": "conv-1778404740363-x4sxoqmfz",
+  "providerId": "claude",
+  "title": "使用说明：",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1778404740363,
+  "updatedAt": 1778458965810,
+  "lastResponseAt": 1778405837759,
+  "sessionId": "d2f8e388-97ab-4e0f-bf1f-58b924749ce2",
+  "providerState": {
+    "providerSessionId": "d2f8e388-97ab-4e0f-bf1f-58b924749ce2"
+  },
+  "currentNote": "04服务客户/大连/一冉家政/合伙人李秀玲（普兰店）/00-客户背景（原稿）.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 91280,
+    "cacheReadInputTokens": 20918,
+    "contextWindow": 200000,
+    "contextTokens": 112199,
+    "percentage": 56,
+    "contextWindowIsAuthoritative": true
+  }
+}

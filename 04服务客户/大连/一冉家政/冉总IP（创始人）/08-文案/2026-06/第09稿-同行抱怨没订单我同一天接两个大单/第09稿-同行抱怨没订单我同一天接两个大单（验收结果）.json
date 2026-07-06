@@ -1,0 +1,425 @@
+{
+  "task": "第09稿-同行抱怨没订单我同一天接两个大单",
+  "status": "FAIL",
+  "summary": {
+    "total": 40,
+    "passed": 18,
+    "failed": 22
+  },
+  "checks": [
+    {
+      "id": "source-files-present",
+      "passed": true,
+      "evidence": {
+        "count": 1
+      }
+    },
+    {
+      "id": "outputs-present",
+      "passed": true,
+      "evidence": {
+        "count": 1
+      }
+    },
+    {
+      "id": "claims-present",
+      "passed": true,
+      "evidence": {
+        "count": 12
+      }
+    },
+    {
+      "id": "spoken-evidence-schema-v2",
+      "passed": true,
+      "evidence": {
+        "schema_version": 2,
+        "ip_script_outputs": 1,
+        "spoken_sections": 1
+      }
+    },
+    {
+      "id": "source:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/00-碰撞草稿/26.7.28.md",
+      "passed": true,
+      "evidence": "file exists"
+    },
+    {
+      "id": "output:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md",
+      "passed": true,
+      "evidence": "file exists"
+    },
+    {
+      "id": "readback:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md",
+      "passed": true,
+      "evidence": {
+        "bytes": 3841,
+        "sha256": "a307dd4403644b27959eeaa2b08468c10782037c1805e6731a02d1c1c38d6ea8"
+      }
+    },
+    {
+      "id": "claim:c1",
+      "passed": true,
+      "evidence": {
+        "text": "今天是我妈妈的生日",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/00-碰撞草稿/26.7.28.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c2",
+      "passed": false,
+      "evidence": {
+        "text": "从小到大妈妈一直支持我",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/00-碰撞草稿/26.7.28.md",
+        "listed_in_source_files": true,
+        "quote_found": false
+      }
+    },
+    {
+      "id": "claim:c3",
+      "passed": false,
+      "evidence": {
+        "text": "单元房整体打通装修完需要开荒",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/00-碰撞草稿/26.7.28.md",
+        "listed_in_source_files": true,
+        "quote_found": false
+      }
+    },
+    {
+      "id": "claim:c4",
+      "passed": true,
+      "evidence": {
+        "text": "10万方厂房开荒",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/00-碰撞草稿/26.7.28.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c5",
+      "passed": true,
+      "evidence": {
+        "text": "日入六位数",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/00-碰撞草稿/26.7.28.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c6",
+      "passed": false,
+      "evidence": {
+        "text": "同行抱怨没订单",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/00-碰撞草稿/26.7.28.md",
+        "listed_in_source_files": true,
+        "quote_found": false
+      }
+    },
+    {
+      "id": "claim:c7",
+      "passed": true,
+      "evidence": {
+        "text": "品牌定位一开始就清晰",
+        "source_type": "opinion",
+        "status": "confirmed"
+      }
+    },
+    {
+      "id": "claim:c8",
+      "passed": false,
+      "evidence": {
+        "text": "有标准的SOP和售后跟踪",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/00-碰撞草稿/26.7.28.md",
+        "listed_in_source_files": true,
+        "quote_found": false
+      }
+    },
+    {
+      "id": "claim:c9",
+      "passed": false,
+      "evidence": {
+        "text": "下午两个新人报到学保洁",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/00-碰撞草稿/26.7.28.md",
+        "listed_in_source_files": true,
+        "quote_found": false
+      }
+    },
+    {
+      "id": "claim:c10",
+      "passed": false,
+      "evidence": {
+        "text": "晚上带妈妈出去吃饭放松",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/00-碰撞草稿/26.7.28.md",
+        "listed_in_source_files": true,
+        "quote_found": false
+      }
+    },
+    {
+      "id": "claim:c11",
+      "passed": true,
+      "evidence": {
+        "text": "日入六位数的具体业务细节",
+        "source_type": "pending_confirmation",
+        "status": "pending"
+      }
+    },
+    {
+      "id": "claim:c12",
+      "passed": true,
+      "evidence": {
+        "text": "新人的来源和动机",
+        "source_type": "pending_confirmation",
+        "status": "pending"
+      }
+    },
+    {
+      "id": "spoken-section-output:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md",
+      "passed": true,
+      "evidence": {
+        "output_listed_as_ip_script": true,
+        "output_read": true
+      }
+    },
+    {
+      "id": "spoken-section-markers:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md",
+      "passed": true,
+      "evidence": {
+        "start_marker": "<!-- IP_SPOKEN_START -->",
+        "end_marker": "<!-- IP_SPOKEN_END -->",
+        "start_found": true,
+        "end_found": true,
+        "marker_order_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md:今天是我妈妈的生日。",
+      "passed": true,
+      "evidence": {
+        "text": "今天是我妈妈的生日。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c1"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md:说实话，我特别开心。",
+      "passed": false,
+      "evidence": {
+        "text": "说实话，我特别开心。",
+        "exact_line_found": true,
+        "claim_ids": [],
+        "claims_valid": false
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md:从小到大，不管我有什么想法，学习也好、事业也好，我妈从来没拦过我。她就是那种，你做什么她都默默在后面支持你的人。",
+      "passed": false,
+      "evidence": {
+        "text": "从小到大，不管我有什么想法，学习也好、事业也好，我妈从来没拦过我。她就是那种，你做什么她都默默在后面支持你的人。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c2"
+        ],
+        "claims_valid": false
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md:所以我一直觉得，只要有她在，我就可以勇敢地往前走。",
+      "passed": false,
+      "evidence": {
+        "text": "所以我一直觉得，只要有她在，我就可以勇敢地往前走。",
+        "exact_line_found": true,
+        "claim_ids": [],
+        "claims_valid": false
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md:就今天这个日子，同一天，我接了俩大单。",
+      "passed": false,
+      "evidence": {
+        "text": "就今天这个日子，同一天，我接了俩大单。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c3",
+          "c4"
+        ],
+        "claims_valid": false
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md:一个单元房，客户把一整层买下来打通了，装修完要开荒。一个10万方的厂房开荒。日入六位数。",
+      "passed": false,
+      "evidence": {
+        "text": "一个单元房，客户把一整层买下来打通了，装修完要开荒。一个10万方的厂房开荒。日入六位数。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c3",
+          "c4",
+          "c5"
+        ],
+        "claims_valid": false
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md:有意思的是什么？",
+      "passed": false,
+      "evidence": {
+        "text": "有意思的是什么？",
+        "exact_line_found": true,
+        "claim_ids": [],
+        "claims_valid": false
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md:现在好多家政同行在抱怨——没单，不知道怎么获客。",
+      "passed": false,
+      "evidence": {
+        "text": "现在好多家政同行在抱怨——没单，不知道怎么获客。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c6"
+        ],
+        "claims_valid": false
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md:我同一天，接了俩大单。",
+      "passed": false,
+      "evidence": {
+        "text": "我同一天，接了俩大单。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c3",
+          "c4"
+        ],
+        "claims_valid": false
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md:差别在哪？",
+      "passed": false,
+      "evidence": {
+        "text": "差别在哪？",
+        "exact_line_found": true,
+        "claim_ids": [],
+        "claims_valid": false
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md:我进这行的时候，品牌这块，一开始就想清楚了。我不是先开店再想我是谁——我是先想清楚“一冉要做什么样的家政”，再往下走的。从开展思路、到标准的SOP、到售后跟踪——这些东西，少一样都不行。",
+      "passed": false,
+      "evidence": {
+        "text": "我进这行的时候，品牌这块，一开始就想清楚了。我不是先开店再想我是谁——我是先想清楚“一冉要做什么样的家政”，再往下走的。从开展思路、到标准的SOP、到售后跟踪——这些东西，少一样都不行。",
+        "exact_line_found": false,
+        "claim_ids": [
+          "c7",
+          "c8"
+        ],
+        "claims_valid": false
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md:说白了，不是我今天运气好碰上了。是这些事，我之前全做了。",
+      "passed": false,
+      "evidence": {
+        "text": "说白了，不是我今天运气好碰上了。是这些事，我之前全做了。",
+        "exact_line_found": true,
+        "claim_ids": [],
+        "claims_valid": false
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md:你想去哪，自己得先知道。自己都说不清楚要去哪，别人怎么跟你走？",
+      "passed": false,
+      "evidence": {
+        "text": "你想去哪，自己得先知道。自己都说不清楚要去哪，别人怎么跟你走？",
+        "exact_line_found": true,
+        "claim_ids": [],
+        "claims_valid": false
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md:下午还有两个新人来公司报到，学保洁。公司没停，一直在进人。",
+      "passed": false,
+      "evidence": {
+        "text": "下午还有两个新人来公司报到，学保洁。公司没停，一直在进人。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c9"
+        ],
+        "claims_valid": false
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md:晚上我带我妈出去，吃顿饭，放松一下。",
+      "passed": false,
+      "evidence": {
+        "text": "晚上我带我妈出去，吃顿饭，放松一下。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c10"
+        ],
+        "claims_valid": false
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md:做成事，不代表不能生活。目标想清楚了，每天都是有条不紊的。",
+      "passed": false,
+      "evidence": {
+        "text": "做成事，不代表不能生活。目标想清楚了，每天都是有条不紊的。",
+        "exact_line_found": true,
+        "claim_ids": [],
+        "claims_valid": false
+      }
+    },
+    {
+      "id": "spoken-coverage:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第09稿-同行抱怨没订单我同一天接两个大单/第09稿-同行抱怨没订单我同一天接两个大单（IP口语稿）.md",
+      "passed": false,
+      "evidence": {
+        "spoken_line_count": 16,
+        "registered_unit_count": 16,
+        "uncovered_lines": [
+          "我进这行的时候，品牌这块，一开始就想清楚了。我不是先开店再想我是谁——我是先想清楚\"一冉要做什么样的家政\"，再往下走的。从开展思路、到标准的SOP、到售后跟踪——这些东西，少一样都不行。"
+        ],
+        "unused_units": [
+          "我进这行的时候，品牌这块，一开始就想清楚了。我不是先开店再想我是谁——我是先想清楚“一冉要做什么样的家政”，再往下走的。从开展思路、到标准的SOP、到售后跟踪——这些东西，少一样都不行。"
+        ]
+      }
+    },
+    {
+      "id": "dagang-exists",
+      "passed": true,
+      "evidence": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/06-dagang粗坯/2026-06/第08稿-同行抱怨没订单我同一天接两个大单/第08稿-同行抱怨没订单我同一天接两个大单（dagang粗坯）.md"
+    },
+    {
+      "id": "dagang-fact-status",
+      "passed": true,
+      "evidence": {
+        "approved": false,
+        "ready": false,
+        "contradiction": false
+      }
+    }
+  ],
+  "generatedAt": "2026-06-28T07:52:43.079Z"
+}

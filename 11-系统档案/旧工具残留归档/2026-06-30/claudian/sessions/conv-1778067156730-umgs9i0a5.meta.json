@@ -1,0 +1,23 @@
+{
+  "id": "conv-1778067156730-umgs9i0a5",
+  "providerId": "claude",
+  "title": "这是我的DeepSeekV4巡检内容，我需要你帮我确认是否正确，或者你有什么看法，然后帮我执行，",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1778067156730,
+  "updatedAt": 1778161476712,
+  "lastResponseAt": 1778067779491,
+  "sessionId": "246c86c5-5506-449e-b5a1-a788c20cefe5",
+  "providerState": {
+    "providerSessionId": "246c86c5-5506-449e-b5a1-a788c20cefe5"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 64887,
+    "cacheReadInputTokens": 20918,
+    "contextWindow": 200000,
+    "contextTokens": 85806,
+    "percentage": 43,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "conv-1776867236485-20osbokut",
+  "providerId": "claude",
+  "title": "你是柯建军的内容创作大脑。",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1776867236485,
+  "updatedAt": 1776910966988,
+  "lastResponseAt": 1776898787134,
+  "sessionId": "fe12d741-3672-485d-8421-de10c23dc6a9",
+  "providerState": {
+    "providerSessionId": "fe12d741-3672-485d-8421-de10c23dc6a9"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 50835,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 50835,
+    "percentage": 25
+  }
+}

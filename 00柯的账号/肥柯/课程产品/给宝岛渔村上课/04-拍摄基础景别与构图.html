@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>拍摄基础：景别与构图</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#f5f5f4;font-family:-apple-system,"PingFang SC","Noto Sans SC",sans-serif;display:flex;flex-direction:column;align-items:center;padding:20px 10px;gap:20px}
+.card{max-width:420px;width:100%;background:#fff;border-radius:16px;padding:20px;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+h1{text-align:center;font-size:20px;color:#1a1a1a;margin-bottom:2px}
+.sub{text-align:center;color:#888;font-size:12px;margin-bottom:12px}
+svg{width:100%;height:auto;display:block}
+.tip{text-align:center;color:#555;font-size:12px;margin-top:12px;padding:10px;background:#f0fdf4;border-radius:10px;border-left:3px solid #22C55E;line-height:1.6}
+
+/* 打印优化 */
+@media print {
+  body{background:#fff;padding:10px;gap:0}
+  .card{max-width:100%;border-radius:0;box-shadow:none;page-break-inside:avoid;break-inside:avoid;margin:0;padding:15px}
+  .sub{margin-bottom:8px}
+}
+</style>
+</head>
+<body>
+
+<!-- ===== 景别四件套 ===== -->
+<div class="card">
+<h1>用画面讲故事</h1>
+<p class="sub">四类景别交替组片 · 不配文案也能看懂</p>
+
+<svg viewBox="0 0 390 1100" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="sh" x="-4%" y="-4%" width="108%" height="108%">
+    <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+  </filter>
+  <marker id="a-down" viewBox="0 0 10 10" refX="5" refY="9" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M0,0 L5,10 L10,0" fill="#94A3B8"/>
+  </marker>
+</defs>
+
+<!-- 标题 -->
+<rect x="10" y="5" width="370" height="36" rx="10" fill="#1a1a1a"/>
+<text x="195" y="30" text-anchor="middle" fill="#fff" font-size="15" font-weight="700">景别四件套 · 手机对应倍数</text>
+
+<!-- ① 远景 -->
+<rect x="15" y="55" width="360" height="110" rx="10" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5" filter="url(#sh)"/>
+<rect x="15" y="55" width="80" height="32" rx="8" fill="#3B82F6"/>
+<text x="55" y="75" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">① 远景</text>
+<text x="195" y="82" text-anchor="middle" fill="#1D4ED8" font-size="13" font-weight="600">交代环境和背景</text>
+<text x="195" y="100" text-anchor="middle" fill="#3B82F6" font-size="12">手机 0.5×</text>
+<text x="195" y="120" text-anchor="middle" fill="#64748B" font-size="11">→ 酒店外观/门口 → 全景/宴会厅</text>
+<text x="195" y="145" text-anchor="middle" fill="#93C5FD" font-size="12">"我们在这"</text>
+
+<!-- ② 中景 -->
+<rect x="15" y="180" width="360" height="110" rx="10" fill="#F0FDF4" stroke="#22C55E" stroke-width="1.5" filter="url(#sh)"/>
+<rect x="15" y="180" width="80" height="32" rx="8" fill="#22C55E"/>
+<text x="55" y="200" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">② 中景</text>
+<text x="195" y="207" text-anchor="middle" fill="#15803D" font-size="13" font-weight="600">谁在干什么</text>
+<text x="195" y="225" text-anchor="middle" fill="#22C55E" font-size="12">手机 1×</text>
+<text x="195" y="245" text-anchor="middle" fill="#64748B" font-size="11">→ 人在讲课/听课 → 做饭/端菜</text>
+<text x="195" y="270" text-anchor="middle" fill="#86EFAC" font-size="12">"谁在干嘛"</text>
+
+<!-- ③ 近景 -->
+<rect x="15" y="305" width="360" height="110" rx="10" fill="#FFF7ED" stroke="#F97316" stroke-width="1.5" filter="url(#sh)"/>
+<rect x="15" y="305" width="80" height="32" rx="8" fill="#F97316"/>
+<text x="55" y="325" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">③ 近景</text>
+<text x="195" y="332" text-anchor="middle" fill="#C2410C" font-size="13" font-weight="600">具体动作</text>
+<text x="195" y="350" text-anchor="middle" fill="#F97316" font-size="12">手机 2-3×</text>
+<text x="195" y="370" text-anchor="middle" fill="#64748B" font-size="11">→ 讲解细节 → 切菜/摆盘手法</text>
+<text x="195" y="395" text-anchor="middle" fill="#FDBA74" font-size="12">"重点看这"</text>
+
+<!-- ④ 特写 -->
+<rect x="15" y="430" width="360" height="110" rx="10" fill="#FDF2F8" stroke="#EC4899" stroke-width="1.5" filter="url(#sh)"/>
+<rect x="15" y="430" width="80" height="32" rx="8" fill="#EC4899"/>
+<text x="55" y="450" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">④ 特写</text>
+<text x="195" y="457" text-anchor="middle" fill="#BE185D" font-size="13" font-weight="600">看细节</text>
+<text x="195" y="475" text-anchor="middle" fill="#EC4899" font-size="12">手机 4-8×</text>
+<text x="195" y="495" text-anchor="middle" fill="#64748B" font-size="11">→ 菜品特写 → 生日蜡烛火焰</text>
+<text x="195" y="520" text-anchor="middle" fill="#F9A8D4" font-size="12">"就是这个!"</text>
+
+<!-- 剪辑提示 -->
+<rect x="15" y="560" width="360" height="50" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+<text x="195" y="580" text-anchor="middle" fill="#334155" font-size="13" font-weight="600">剪辑口诀</text>
+<text x="195" y="598" text-anchor="middle" fill="#64748B" font-size="11">远→中→近→特交替 · 不要一个景别拍到底</text>
+
+<!-- 手机拍摄要点 -->
+<rect x="15" y="630" width="360" height="70" rx="10" fill="#F0FDF4" stroke="#22C55E" stroke-width="1.5"/>
+<text x="195" y="654" text-anchor="middle" fill="#15803D" font-size="13" font-weight="700">📱 手机拍摄要点</text>
+<text x="195" y="674" text-anchor="middle" fill="#333" font-size="11">双手持机 · 竖屏 · 先拍到再考虑拍好看</text>
+<text x="195" y="690" text-anchor="middle" fill="#64748B" font-size="10">0.5x（远）→ 1x（中）→ 2-3x（近）→ 4-8x（特）</text>
+
+<text x="195" y="730" text-anchor="middle" fill="#aaa" font-size="10">给宝岛渔村 · 柯建军 Day1课程</text>
+</svg>
+</div>
+
+<!-- ===== 构图 ===== -->
+<div class="card">
+<h1>构图</h1>
+<p class="sub">两种基础构图，用手机就能拍</p>
+
+<svg viewBox="0 0 390 980" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="sh" x="-4%" y="-4%" width="108%" height="108%">
+    <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+  </filter>
+</defs>
+
+<!-- 三分构图 -->
+<rect x="15" y="10" width="360" height="440" rx="12" fill="#FAFAFA" stroke="#CBD5E1" stroke-width="1" filter="url(#sh)"/>
+<text x="195" y="38" text-anchor="middle" fill="#1E293B" font-size="15" font-weight="700">三分构图（黄金构图）</text>
+<text x="195" y="58" text-anchor="middle" fill="#64748B" font-size="11">画面分九宫格 · 主体放交叉点</text>
+
+<g transform="translate(35,75)">
+  <rect x="0" y="0" width="320" height="220" fill="#fff" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="107" y1="0" x2="107" y2="220" stroke="#CBD5E1" stroke-width="0.8"/>
+  <line x1="214" y1="0" x2="214" y2="220" stroke="#CBD5E1" stroke-width="0.8"/>
+  <line x1="0" y1="73" x2="320" y2="73" stroke="#CBD5E1" stroke-width="0.8"/>
+  <line x1="0" y1="147" x2="320" y2="147" stroke="#CBD5E1" stroke-width="0.8"/>
+  
+  <circle cx="107" cy="73" r="8" fill="#3B82F6" opacity="0.7"/>
+  <circle cx="214" cy="73" r="8" fill="#3B82F6" opacity="0.7"/>
+  <circle cx="107" cy="147" r="8" fill="#3B82F6" opacity="0.7"/>
+  <circle cx="214" cy="147" r="8" fill="#3B82F6" opacity="0.7"/>
+  
+  <text x="318" y="18" text-anchor="end" fill="#3B82F6" font-size="11">✅ 放这里</text>
+  <text x="318" y="88" text-anchor="end" fill="#3B82F6" font-size="11">✅ 最佳</text>
+  <text x="318" y="162" text-anchor="end" fill="#3B82F6" font-size="11">✅ 放这里</text>
+  
+  <rect x="15" y="8" width="55" height="20" rx="3" fill="#93C5FD" opacity="0.35"/>
+  <text x="42" y="22" text-anchor="middle" fill="#1D4ED8" font-size="9">留空</text>
+</g>
+
+<text x="195" y="320" text-anchor="middle" fill="#64748B" font-size="11">顶部多留空（天空/天花板）· 底部不多留空</text>
+
+<text x="195" y="350" text-anchor="middle" fill="#1E293B" font-size="13" font-weight="600">拍摄示例</text>
+<text x="195" y="375" text-anchor="middle" fill="#64748B" font-size="11">人物在左侧三分之一处，右侧留出环境</text>
+<text x="195" y="395" text-anchor="middle" fill="#64748B" font-size="11">主菜放在右上交叉点，突出主体</text>
+<text x="195" y="415" text-anchor="middle" fill="#64748B" font-size="11">主体视线方向留空间，不要贴边</text>
+<text x="195" y="440" text-anchor="middle" fill="#93C5FD" font-size="11">✅ 新手首选，适用于绝大多数场景</text>
+
+<!-- 居中构图 -->
+<rect x="15" y="470" width="360" height="400" rx="12" fill="#FAFAFA" stroke="#CBD5E1" stroke-width="1" filter="url(#sh)"/>
+<text x="195" y="498" text-anchor="middle" fill="#1E293B" font-size="15" font-weight="700">居中构图</text>
+<text x="195" y="518" text-anchor="middle" fill="#64748B" font-size="11">主体放画面正中央</text>
+
+<g transform="translate(35,535)">
+  <rect x="0" y="0" width="320" height="180" fill="#fff" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="0" y1="90" x2="320" y2="90" stroke="#E2E8F0" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <line x1="160" y1="0" x2="160" y2="180" stroke="#E2E8F0" stroke-width="0.8" stroke-dasharray="3,3"/>
+  
+  <circle cx="160" cy="90" r="8" fill="#F97316" opacity="0.7"/>
+  
+  <rect x="120" y="55" width="80" height="75" rx="4" fill="#FDBA74" opacity="0.3" stroke="#F97316" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="160" y="100" text-anchor="middle" fill="#C2410C" font-size="14" font-weight="600">主 体</text>
+  
+  <text x="318" y="18" text-anchor="end" fill="#F97316" font-size="11">✅ 放正中</text>
+</g>
+
+<text x="195" y="740" text-anchor="middle" fill="#64748B" font-size="11">适合口播、产品展示、菜单展示</text>
+<text x="195" y="765" text-anchor="middle" fill="#64748B" font-size="11">画面左右对称，主题居中突出</text>
+<text x="195" y="785" text-anchor="middle" fill="#FDBA74" font-size="11">✅ 简单直接，不出错</text>
+
+<text x="195" y="830" text-anchor="middle" fill="#aaa" font-size="10">给宝岛渔村 · 柯建军 Day1课程</text>
+</svg>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "id": "conv-1776927099862-w7zljtwns",
+  "providerId": "claude",
+  "title": "请整理以下会议录音，提炼出结构化内容素材。",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1776927099862,
+  "updatedAt": 1776927671489,
+  "lastResponseAt": 1776927341742,
+  "sessionId": "9d7254ae-6b2c-4fd5-9efb-632da9f7d2f4",
+  "providerState": {
+    "providerSessionId": "9d7254ae-6b2c-4fd5-9efb-632da9f7d2f4"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 14340,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 14340,
+    "percentage": 7
+  }
+}

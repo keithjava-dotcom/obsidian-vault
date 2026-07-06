@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777536998246-gm524gzgm",
+  "providerId": "claude",
+  "title": "帮我记录一个我自己的灵感，现在在抖音上教人做视频，很容易违规，要把主题变成分享个人的感受，经验分享。...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777536998246,
+  "updatedAt": 1778485900886,
+  "lastResponseAt": 1777772506999,
+  "sessionId": "8b82afa8-0aa4-46ed-9972-c44cca9b833c",
+  "providerState": {
+    "providerSessionId": "8b82afa8-0aa4-46ed-9972-c44cca9b833c"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

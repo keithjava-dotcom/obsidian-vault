@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777537531800-1hl69vn8y",
+  "providerId": "claude",
+  "title": "如何把这一篇我刚学习的博主文章，变成我的神经元重塑？为以后工作中使用？",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777537531800,
+  "updatedAt": 1777552994825,
+  "lastResponseAt": 1777537836901,
+  "sessionId": "9de241ef-5f77-456b-8c1c-409869f46e50",
+  "providerState": {
+    "providerSessionId": "9de241ef-5f77-456b-8c1c-409869f46e50"
+  },
+  "currentNote": "01新媒体知识库-源文件/4-知识类IP参考_PPT动画与封面设计.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 26993,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 26993,
+    "percentage": 13,
+    "contextWindowIsAuthoritative": true
+  }
+}

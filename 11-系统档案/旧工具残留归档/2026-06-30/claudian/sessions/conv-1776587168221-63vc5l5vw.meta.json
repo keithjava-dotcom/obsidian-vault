@@ -1,0 +1,22 @@
+{
+  "id": "conv-1776587168221-63vc5l5vw",
+  "providerId": "claude",
+  "title": "你好",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776587168224,
+  "updatedAt": 1776819476953,
+  "lastResponseAt": 1776809774674,
+  "sessionId": "3ecc5331-682b-4b78-984c-447a5d98706c",
+  "providerState": {
+    "providerSessionId": "3ecc5331-682b-4b78-984c-447a5d98706c"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 4495,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 4495,
+    "percentage": 2
+  }
+}

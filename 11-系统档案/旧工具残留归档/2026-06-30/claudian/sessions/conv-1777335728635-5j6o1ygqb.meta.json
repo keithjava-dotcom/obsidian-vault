@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777335728635-5j6o1ygqb",
+  "providerId": "claude",
+  "title": "这是一冉家政的一个活动，我罗列出了，活动主题以及活动的步骤，我想让你帮我出脚本模板，这个目标是一个长...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777335728636,
+  "updatedAt": 1777369882283,
+  "lastResponseAt": 1777337769974,
+  "sessionId": "c13b84a3-6e47-4438-944e-fd777a9b1f0d",
+  "providerState": {
+    "providerSessionId": "c13b84a3-6e47-4438-944e-fd777a9b1f0d"
+  },
+  "currentNote": "04服务客户/大连/一冉家政/冉总IP（创始人）/交付/00-下社区活动挑战-系列.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 90709,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 90709,
+    "percentage": 45,
+    "contextWindowIsAuthoritative": true
+  }
+}

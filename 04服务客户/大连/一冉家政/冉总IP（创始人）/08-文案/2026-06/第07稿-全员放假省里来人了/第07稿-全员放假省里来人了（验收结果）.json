@@ -1,0 +1,661 @@
+{
+  "task": "第07稿-全员放假省里来人了",
+  "status": "PASS",
+  "summary": {
+    "total": 59,
+    "passed": 59,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "id": "source-files-present",
+      "passed": true,
+      "evidence": {
+        "count": 1
+      }
+    },
+    {
+      "id": "outputs-present",
+      "passed": true,
+      "evidence": {
+        "count": 1
+      }
+    },
+    {
+      "id": "claims-present",
+      "passed": true,
+      "evidence": {
+        "count": 16
+      }
+    },
+    {
+      "id": "spoken-evidence-schema-v2",
+      "passed": true,
+      "evidence": {
+        "schema_version": 2,
+        "ip_script_outputs": 1,
+        "spoken_sections": 1
+      }
+    },
+    {
+      "id": "source:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+      "passed": true,
+      "evidence": "file exists"
+    },
+    {
+      "id": "output:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md",
+      "passed": true,
+      "evidence": "file exists"
+    },
+    {
+      "id": "readback:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md",
+      "passed": true,
+      "evidence": {
+        "bytes": 4481,
+        "sha256": "0ba0b06e73b328c56a5e2416c335e9596b62e5d439c0792f423f86158d020103"
+      }
+    },
+    {
+      "id": "claim:c1",
+      "passed": true,
+      "evidence": {
+        "text": "昨天本来全员放假。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c2",
+      "passed": true,
+      "evidence": {
+        "text": "省里巾帼家政专委会的徐主任来了，给一冉送牌子。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c3",
+      "passed": true,
+      "evidence": {
+        "text": "辽宁省职业技能培训协会授牌。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c4",
+      "passed": true,
+      "evidence": {
+        "text": "一冉家政开通各类专项等级资格证的报考直通车。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c5",
+      "passed": true,
+      "evidence": {
+        "text": "家政这个民生行业链接一老一小，连接所有家庭。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c6",
+      "passed": true,
+      "evidence": {
+        "text": "主任说企业场域设计符合他们的考场网点。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c7",
+      "passed": true,
+      "evidence": {
+        "text": "一冉承接了双进家的培训。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c8",
+      "passed": true,
+      "evidence": {
+        "text": "徐主任这次来了解各单位进度和需要解决的发展问题。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c9",
+      "passed": true,
+      "evidence": {
+        "text": "冉总被授牌和交流增加前行动能，坚定行业选择。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c10",
+      "passed": true,
+      "evidence": {
+        "text": "冉总接下来会梳理好后立即行动。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c11",
+      "passed": true,
+      "evidence": {
+        "text": "帮助生育友好岗女性灵活就业。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c12",
+      "passed": true,
+      "evidence": {
+        "text": "帮助迷茫择业的人低成本高质量创业。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:c13",
+      "passed": true,
+      "evidence": {
+        "text": "家政行业需要标准化和专业服务。",
+        "source_type": "source_file",
+        "status": "confirmed",
+        "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.27日-记录.md",
+        "listed_in_source_files": true,
+        "quote_found": true
+      }
+    },
+    {
+      "id": "claim:o1",
+      "passed": true,
+      "evidence": {
+        "text": "这不是多一块牌子那么简单。",
+        "source_type": "opinion",
+        "status": "opinion"
+      }
+    },
+    {
+      "id": "claim:o2",
+      "passed": true,
+      "evidence": {
+        "text": "家政不是低人一等的活，这条路值得被重新看见。",
+        "source_type": "opinion",
+        "status": "opinion"
+      }
+    },
+    {
+      "id": "claim:o3",
+      "passed": true,
+      "evidence": {
+        "text": "做得标不标准、专不专业，家庭能感受到。",
+        "source_type": "opinion",
+        "status": "opinion"
+      }
+    },
+    {
+      "id": "spoken-section-output:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md",
+      "passed": true,
+      "evidence": {
+        "output_listed_as_ip_script": true,
+        "output_read": true
+      }
+    },
+    {
+      "id": "spoken-section-markers:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md",
+      "passed": true,
+      "evidence": {
+        "start_marker": "<!-- IP_SPOKEN_START -->",
+        "end_marker": "<!-- IP_SPOKEN_END -->",
+        "start_found": true,
+        "end_found": true,
+        "marker_order_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:昨天本来全员放假。",
+      "passed": true,
+      "evidence": {
+        "text": "昨天本来全员放假。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c1"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:结果省里巾帼家政专委会的徐主任来了。",
+      "passed": true,
+      "evidence": {
+        "text": "结果省里巾帼家政专委会的徐主任来了。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c2"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:给一冉送了一块牌子。",
+      "passed": true,
+      "evidence": {
+        "text": "给一冉送了一块牌子。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c2"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:辽宁省职业技能培训协会授牌。",
+      "passed": true,
+      "evidence": {
+        "text": "辽宁省职业技能培训协会授牌。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c3"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:说实话，这不是多一块牌子那么简单。",
+      "passed": true,
+      "evidence": {
+        "text": "说实话，这不是多一块牌子那么简单。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "o1"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:它意味着什么？",
+      "passed": true,
+      "evidence": {
+        "text": "它意味着什么？",
+        "exact_line_found": true,
+        "claim_ids": [
+          "o1"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:从这以后，我们一冉家政，开通了各类专项等级资格证的报考直通车。",
+      "passed": true,
+      "evidence": {
+        "text": "从这以后，我们一冉家政，开通了各类专项等级资格证的报考直通车。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c4"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:这件事，对我触动挺大的。",
+      "passed": true,
+      "evidence": {
+        "text": "这件事，对我触动挺大的。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c9"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:因为做家政这些年，我最怕别人把这行看轻了。",
+      "passed": true,
+      "evidence": {
+        "text": "因为做家政这些年，我最怕别人把这行看轻了。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "o2"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:总有人觉得，家政不就是伺候人吗？",
+      "passed": true,
+      "evidence": {
+        "text": "总有人觉得，家政不就是伺候人吗？",
+        "exact_line_found": true,
+        "claim_ids": [
+          "o2"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:可真干到最后你会发现。",
+      "passed": true,
+      "evidence": {
+        "text": "可真干到最后你会发现。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "o2"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:家政这个民生行业，链接的是一老一小。",
+      "passed": true,
+      "evidence": {
+        "text": "家政这个民生行业，链接的是一老一小。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c5"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:连着的是一个个家庭。",
+      "passed": true,
+      "evidence": {
+        "text": "连着的是一个个家庭。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c5"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:你做得标不标准，专不专业，人家家里是能感受到的。",
+      "passed": true,
+      "evidence": {
+        "text": "你做得标不标准，专不专业，人家家里是能感受到的。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "o3",
+          "c13"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:主任昨天在我们这看了一圈。",
+      "passed": true,
+      "evidence": {
+        "text": "主任昨天在我们这看了一圈。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c6"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:她说，我们企业的场域设计，完全符合他们的考场网点。",
+      "passed": true,
+      "evidence": {
+        "text": "她说，我们企业的场域设计，完全符合他们的考场网点。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c6"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:这句话，我听完心里特别有劲。",
+      "passed": true,
+      "evidence": {
+        "text": "这句话，我听完心里特别有劲。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c9"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:因为你一直坚持的事，突然有人告诉你：",
+      "passed": true,
+      "evidence": {
+        "text": "因为你一直坚持的事，突然有人告诉你：",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c9"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:这条路是对的。",
+      "passed": true,
+      "evidence": {
+        "text": "这条路是对的。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c9"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:今年我们一冉还承接了双进家的培训。",
+      "passed": true,
+      "evidence": {
+        "text": "今年我们一冉还承接了双进家的培训。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c7"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:主任这次来，也不只是送牌子。",
+      "passed": true,
+      "evidence": {
+        "text": "主任这次来，也不只是送牌子。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c8"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:她还要看我们各单位推进到哪一步了。",
+      "passed": true,
+      "evidence": {
+        "text": "她还要看我们各单位推进到哪一步了。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c8"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:还有哪些发展上的问题，需要实际解决。",
+      "passed": true,
+      "evidence": {
+        "text": "还有哪些发展上的问题，需要实际解决。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c8"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:所以接下来，我们就梳理好，马上行动。",
+      "passed": true,
+      "evidence": {
+        "text": "所以接下来，我们就梳理好，马上行动。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c10"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:继续把标准化服务往前推。",
+      "passed": true,
+      "evidence": {
+        "text": "继续把标准化服务往前推。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c13"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:帮更多生育友好岗的女性，灵活就业。",
+      "passed": true,
+      "evidence": {
+        "text": "帮更多生育友好岗的女性，灵活就业。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c11"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:也帮更多迷茫择业的人，低成本、高质量地创业。",
+      "passed": true,
+      "evidence": {
+        "text": "也帮更多迷茫择业的人，低成本、高质量地创业。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c12"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:我今天想说的不是我拿了一块牌子。",
+      "passed": true,
+      "evidence": {
+        "text": "我今天想说的不是我拿了一块牌子。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "o1"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:而是家政这条路，它没有错。",
+      "passed": true,
+      "evidence": {
+        "text": "而是家政这条路，它没有错。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c9",
+          "o2"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:只要我们真把标准做出来，把服务做好。",
+      "passed": true,
+      "evidence": {
+        "text": "只要我们真把标准做出来，把服务做好。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "c13",
+          "o3"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-unit:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md:这个行业，就一定值得被重新看见。",
+      "passed": true,
+      "evidence": {
+        "text": "这个行业，就一定值得被重新看见。",
+        "exact_line_found": true,
+        "claim_ids": [
+          "o2"
+        ],
+        "claims_valid": true
+      }
+    },
+    {
+      "id": "spoken-coverage:/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（IP口语稿）.md",
+      "passed": true,
+      "evidence": {
+        "spoken_line_count": 31,
+        "registered_unit_count": 31,
+        "uncovered_lines": [],
+        "unused_units": []
+      }
+    },
+    {
+      "id": "dagang-exists",
+      "passed": true,
+      "evidence": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/06-dagang粗坯/2026-06/第07稿-全员放假省里来人了/第07稿-全员放假省里来人了（dagang粗坯）.md"
+    },
+    {
+      "id": "dagang-fact-status",
+      "passed": true,
+      "evidence": {
+        "approved": true,
+        "ready": true,
+        "contradiction": false
+      }
+    }
+  ],
+  "generatedAt": "2026-06-28T00:27:02.698Z"
+}

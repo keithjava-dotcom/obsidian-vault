@@ -1,0 +1,13 @@
+.obsidian/
+.smart-env/
+.claude/
+.claudian/
+Excalidraw/
+copilot/
+*.mp4
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.pdf
+*.zip

@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777084921100-f4tdsz5c1",
+  "providerId": "claude",
+  "title": "自媒体账号从0到1 · 协作经验记录",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777084921101,
+  "updatedAt": 1777170833802,
+  "lastResponseAt": 1777086157725,
+  "sessionId": "88455cf8-0bb8-46b2-be40-b9386153ee37",
+  "providerState": {
+    "providerSessionId": "88455cf8-0bb8-46b2-be40-b9386153ee37"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 22642,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 22642,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
+}

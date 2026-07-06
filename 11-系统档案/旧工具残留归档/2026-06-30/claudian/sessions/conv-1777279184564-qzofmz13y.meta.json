@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777279184564-qzofmz13y",
+  "providerId": "claude",
+  "title": "指令正文",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1777279184564,
+  "updatedAt": 1777299002717,
+  "lastResponseAt": 1777282923764,
+  "sessionId": "05375fcb-c520-463d-8052-700cfeb4b057",
+  "providerState": {
+    "providerSessionId": "05375fcb-c520-463d-8052-700cfeb4b057"
+  },
+  "currentNote": "04服务客户/大连/偏偏（代运营）/00原始素材.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 80547,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 80547,
+    "percentage": 40,
+    "contextWindowIsAuthoritative": true
+  }
+}

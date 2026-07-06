@@ -1,0 +1,29 @@
+{
+  "content_task_chain_id": "2026-07-信托爆雷之后我为什么选择保险",
+  "file": "第04稿-信托爆雷之后我为什么选择保险-二次压测（IP口语稿）.md",
+  "version": "二次压测版",
+  "check_date": "2026-07-02",
+  "evidence": [
+    {"id": 1, "claim": "黄倩前职为信托公司从业者", "source": "00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md L1", "status": "confirmed"},
+    {"id": 2, "claim": "信托单笔300万起步", "source": "00-碰撞草稿 L13", "status": "confirmed"},
+    {"id": 3, "claim": "经历信托爆雷那两年", "source": "00-碰撞草稿 L1", "status": "confirmed"},
+    {"id": 4, "claim": "目睹信托爆雷中家庭/投资人的遭遇", "source": "00-碰撞草稿 L1", "status": "confirmed"},
+    {"id": 5, "claim": "考取基金从业资格证", "source": "00-碰撞草稿 L7", "status": "confirmed"},
+    {"id": 6, "claim": "考取证券从业资格证", "source": "00-碰撞草稿 L7", "status": "confirmed"},
+    {"id": 7, "claim": "对炒股不感兴趣", "source": "00-碰撞草稿 L7-8", "status": "confirmed"},
+    {"id": 8, "claim": "2024年底泰康大连虎滩湾社区落地", "source": "00-碰撞草稿 L9 + 专名校准", "status": "confirmed"},
+    {"id": 9, "claim": "曾经对保险行业有偏见", "source": "00-碰撞草稿 L11", "status": "confirmed"},
+    {"id": 10, "claim": "保险比信托大额保单更难", "source": "00-碰撞草稿 L13-14", "status": "confirmed"},
+    {"id": 11, "claim": "加入泰康成为HWP", "source": "00-碰撞草稿 L14", "status": "confirmed"},
+    {"id": 12, "claim": "考取RFP和AFM证书", "source": "00-碰撞草稿 L17", "status": "confirmed"},
+    {"id": 13, "claim": "养老规划+财富传承为主要方向", "source": "00-碰撞草稿 L17", "status": "confirmed"},
+    {"id": 14, "claim": "泰康大连虎滩湾（非'虎台湾'）", "source": "03-定位方案 多处使用'虎滩湾'", "status": "专名已校正"},
+    {"id": 15, "claim": "时间线为2024年（非'2014年'口误）", "source": "00-碰撞草稿 上下文对照", "status": "口误已校正"}
+  ],
+  "high_risk_claims": [],
+  "spell_corrections": [
+    {"original": "虎台湾", "corrected": "虎滩湾", "reason": "ASR误识别，客户定位方案和旧稿统一使用'虎滩湾'"},
+    {"original": "2014年年底", "corrected": "2024年年底", "reason": "口误，前文已出现正确年份'2024年'"}
+  ],
+  "result": "PASS"
+}

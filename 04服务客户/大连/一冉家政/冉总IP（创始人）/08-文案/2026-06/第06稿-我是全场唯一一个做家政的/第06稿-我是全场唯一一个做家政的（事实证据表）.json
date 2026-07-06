@@ -1,0 +1,201 @@
+{
+  "schema_version": 2,
+  "task": "第06稿-我是全场唯一一个做家政的",
+  "dagang_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/06-dagang粗坯/2026-06/第05稿-我是全场唯一一个做家政的/第05稿-我是全场唯一一个做家政的（dagang粗坯）.md",
+  "source_files": [
+    "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.26.md"
+  ],
+  "outputs": [
+    {
+      "path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第06稿-我是全场唯一一个做家政的/第06稿-我是全场唯一一个做家政的（IP口语稿）.md",
+      "role": "ip_script"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "昨天下午的大连工商联大会。全场200多个企业老总。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.26.md",
+      "evidence": "来到了大连市甘井子区的工商联第八次代表大会大会现场",
+      "status": "confirmed"
+    },
+    {
+      "id": "c2",
+      "text": "做重工的、做连锁品牌的、做人工智能的。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.26.md",
+      "evidence": "有连锁企业品牌创始人 ，有重工企业，有轻资产企业，还有做人工智能的",
+      "status": "confirmed"
+    },
+    {
+      "id": "c3",
+      "text": "做家政的，估计就我一个",
+      "source_type": "pending_confirmation",
+      "evidence": "素材未明确说只有她一个家政企业。用「估计」弱化语气，待冉总确认",
+      "status": "pending_confirmation",
+      "presentation": "已用「估计」弱化；这是口播正文里的待确认事实，发布前应由冉总确认。"
+    },
+    {
+      "id": "c4",
+      "text": "我是想看看，在现在这个风云变幻的经济大环境里，这帮最顶尖的老板们，都是个什么生存状态。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.26.md",
+      "evidence": "想了解现在风云变幻经济情况下企业的生态环境，生存状态，各位老板都是怎样应对的",
+      "status": "confirmed"
+    },
+    {
+      "id": "c5",
+      "text": "区委书记总结的时候，说了八个字：以商招商，抱团取暖。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.26.md",
+      "evidence": "得出的结论 也是区委书记讲的 以商招商 抱团取暖",
+      "status": "confirmed"
+    },
+    {
+      "id": "c6",
+      "text": "这几年我们硬推家政数字化转型、挨个去吸纳有梦想的年轻人，干的就是这八个字。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.26.md",
+      "evidence": "传统行业家政行业向数字科技化转型的创新模式下 ，同样做为一个民营企业，希望能扎根服务 夯实地基同时不仅能把客户服务好也能吸纳更多有梦想的年轻人和同行们大家抱团取暖",
+      "status": "confirmed"
+    },
+    {
+      "id": "c7",
+      "text": "它背后是千家万户，是一老一小，是标准的民生大盘子。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.26.md",
+      "evidence": "家政服务业是一个标准的民生行业关乎着千家万户的幸福，关乎着一老一小",
+      "status": "confirmed"
+    },
+    {
+      "id": "c8",
+      "text": "我想把我吃过的亏、走过的弯路，梳理成直的。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.26.md",
+      "evidence": "把我走过的弯路梳理成直的，分享给大家",
+      "status": "confirmed"
+    },
+    {
+      "id": "c9",
+      "text": "不用单打独斗了，你们来，我带着你走。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/26.6.26.md",
+      "evidence": "希望能扎根服务 夯实地基同时不仅能把客户服务好也能吸纳更多有梦想的年轻人和同行们大家抱团取暖",
+      "status": "confirmed"
+    }
+  ],
+  "spoken_sections": [
+    {
+      "output_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/2026-06/第06稿-我是全场唯一一个做家政的/第06稿-我是全场唯一一个做家政的（IP口语稿）.md",
+      "start_marker": "<!-- IP_SPOKEN_START -->",
+      "end_marker": "<!-- IP_SPOKEN_END -->",
+      "units": [
+        {
+          "text": "昨天下午的大连工商联大会。",
+          "claim_ids": [
+            "c1"
+          ]
+        },
+        {
+          "text": "全场200多个企业老总。",
+          "claim_ids": [
+            "c1"
+          ]
+        },
+        {
+          "text": "做重工的、做连锁品牌的、做人工智能的。",
+          "claim_ids": [
+            "c2"
+          ]
+        },
+        {
+          "text": "我扫了一圈，做家政的，估计就我一个。",
+          "claim_ids": [
+            "c2",
+            "c3"
+          ]
+        },
+        {
+          "text": "说实话，我今天坐在这，不是去听套话的。",
+          "claim_ids": [
+            "c4"
+          ]
+        },
+        {
+          "text": "我是想看看，在现在这个风云变幻的经济大环境里，这帮最顶尖的老板们，都是个什么生存状态。",
+          "claim_ids": [
+            "c4"
+          ]
+        },
+        {
+          "text": "结果区委书记总结的时候，说了八个字：以商招商，抱团取暖。",
+          "claim_ids": [
+            "c5"
+          ]
+        },
+        {
+          "text": "我当时坐在台下，心里特别踏实。",
+          "claim_ids": [
+            "c6"
+          ]
+        },
+        {
+          "text": "为什么？",
+          "claim_ids": [
+            "c6"
+          ]
+        },
+        {
+          "text": "因为这几年我们硬推家政数字化转型、挨个去吸纳有梦想的年轻人，干的就是这八个字。",
+          "claim_ids": [
+            "c6"
+          ]
+        },
+        {
+          "text": "以前觉得是自己闷头闯，今天算是被彻底印证了。",
+          "claim_ids": [
+            "c6"
+          ]
+        },
+        {
+          "text": "家政，真不是关起门来拿块抹布擦玻璃。",
+          "claim_ids": [
+            "c7"
+          ]
+        },
+        {
+          "text": "它背后是千家万户，是一老一小，是标准的民生大盘子。",
+          "claim_ids": [
+            "c7"
+          ]
+        },
+        {
+          "text": "我今天为什么非要坐在这个200人的会场里？",
+          "claim_ids": [
+            "c8"
+          ]
+        },
+        {
+          "text": "我是想替咱们这个行业占个座。",
+          "claim_ids": [
+            "c8"
+          ]
+        },
+        {
+          "text": "我想把我吃过的亏、走过的弯路，梳理成直的。",
+          "claim_ids": [
+            "c8"
+          ]
+        },
+        {
+          "text": "然后告诉想进这行的同行和年轻人们——不用单打独斗了，你们来，我带着你走。",
+          "claim_ids": [
+            "c8",
+            "c9"
+          ]
+        }
+      ]
+    }
+  ]
+}

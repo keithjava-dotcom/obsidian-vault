@@ -1,0 +1,510 @@
+{
+  "schema_version": 2,
+  "task": "第01稿-信托爆雷之后我为什么选择保险",
+  "dagang_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/06-dagang粗坯/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（dagang粗坯）.md",
+  "source_files": [
+    "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md"
+  ],
+  "outputs": [
+    {
+      "path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md",
+      "role": "ip_script"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "黄倩前职是信托公司，经历信托暴雷，并看到家庭和投资人的遭遇。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+      "evidence": "我的前职是信托公司，经历了信托暴雷的那两年，我看过了太多家庭和投资人的悲惨遭遇",
+      "status": "confirmed"
+    },
+    {
+      "id": "c2",
+      "text": "她由此追问安全感。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+      "evidence": "这让我觉得除了收益之外，最重要的是安全感。那么到底去哪里能够寻找到安全感？这个问题困扰了我很久",
+      "status": "confirmed"
+    },
+    {
+      "id": "c3",
+      "text": "她曾经对金融行业失望，但仍然留恋。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+      "evidence": "曾经一度也确实对金融行业比较失望，但除了失望之外，还是非常留恋",
+      "status": "confirmed"
+    },
+    {
+      "id": "c4",
+      "text": "她在金融行业会自驱学习，怕出错、说错话、不够严谨。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+      "evidence": "我会每天自驱地去学习，无论是行业信息、业内新闻、行业政策，还是其他我不了解的专业知识，我都会主动学习。这是因为担心自己会出错、说错话、不够严谨",
+      "status": "confirmed"
+    },
+    {
+      "id": "c5",
+      "text": "她曾在基金、证券、保险之间犹豫，最初不看好保险。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+      "evidence": "留在金融行业到底是选择基金公司、证券公司还是保险公司，是一个非常难以抉择的问题。在那个时点，我并不是很看好保险公司",
+      "status": "confirmed"
+    },
+    {
+      "id": "c6",
+      "text": "她考了基金和证券从业资格证，曾更偏向证券公司。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+      "evidence": "所以在那一段时间，我考了基金和证券的从业资格证。当时的首选是去证券公司",
+      "status": "confirmed"
+    },
+    {
+      "id": "c7",
+      "text": "她对炒股不感冒，A股行情也不好，迟迟没有决定。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+      "evidence": "但我个人对于炒股并不是很感冒，迟迟没有做这个决定。当时 A 股的市场行情也不是非常好",
+      "status": "confirmed"
+    },
+    {
+      "id": "c8",
+      "text": "2024年年底泰康大连虎滩湾社区正式落地。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+      "evidence": "到 2024 年年底的时候，泰康大连虎台湾社区正式落地",
+      "status": "confirmed"
+    },
+    {
+      "id": "c9",
+      "text": "她之前了解过泰康养老社区，对养老社区有好感。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+      "evidence": "之前在信托公司时就了解过泰康的养老社区，对养老社区还是比较有好感的",
+      "status": "confirmed"
+    },
+    {
+      "id": "c10",
+      "text": "她对卖保险仍带有偏见。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+      "evidence": "只是对于卖保险这件事情，还是带着一些偏见和有色眼镜去看待",
+      "status": "confirmed"
+    },
+    {
+      "id": "c11",
+      "text": "她认为养老社区与过往信托经历、高客经营相符，也符合安全感追求，因此加入泰康。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+      "evidence": "但最终因为养老社区和我过往的信托经历、高客经营是相符的，而且也符合我对于安全感的追求，所以我决定加入了泰康",
+      "status": "confirmed"
+    },
+    {
+      "id": "c12",
+      "text": "加入后很多人以为从信托到保险是降维打击，但她认为完全不一样。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+      "evidence": "其实加入泰康之后，很多人都以为原来卖信托 300 万起步，现在卖保险是不是降维打击？但实际上是我自己被啪啪打脸，完全不一样",
+      "status": "confirmed"
+    },
+    {
+      "id": "c13",
+      "text": "她认为保险不仅是产品，更是解决方案。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+      "evidence": "因为保险不仅仅是一个产品，更是一个解决方案，帮助高净值客户家庭去搭建架构",
+      "status": "confirmed"
+    },
+    {
+      "id": "c14",
+      "text": "她认为家庭需求、方案匹配和资金位置都需要严谨思考。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+      "evidence": "什么样的需求需要什么样的方案去对接，什么样的钱需要放在什么样的地方等等，每一个问题都需要非常严谨和充分的思考来做决定",
+      "status": "confirmed"
+    },
+    {
+      "id": "c15",
+      "text": "她成为泰康HWP。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+      "evidence": "所以对我而言，从信托行业来到保险行业，成为了泰康的 HWP",
+      "status": "confirmed"
+    },
+    {
+      "id": "c16",
+      "text": "她未来方向是养老规划和传承。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+      "evidence": "那么未来我的主要方向分为两块，一部分是养老规划，另一部分是传承方面",
+      "status": "confirmed"
+    },
+    {
+      "id": "c17",
+      "text": "她希望给客户的方案谨慎、准确和全面。",
+      "source_type": "source_file",
+      "source_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/00-碰撞草稿/26.6.28日-碰撞-自己的职业经历.md",
+      "evidence": "在未来的日子里，我希望尽量给到客户的每一个方案都是谨慎、准确和全面的",
+      "status": "confirmed"
+    },
+    {
+      "id": "o1",
+      "text": "收益重要，但安全感可能更重要。",
+      "source_type": "opinion",
+      "status": "opinion"
+    },
+    {
+      "id": "o2",
+      "text": "家庭需要想清楚资金位置、使用人、使用时间和关键作用。",
+      "source_type": "opinion",
+      "status": "opinion"
+    },
+    {
+      "id": "o3",
+      "text": "养老社区、保险方案和高客经营共同解决家庭晚年与下一代安排。",
+      "source_type": "opinion",
+      "status": "opinion"
+    },
+    {
+      "id": "o4",
+      "text": "不是降维，而是一段新的修行。",
+      "source_type": "opinion",
+      "status": "opinion"
+    },
+    {
+      "id": "o5",
+      "text": "不谈一夜暴富，也不拿焦虑逼客户做决定。",
+      "source_type": "opinion",
+      "status": "opinion"
+    },
+    {
+      "id": "o6",
+      "text": "帮客户把财富的下半场想清楚。",
+      "source_type": "opinion",
+      "status": "opinion"
+    }
+  ],
+  "spoken_sections": [
+    {
+      "output_path": "/Users/kejianjun/Library/Mobile Documents/iCloud~md~obsidian/Documents/肥柯的武器库/04服务客户/【泰康人寿】黄倩/08-文案/2026-06/第01稿-信托爆雷之后我为什么选择保险/第01稿-信托爆雷之后我为什么选择保险（IP口语稿）.md",
+      "start_marker": "<!-- IP_SPOKEN_START -->",
+      "end_marker": "<!-- IP_SPOKEN_END -->",
+      "units": [
+        {
+          "text": "很多人听说我从信托来到保险，会问我一个问题：",
+          "claim_ids": [
+            "c12"
+          ]
+        },
+        {
+          "text": "你原来接触的是三百万起步的信托。",
+          "claim_ids": [
+            "c12"
+          ]
+        },
+        {
+          "text": "现在做保险，是不是降维了？",
+          "claim_ids": [
+            "c12"
+          ]
+        },
+        {
+          "text": "其实刚开始，我自己也带着这个偏见。",
+          "claim_ids": [
+            "c12"
+          ]
+        },
+        {
+          "text": "后来我发现，完全不是。",
+          "claim_ids": [
+            "c12"
+          ]
+        },
+        {
+          "text": "我的前职是信托公司。",
+          "claim_ids": [
+            "c1"
+          ]
+        },
+        {
+          "text": "经历信托暴雷那两年，我看到过太多家庭和投资人的遭遇。",
+          "claim_ids": [
+            "c1"
+          ]
+        },
+        {
+          "text": "那时候我才意识到，对一个家庭来说，收益当然重要。",
+          "claim_ids": [
+            "c2",
+            "o1"
+          ]
+        },
+        {
+          "text": "但安全感，可能更重要。",
+          "claim_ids": [
+            "c2",
+            "o1"
+          ]
+        },
+        {
+          "text": "一个人手里有一笔钱，最难的不是听谁说收益高。",
+          "claim_ids": [
+            "o2"
+          ]
+        },
+        {
+          "text": "而是想清楚：",
+          "claim_ids": [
+            "o2"
+          ]
+        },
+        {
+          "text": "这笔钱到底放在哪里？",
+          "claim_ids": [
+            "o2"
+          ]
+        },
+        {
+          "text": "未来谁来用？",
+          "claim_ids": [
+            "o2"
+          ]
+        },
+        {
+          "text": "怎么用？",
+          "claim_ids": [
+            "o2"
+          ]
+        },
+        {
+          "text": "什么时候用？",
+          "claim_ids": [
+            "o2"
+          ]
+        },
+        {
+          "text": "能不能在关键时候，真的起到作用？",
+          "claim_ids": [
+            "o2"
+          ]
+        },
+        {
+          "text": "所以信托暴雷之后，我一直在想：",
+          "claim_ids": [
+            "c1"
+          ]
+        },
+        {
+          "text": "到底去哪里，能够寻找到这种安全感？",
+          "claim_ids": [
+            "c2"
+          ]
+        },
+        {
+          "text": "那段时间，我也考虑过基金公司和证券公司。",
+          "claim_ids": [
+            "c5",
+            "c6"
+          ]
+        },
+        {
+          "text": "我还考了基金和证券的从业资格证。",
+          "claim_ids": [
+            "c5",
+            "c6"
+          ]
+        },
+        {
+          "text": "但我自己对炒股并不感冒。",
+          "claim_ids": [
+            "c7"
+          ]
+        },
+        {
+          "text": "当时 A 股的市场行情，也不是非常好。",
+          "claim_ids": [
+            "c7"
+          ]
+        },
+        {
+          "text": "所以这个决定，我迟迟没有做。",
+          "claim_ids": [
+            "c7"
+          ]
+        },
+        {
+          "text": "直到 2024 年年底，泰康大连虎滩湾社区正式落地。",
+          "claim_ids": [
+            "c8"
+          ]
+        },
+        {
+          "text": "这个消息，让我重新看了一次保险这件事。",
+          "claim_ids": [
+            "o3"
+          ]
+        },
+        {
+          "text": "之前在信托公司时，我就了解过泰康的养老社区。",
+          "claim_ids": [
+            "c9"
+          ]
+        },
+        {
+          "text": "我对养老社区本身，是有好感的。",
+          "claim_ids": [
+            "c9"
+          ]
+        },
+        {
+          "text": "只是对于卖保险这件事，当时还是带着一些偏见。",
+          "claim_ids": [
+            "c12"
+          ]
+        },
+        {
+          "text": "后来我想明白了。",
+          "claim_ids": [
+            "c11",
+            "o3"
+          ]
+        },
+        {
+          "text": "养老社区、保险方案，和我过去做信托、高客经营的经历，是能接上的。",
+          "claim_ids": [
+            "c11",
+            "o3"
+          ]
+        },
+        {
+          "text": "它们背后解决的，其实都是同一个问题：",
+          "claim_ids": [
+            "c11",
+            "o3"
+          ]
+        },
+        {
+          "text": "一个家庭，怎么把晚年和下一代安排得更稳妥。",
+          "claim_ids": [
+            "c11",
+            "o3"
+          ]
+        },
+        {
+          "text": "所以我最后加入了泰康。",
+          "claim_ids": [
+            "c11",
+            "o3"
+          ]
+        },
+        {
+          "text": "加入之后，我才发现，保险真的不是简单卖一个产品。",
+          "claim_ids": [
+            "c13"
+          ]
+        },
+        {
+          "text": "它更像是一个家庭解决方案。",
+          "claim_ids": [
+            "c13"
+          ]
+        },
+        {
+          "text": "一个家庭有什么需求，要对接什么方案。",
+          "claim_ids": [
+            "c14",
+            "c16"
+          ]
+        },
+        {
+          "text": "什么样的钱，应该放在什么位置。",
+          "claim_ids": [
+            "c14",
+            "c16"
+          ]
+        },
+        {
+          "text": "养老规划和传承，应该怎么一起考虑。",
+          "claim_ids": [
+            "c14",
+            "c16"
+          ]
+        },
+        {
+          "text": "每一个问题，都需要很严谨、很充分地思考。",
+          "claim_ids": [
+            "c14",
+            "c16"
+          ]
+        },
+        {
+          "text": "所以对我而言，从信托来到保险，成为泰康的 HWP，不是降维。",
+          "claim_ids": [
+            "c12"
+          ]
+        },
+        {
+          "text": "它更像是一段新的修行。",
+          "claim_ids": [
+            "o4"
+          ]
+        },
+        {
+          "text": "未来我的主要方向，也会放在两件事上。",
+          "claim_ids": [
+            "c16"
+          ]
+        },
+        {
+          "text": "一件是养老规划。",
+          "claim_ids": [
+            "c16"
+          ]
+        },
+        {
+          "text": "一件是传承。",
+          "claim_ids": [
+            "c16"
+          ]
+        },
+        {
+          "text": "我希望未来给到客户的每一个方案，都是谨慎、准确和全面的。",
+          "claim_ids": [
+            "c17"
+          ]
+        },
+        {
+          "text": "相对来讲，我可能不是一个特别会热情推销的人。",
+          "claim_ids": [
+            "c17"
+          ]
+        },
+        {
+          "text": "但我希望自己是一个能认真把问题想清楚的人。",
+          "claim_ids": [
+            "c17"
+          ]
+        },
+        {
+          "text": "不跟你谈一夜暴富。",
+          "claim_ids": [
+            "o5"
+          ]
+        },
+        {
+          "text": "也不拿焦虑逼你做决定。",
+          "claim_ids": [
+            "o5"
+          ]
+        },
+        {
+          "text": "只是用严谨、克制、负责的方式，帮你把财富的下半场想清楚。",
+          "claim_ids": [
+            "o6"
+          ]
+        }
+      ]
+    }
+  ]
+}

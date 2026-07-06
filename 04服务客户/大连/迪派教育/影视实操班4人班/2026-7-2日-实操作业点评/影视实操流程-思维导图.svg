@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1450 1120" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif">
+  <defs>
+    <marker id="arrow-blue" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/>
+    </marker>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="s1"><stop offset="0%" stop-color="#eff6ff"/><stop offset="100%" stop-color="#dbeafe"/></linearGradient>
+    <linearGradient id="s2"><stop offset="0%" stop-color="#fefce8"/><stop offset="100%" stop-color="#fef08a"/></linearGradient>
+    <linearGradient id="s3"><stop offset="0%" stop-color="#fff7ed"/><stop offset="100%" stop-color="#fed7aa"/></linearGradient>
+    <linearGradient id="s4"><stop offset="0%" stop-color="#faf5ff"/><stop offset="100%" stop-color="#e9d5ff"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.1"/></filter>
+  </defs>
+
+  <rect width="1450" height="1120" fill="#f8fafc" rx="12"/>
+
+  <!-- Title -->
+  <rect x="0" y="0" width="1450" height="56" fill="url(#header)" rx="12"/>
+  <rect x="0" y="44" width="1450" height="12" fill="url(#header)"/>
+  <text x="725" y="37" text-anchor="middle" fill="#fff" font-size="22" font-weight="bold">影视实操班 · 短视频生产完整流程</text>
+
+  <!-- ===== MAIN FLOW ===== -->
+  <!-- Step 1 -->
+  <rect x="40" y="76" width="320" height="64" rx="8" fill="url(#s1)" stroke="#2563eb" stroke-width="2" filter="url(#shadow)"/>
+  <text x="200" y="101" text-anchor="middle" fill="#1e40af" font-size="15" font-weight="bold">① 定位 &amp; 用户画像</text>
+  <text x="200" y="121" text-anchor="middle" fill="#475569" font-size="11">我是谁？给谁看？他在哪刷到？</text>
+  <text x="200" y="135" text-anchor="middle" fill="#64748b" font-size="10">用户画像 → 选题方向 → 人设标签</text>
+  <line x1="360" y1="108" x2="400" y2="108" stroke="#2563eb" stroke-width="2" marker-end="url(#arrow-blue)"/>
+
+  <!-- Step 2 -->
+  <rect x="404" y="76" width="320" height="64" rx="8" fill="url(#s2)" stroke="#ca8a04" stroke-width="2" filter="url(#shadow)"/>
+  <text x="564" y="101" text-anchor="middle" fill="#854d0e" font-size="15" font-weight="bold">② 文案创作（先有思路）</text>
+  <text x="564" y="121" text-anchor="middle" fill="#475569" font-size="11">三种"白" → 抽象具象 → 删减精简</text>
+  <text x="564" y="135" text-anchor="middle" fill="#64748b" font-size="10">先想清楚要说什么，再想怎么拍</text>
+  <line x1="724" y1="108" x2="764" y2="108" stroke="#2563eb" stroke-width="2" marker-end="url(#arrow-blue)"/>
+
+  <!-- Step 3 -->
+  <rect x="768" y="76" width="320" height="64" rx="8" fill="url(#s3)" stroke="#ea580c" stroke-width="2" filter="url(#shadow)"/>
+  <text x="928" y="101" text-anchor="middle" fill="#9a3412" font-size="15" font-weight="bold">③ 拍摄执行（画面服务文案）</text>
+  <text x="928" y="121" text-anchor="middle" fill="#475569" font-size="11">A-roll 场景 + B-roll 积累 + 以物传情</text>
+  <text x="928" y="135" text-anchor="middle" fill="#64748b" font-size="10">B-roll 靠平时多拍多收集，不临时找</text>
+  <line x1="1088" y1="108" x2="1128" y2="108" stroke="#2563eb" stroke-width="2" marker-end="url(#arrow-blue)"/>
+
+  <!-- Step 4 -->
+  <rect x="1132" y="76" width="290" height="64" rx="8" fill="url(#s4)" stroke="#7c3aed" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1277" y="101" text-anchor="middle" fill="#5b21b6" font-size="15" font-weight="bold">④ 剪辑发布 &amp; 复盘</text>
+  <text x="1277" y="121" text-anchor="middle" fill="#475569" font-size="11">BGM 渲染 · 画面张力 · 删减收紧</text>
+  <text x="1277" y="135" text-anchor="middle" fill="#64748b" font-size="10">发布→看趋势→迭代下一条</text>
+
+  <!-- ===== 钩子横跨 ===== -->
+  <rect x="40" y="164" width="1392" height="36" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="735" y="185" text-anchor="middle" fill="#991b1b" font-size="12" font-weight="bold">⚡ 核心原则：以秒来审 → 以帧来争 → 观众极其没耐心 → 前两秒钩子 = 画面+文字+声音</text>
+  <text x="735" y="198" text-anchor="middle" fill="#b91c1c" font-size="10">平台只看画面/声音/文字三个维度 · 先过机器关再过人关 · 看片带问题：为什么停下？为什么划走？能抄什么？</text>
+
+  <!-- ===== DETAIL ROW 1: 文案 (左) & 拍摄 (右) ===== -->
+  <!-- 文案卡片 -->
+  <rect x="40" y="222" width="690" height="270" rx="8" fill="#fefce8" stroke="#fde047" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="40" y="222" width="690" height="34" rx="8" fill="#ca8a04"/>
+  <rect x="40" y="248" width="690" height="8" fill="#ca8a04"/>
+  <text x="385" y="244" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">✏️ 文案创作 · 先有思路 脚本先行</text>
+
+  <!-- 左列：x=56 左对齐，宽度~310px -->
+  <text x="56" y="278" fill="#854d0e" font-size="12" font-weight="bold">三种"白"——选定说话语气</text>
+  <text x="56" y="298" fill="#334155" font-size="11">对白："我想跟你聊聊"（最常用）</text>
+  <text x="56" y="316" fill="#334155" font-size="11">旁白："这个男人叫小帅"（解说感）</text>
+  <text x="56" y="334" fill="#334155" font-size="11">独白：内心悄悄话（王家卫擅长）</text>
+  <text x="56" y="354" fill="#475569" font-size="10">大多数视频用对白——别端着，就当跟朋友聊天</text>
+
+  <text x="56" y="384" fill="#854d0e" font-size="12" font-weight="bold">抽象→具象（决定观众能不能听懂）</text>
+  <text x="56" y="404" fill="#334155" font-size="11">"稳定"→月薪八千每天重复</text>
+  <text x="56" y="422" fill="#334155" font-size="11">"压抑"→下班不想社交失去色彩</text>
+  <text x="56" y="440" fill="#334155" font-size="11">技巧：就当跟哥们吐槽——"我不爱干了，工资少屁事多"</text>
+
+  <text x="56" y="470" fill="#854d0e" font-size="11">参考：方文山"故事里的小黄花"——单听歌词就有画面</text>
+
+  <!-- 右列：x=380 左对齐，宽度~330px -->
+  <text x="380" y="278" fill="#854d0e" font-size="12" font-weight="bold">删减——删到每句都承载信息</text>
+  <text x="380" y="298" fill="#334155" font-size="11">① 标点处换行</text>
+  <text x="380" y="316" fill="#334155" font-size="11">② 逐句删，意思没变就删</text>
+  <text x="380" y="334" fill="#334155" font-size="11">③ 删到不能再删为止</text>
+  <text x="380" y="358" fill="#475569" font-size="11">起号：留关键信息，废话不留</text>
+  <text x="380" y="380" fill="#475569" font-size="11">号起来后：长内容可稍松，前15秒永远紧凑</text>
+
+  <text x="380" y="410" fill="#854d0e" font-size="12" font-weight="bold">甲方汇报用</text>
+  <text x="380" y="430" fill="#334155" font-size="11">问："讲这些对生意有什么帮助？"</text>
+  <text x="380" y="448" fill="#334155" font-size="11">答："这叫创始人IP，叫信任搭建。"</text>
+
+  <text x="56" y="492" fill="#94a3b8" font-size="10">脑子不动机器别动 · 先输出思路，再匹配画面</text>
+
+  <!-- 拍摄卡片 -->
+  <rect x="752" y="222" width="670" height="270" rx="8" fill="#fff7ed" stroke="#fdba74" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="752" y="222" width="670" height="34" rx="8" fill="#ea580c"/>
+  <rect x="752" y="248" width="670" height="8" fill="#ea580c"/>
+  <text x="1087" y="244" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">🎬 拍摄执行 · 画面服务文案</text>
+
+  <text x="768" y="278" fill="#9a3412" font-size="12" font-weight="bold">A-roll 场景搭建：从用户画像倒推</text>
+  <text x="768" y="298" fill="#334155" font-size="11">文艺青年 → 书、杂志、暖光 · 修车师傅 → 车间、前机盖打开</text>
+  <text x="768" y="316" fill="#334155" font-size="11">创始人IP → 公司、正装 · 菜店老板 → 店里边干活边拍</text>
+  <text x="768" y="336" fill="#475569" font-size="10">空间 + 道具 + 服装 → 三重匹配用户画像</text>
+
+  <text x="768" y="364" fill="#9a3412" font-size="12" font-weight="bold">B-roll 名词可视化 + 平时积累 ⚠️ B-roll 不能临时找</text>
+  <text x="768" y="384" fill="#334155" font-size="11">每个关键词 = 一个画面：扫街、拍日常、拍身边，建自己素材库</text>
+
+  <text x="768" y="416" fill="#9a3412" font-size="12" font-weight="bold">以物传情 · 情境 · 拍摄时间</text>
+  <text x="768" y="434" fill="#334155" font-size="11">辞职→收拾文件/拎袋出门 · 内耗→枯花/积灰鱼缸</text>
+  <text x="768" y="452" fill="#334155" font-size="11">导演不说"笑开心"→说"兄弟背叛了你"——把主角放进情境</text>
+  <text x="768" y="470" fill="#334155" font-size="11">🌅日出=向上 · ☀️白天=中性 · 🌇黄昏=深情 · 🌌蓝调=唯美</text>
+  <text x="768" y="488" fill="#94a3b8" font-size="10">蓝调窗口仅15-20min → 新手先保稳定产出，质感后面追</text>
+
+  <!-- ===== DETAIL ROW 2: 钩子 (左) & 剪辑 (右) ===== -->
+  <!-- 钩子卡片 -->
+  <rect x="40" y="514" width="690" height="210" rx="8" fill="#faf5ff" stroke="#c4b5fd" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="40" y="514" width="690" height="34" rx="8" fill="#7c3aed"/>
+  <rect x="40" y="540" width="690" height="8" fill="#7c3aed"/>
+  <text x="385" y="536" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">🎣 前两秒钩子 &amp; 网感训练</text>
+
+  <text x="56" y="570" fill="#5b21b6" font-size="12" font-weight="bold">钩子类型：画面 + 文字 + 声音综合体</text>
+  <text x="56" y="590" fill="#334155" font-size="11">视觉冲击：王家卫色调、酷炫运镜</text>
+  <text x="56" y="608" fill="#334155" font-size="11">情绪共鸣：刚好失业时看到"如何搞定失业"</text>
+  <text x="56" y="626" fill="#334155" font-size="11">好奇心：东西砸下来、全彩中突然黑白</text>
+  <text x="56" y="648" fill="#475569" font-size="11">迁移 = 抄 + 改 + 适配自己</text>
+
+  <text x="380" y="570" fill="#5b21b6" font-size="12" font-weight="bold">信念感</text>
+  <text x="380" y="590" fill="#334155" font-size="11">你信你说的话 → 观众感觉得到</text>
+  <text x="380" y="608" fill="#334155" font-size="11">你心虚/在演 → 观众也感觉得到</text>
+
+  <text x="56" y="682" fill="#5b21b6" font-size="12" font-weight="bold">每日训练：量 + 质都有标准</text>
+  <text x="56" y="702" fill="#334155" font-size="11">看片：每天30-50条——为什么停下？感受？能抄什么？（不是刷着玩）</text>
+  <text x="56" y="720" fill="#334155" font-size="11">拆片：每天3-5条 · 拆够120条有质变 · 持续比一次性猛冲重要</text>
+
+  <!-- 剪辑卡片 -->
+  <rect x="752" y="514" width="670" height="210" rx="8" fill="#f0fdf4" stroke="#86efac" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="752" y="514" width="670" height="34" rx="8" fill="#16a34a"/>
+  <rect x="752" y="540" width="670" height="8" fill="#16a34a"/>
+  <text x="1087" y="536" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">✂️ 剪辑发布 &amp; 复盘迭代</text>
+
+  <text x="768" y="570" fill="#166534" font-size="12" font-weight="bold">BGM = 情绪的放大器（新手两步走）</text>
+  <text x="768" y="590" fill="#334155" font-size="11">第一步：先用剪映热门——热门有原因，观众耳朵熟，算法友好</text>
+  <text x="768" y="608" fill="#334155" font-size="11">第二步：有判断力后再建自己的库——听歌备注感受，积累够了立刻能调</text>
+
+  <text x="1087" y="570" fill="#166534" font-size="12" font-weight="bold">画面张力</text>
+  <text x="1087" y="590" fill="#334155" font-size="11" text-anchor="middle">动静结合 · 特写+大远景</text>
+  <text x="1087" y="608" fill="#334155" font-size="11" text-anchor="middle">冷色+暖色 · 明暗对比</text>
+
+  <text x="768" y="644" fill="#166534" font-size="12" font-weight="bold">发布后复盘</text>
+  <text x="768" y="664" fill="#334155" font-size="11">不看单条绝对值 → 看趋势：播放在涨？落差在缩小？有人互动了？</text>
+  <text x="768" y="682" fill="#334155" font-size="11">不发不调 = 永远不知道哪里有问题</text>
+  <text x="768" y="702" fill="#94a3b8" font-size="10">起号靠稳定，爆款靠选题 · 先保产出，再追质感</text>
+
+  <!-- ===== TIMELINE HEADER ===== -->
+  <rect x="40" y="748" width="1392" height="28" rx="6" fill="#1e293b"/>
+  <text x="735" y="767" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">📅 账号规划时间线 · 不看绝对值，看趋势 · 4个月见分晓</text>
+
+  <!-- Phase 1 -->
+  <rect x="40" y="786" width="440" height="150" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="40" y="786" width="440" height="30" rx="8" fill="#2563eb"/>
+  <rect x="40" y="808" width="440" height="8" fill="#2563eb"/>
+  <text x="260" y="806" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">第一阶段：0-1个月 · 搭建人设</text>
+  <text x="56" y="842" fill="#1e40af" font-size="12" font-weight="bold">内容：问卷每问一条视频 → 出10-15条</text>
+  <text x="56" y="864" fill="#334155" font-size="11">"我是谁"·"干过什么"·"为什么做这个"</text>
+  <text x="56" y="886" fill="#334155" font-size="11">目标：稳定出内容 → 可以不出爆款</text>
+  <text x="56" y="908" fill="#334155" font-size="11">好处：无营销、不功利 → 自然流量好</text>
+  <text x="56" y="926" fill="#94a3b8" font-size="10">火了以后观众进主页 → 清楚你是谁 → 信任感</text>
+
+  <text x="490" y="866" text-anchor="middle" fill="#94a3b8" font-size="20">→</text>
+
+  <!-- Phase 2 -->
+  <rect x="510" y="786" width="440" height="150" rx="8" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="510" y="786" width="440" height="30" rx="8" fill="#16a34a"/>
+  <rect x="510" y="808" width="440" height="8" fill="#16a34a"/>
+  <text x="730" y="806" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">第二阶段：1-3个月 · 正在做的事</text>
+  <text x="526" y="842" fill="#166534" font-size="11">📚 学习记录 · 🎯 挑战系列</text>
+  <text x="526" y="864" fill="#166534" font-size="11">📝 日常日记 → AI出脚本 → 照着拍</text>
+  <text x="526" y="886" fill="#166534" font-size="11">🔧 本领域知识：修车讲修车 · 装修讲装修</text>
+  <text x="526" y="908" fill="#475569" font-size="11">案例：保洁阿姨每天发日记→AI转脚本→</text>
+  <text x="526" y="926" fill="#475569" font-size="11">照着拍→客户通过视频找上门</text>
+
+  <text x="960" y="866" text-anchor="middle" fill="#94a3b8" font-size="20">→</text>
+
+  <!-- Phase 3 -->
+  <rect x="980" y="786" width="450" height="150" rx="8" fill="#fefce8" stroke="#fde047" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="980" y="786" width="450" height="30" rx="8" fill="#ca8a04"/>
+  <rect x="980" y="808" width="450" height="8" fill="#ca8a04"/>
+  <text x="1205" y="806" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">第三阶段：起号判断 · 突破&amp;变现</text>
+  <text x="996" y="842" fill="#854d0e" font-size="11">趋势判断：播放在涨？落差缩小？开始互动？</text>
+  <text x="996" y="864" fill="#854d0e" font-size="11">趋势向上→继续 / 不涨甚至走低→调整</text>
+  <text x="996" y="888" fill="#854d0e" font-size="11">转化：卖产品·加微信·开直播→付费推广</text>
+  <text x="996" y="912" fill="#854d0e" font-size="11">别拿大V数据要求自己——起步条件不一样</text>
+  <text x="996" y="930" fill="#94a3b8" font-size="10">起号靠稳定，爆款靠选题 · 有变现才有正向循环</text>
+
+  <!-- ===== FOOTER ===== -->
+  <rect x="40" y="956" width="1392" height="36" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="735" y="974" text-anchor="middle" fill="#475569" font-size="11" font-weight="bold">先想好说什么（文案），再想怎么拍（画面） · B-roll 平时积累不临时找 · BGM 新手先剪映热门→有判断再建库</text>
+  <text x="735" y="988" text-anchor="middle" fill="#94a3b8" font-size="10">看片带问题：为什么停下？划走？能抄什么？ · 蓝调15分钟窗口→新手先保产出 · 看趋势不看绝对值</text>
+
+  <text x="1420" y="1110" text-anchor="end" fill="#cbd5e1" font-size="10">迪派教育 影视实操班 · 2026.07</text>
+</svg>

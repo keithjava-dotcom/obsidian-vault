@@ -1,0 +1,24 @@
+{
+  "id": "conv-1779120516001-wl9oi3z1p",
+  "providerId": "claude",
+  "title": "我没标记“我：”就是Claude都回复，都是Claude帮我整理的知识，然后我们可以继续往下聊吗？",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1779120516002,
+  "updatedAt": 1779120781311,
+  "lastResponseAt": 1779120781311,
+  "sessionId": "21b71f38-5009-4e8b-a267-2a2471b9c96a",
+  "providerState": {
+    "providerSessionId": "21b71f38-5009-4e8b-a267-2a2471b9c96a"
+  },
+  "currentNote": "01新媒体知识库-源文件/安先生课程/Claude帮我整理的.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 3,
+    "cacheCreationInputTokens": 67920,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 67923,
+    "percentage": 34,
+    "contextWindowIsAuthoritative": true
+  }
+}

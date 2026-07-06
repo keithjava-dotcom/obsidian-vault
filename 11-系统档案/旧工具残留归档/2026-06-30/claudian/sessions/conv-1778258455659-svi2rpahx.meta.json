@@ -1,0 +1,24 @@
+{
+  "id": "conv-1778258455659-svi2rpahx",
+  "providerId": "claude",
+  "title": "这是我让Gemini给我写的稿子，Gemini并没有我的知识库经验，但是我一直感觉Gemini的写稿...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1778258455659,
+  "updatedAt": 1778260025146,
+  "lastResponseAt": 1778260004552,
+  "sessionId": "8f33745d-8192-42a6-97bf-fbf022c2b3b9",
+  "providerState": {
+    "providerSessionId": "8f33745d-8192-42a6-97bf-fbf022c2b3b9"
+  },
+  "currentNote": "04服务客户/大连/一冉家政/冉总IP（创始人）/08-文案/13-30W挑战-家政行业的“护城河”到底在哪？.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 3,
+    "cacheCreationInputTokens": 80766,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 80769,
+    "percentage": 40,
+    "contextWindowIsAuthoritative": true
+  }
+}
