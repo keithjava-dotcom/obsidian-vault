@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>短视频创作 · 五边形</title>
+<style>
+:root{
+  --paper:#faf9f6; --card:#ffffff; --ink:#2d2d2d; --ink-deep:#1e2338;
+  --gold:#b8964a; --blue:#3a6d8c; --green:#5a7c4e; --red:#a04038;
+  --gray:#8a8a80; --line:#e8e5dd;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,'PingFang SC','Noto Sans SC',sans-serif;
+  background:var(--paper);color:var(--ink);display:flex;justify-content:center;padding:36px 12px 60px;}
+.poster{width:760px;max-width:96vw;}
+
+.head{text-align:center;margin-bottom:8px;}
+.head h1{font-size:30px;font-weight:800;color:var(--ink-deep);letter-spacing:2px;}
+.head .sub{font-size:14px;color:var(--gray);margin-top:10px;line-height:1.8;}
+.head .sub b{color:var(--gold);font-weight:800;}
+
+.svgwrap{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:18px 0;padding:10px 6px 2px;}
+.svgwrap svg{width:100%;height:auto;display:block;}
+
+.law{text-align:center;font-size:13.5px;color:var(--ink);line-height:2;margin:2px 0 20px;}
+.law b{color:var(--ink-deep);}
+
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;}
+.g{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:13px 14px;}
+.g .t{font-size:13px;font-weight:800;color:var(--ink-deep);margin-bottom:9px;}
+.g .t .n{font-size:11px;font-weight:700;color:var(--gray);margin-left:5px;}
+.g ul{list-style:none;display:flex;flex-direction:column;gap:6px;}
+.g li{display:flex;align-items:baseline;gap:7px;font-size:12.5px;color:var(--ink);line-height:1.5;}
+.g li .no{flex-shrink:0;min-width:25px;text-align:center;font-size:11px;font-weight:800;
+  padding:1.5px 4px;border-radius:4px;background:#f3f1ec;color:var(--ink);font-variant-numeric:tabular-nums;}
+.g.center{border-color:#d9cba6;background:linear-gradient(180deg,#fdfaf0,#f8f2e0);grid-column:1 / -1;}
+.g.center .t{color:#8a6a20;}
+.g.center ul{display:grid;grid-template-columns:repeat(2,1fr);gap:6px 16px;}
+.g.center li .no{background:#f2e8cf;color:#6d5518;}
+.g.wide{grid-column:1 / -1;}
+.g.wide ul{display:grid;grid-template-columns:repeat(2,1fr);gap:6px 16px;}
+
+.foot{display:flex;justify-content:space-between;align-items:center;margin-top:22px;
+  font-size:11px;color:var(--gray);}
+.foot .name{font-weight:700;color:var(--ink);}
+@media(max-width:620px){.grid{grid-template-columns:1fr;}.g.center ul,.g.wide ul{grid-template-columns:1fr;}}
+
+/* ── 打印/导出PDF：整块不跨页切、背景色不丢 ── */
+@page{size:A4;margin:10mm;}
+@media print{
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  body{padding:0;background:var(--paper);display:block;}
+  .poster{width:100%;max-width:100%;margin:0 auto;}
+  .svgwrap,.g,.head,.law,.foot{break-inside:avoid;page-break-inside:avoid;}
+  .head{break-after:avoid;}
+  .grid{gap:8px;}
+}
+</style>
+</head>
+<body>
+<div class="poster">
+
+  <div class="head">
+    <h1>短视频创作 · 五边形</h1>
+    <div class="sub">知识硬塞没用——<b>学习的目的是用出来，变成自己的技能。</b><br>
+    这门课不是一章一章讲的，是一个五边形，跟着转。</div>
+  </div>
+
+  <div class="svgwrap">
+  <svg viewBox="0 0 700 676" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+        <path d="M 0 1 L 9 5 L 0 9 z" fill="#3a6d8c"/>
+      </marker>
+    </defs>
+
+    <!-- 辐条：中心支撑五角 -->
+    <g stroke="#dcd8cd" stroke-width="1.5" stroke-dasharray="4 5">
+      <line x1="350" y1="235" x2="350" y2="154"/>
+      <line x1="440.3" y1="300.6" x2="517.3" y2="275.6"/>
+      <line x1="405.9" y1="406.9" x2="453.5" y2="472.4"/>
+      <line x1="294.1" y1="406.9" x2="246.5" y2="472.4"/>
+      <line x1="259.7" y1="300.6" x2="182.7" y2="275.6"/>
+    </g>
+
+    <!-- 五条动作链：顺时针循环箭头 -->
+    <g stroke="#3a6d8c" stroke-width="2.5" fill="none">
+      <line x1="393.7" y1="131.8" x2="518.5" y2="222.5" marker-end="url(#arr)"/>
+      <line x1="552"   y1="310.3" x2="504.4" y2="457.1" marker-end="url(#arr)"/>
+      <line x1="431.2" y1="516.1" x2="276.8" y2="516.1" marker-end="url(#arr)"/>
+      <line x1="198.1" y1="464.7" x2="150.5" y2="317.9" marker-end="url(#arr)"/>
+      <line x1="175"   y1="227.1" x2="299.8" y2="136.5" marker-end="url(#arr)"/>
+    </g>
+    <!-- 复盘→选题：反哺标注 -->
+    <text x="212" y="164" font-size="11.5" fill="#5a7c4e" font-weight="700" transform="rotate(-36 212 164)">数据反哺，转回来</text>
+
+    <!-- 中心：定位/心法认知 -->
+    <circle cx="350" cy="330" r="95" fill="#fdfaf0" stroke="#b8964a" stroke-width="3"/>
+    <text x="350" y="312" text-anchor="middle" font-size="21" font-weight="800" fill="#1e2338">定位</text>
+    <text x="350" y="340" text-anchor="middle" font-size="14.5" font-weight="700" fill="#8a6a20">心法认知</text>
+    <text x="350" y="366" text-anchor="middle" font-size="12" fill="#8a8a80">6 节 · 每一节都在加固这层</text>
+
+    <!-- 角：选题 -->
+    <circle cx="350" cy="100" r="54" fill="#ffffff" stroke="#3a6d8c" stroke-width="2.5"/>
+    <text x="350" y="97" text-anchor="middle" font-size="18" font-weight="800" fill="#1e2338">选题</text>
+    <text x="350" y="119" text-anchor="middle" font-size="11.5" fill="#8a8a80">3 节</text>
+
+    <!-- 角：大纲 -->
+    <circle cx="568.7" cy="258.9" r="54" fill="#ffffff" stroke="#3a6d8c" stroke-width="2.5"/>
+    <text x="568.7" y="255.9" text-anchor="middle" font-size="18" font-weight="800" fill="#1e2338">大纲</text>
+    <text x="568.7" y="277.9" text-anchor="middle" font-size="11.5" fill="#8a8a80">6 节</text>
+
+    <!-- 角：逐字稿 -->
+    <circle cx="485.2" cy="516.1" r="54" fill="#ffffff" stroke="#3a6d8c" stroke-width="2.5"/>
+    <text x="485.2" y="513.1" text-anchor="middle" font-size="18" font-weight="800" fill="#1e2338">逐字稿</text>
+    <text x="485.2" y="535.1" text-anchor="middle" font-size="11.5" fill="#8a8a80">6 节</text>
+
+    <!-- 角：声画 -->
+    <circle cx="214.8" cy="516.1" r="54" fill="#ffffff" stroke="#3a6d8c" stroke-width="2.5"/>
+    <text x="214.8" y="513.1" text-anchor="middle" font-size="18" font-weight="800" fill="#1e2338">声画</text>
+    <text x="214.8" y="535.1" text-anchor="middle" font-size="11.5" fill="#8a8a80">8 节</text>
+
+    <!-- 角：复盘 -->
+    <circle cx="131.3" cy="258.9" r="54" fill="#ffffff" stroke="#3a6d8c" stroke-width="2.5"/>
+    <text x="131.3" y="255.9" text-anchor="middle" font-size="18" font-weight="800" fill="#1e2338">复盘</text>
+    <text x="131.3" y="277.9" text-anchor="middle" font-size="11.5" fill="#8a8a80">7 节</text>
+
+    <!-- 底注 -->
+    <text x="350" y="608" text-anchor="middle" font-size="12.5" fill="#8a8a80">做一条视频 = 沿着边转一圈；复盘完喂回选题，一圈一圈，号就起来了</text>
+    <text x="350" y="636" text-anchor="middle" font-size="13" font-weight="700" fill="#2d2d2d">短视频创作不遵循木桶效应，不必想着每一块板都做得非常完美——</text>
+    <text x="350" y="660" text-anchor="middle" font-size="14" font-weight="800" fill="#b8964a">短视频是单点突破：五边形的任何一边突出，都可以破圈</text>
+  </svg>
+  </div>
+
+  <div class="law">36 节课，每节归到它<b>主要发力的那个角</b>。但很多节课跨好几个角——比如带货篇，既考验逐字稿的写法，也依赖定位层的变现认知。</div>
+
+  <div class="grid">
+    <div class="g center">
+      <div class="t">◆ 中间 · 定位 / 心法认知<span class="n">6 节 · 每一节都在回头加固这层</span></div>
+      <ul>
+        <li><span class="no">1</span>认知篇：流量≠价值，发出你第一条不带"大家好"的片</li>
+        <li><span class="no">2</span>定位篇：一句话说死，你这号只干一件事</li>
+        <li><span class="no">3</span>定位篇：把"你的观众"填成一个看得见脸的人</li>
+        <li><span class="no">26</span>变现篇：变现三角，让号第一次有人来问价</li>
+        <li><span class="no">29</span>竞争篇：竞争力六字，凭啥长期是你</li>
+        <li><span class="no">30</span>路线篇：六种幸存者，选定你号的长期活法</li>
+      </ul>
+    </div>
+    <div class="g wide">
+      <div class="t">◆ 选题<span class="n">3 节 · 选题不是灵感，是系统</span></div>
+      <ul>
+        <li><span class="no">4</span>选题篇：一次囤够 30 条，从此不愁拍什么</li>
+        <li><span class="no">5</span>选题篇：每条片都是一场赌，开拍前先押它中不中</li>
+        <li><span class="no">28</span>热点篇：热点五渠道，半小时蹭一个借流量</li>
+      </ul>
+    </div>
+    <div class="g">
+      <div class="t">◆ 大纲<span class="n">6 节 · 片子还没写，架子先立住</span></div>
+      <ul>
+        <li><span class="no">6</span>开头篇：砍掉"大家好"，第一句就把人钩住</li>
+        <li><span class="no">7</span>钩子篇：13 把钩子挑一把，前三秒把人钉死</li>
+        <li><span class="no">8</span>痛点篇：把痛点写到身上，一句话让人喘不上气</li>
+        <li><span class="no">9</span>叙事篇：只讲那一根压垮人的稻草</li>
+        <li><span class="no">10</span>情绪篇：三起三落，给观众一趟过山车</li>
+        <li><span class="no">11</span>结构篇：六推进搭骨架，讲到底不散架</li>
+      </ul>
+    </div>
+    <div class="g">
+      <div class="t">◆ 逐字稿<span class="n">6 节 · 写出来像说的，说出来有人信</span></div>
+      <ul>
+        <li><span class="no">12</span>密度篇：每一百字埋一个高光，段段有爆点</li>
+        <li><span class="no">14</span>人话篇：14 病症挑刺，去掉念稿感</li>
+        <li><span class="no">19</span>独立篇：撕掉模板，你自己写一整条</li>
+        <li><span class="no">20</span>自检篇：拿 14 病症给自己开枪，不再等老师改</li>
+        <li><span class="no">27</span>带货篇：把产品自然缝进内容，不尬还想买</li>
+        <li><span class="no">34</span>成交篇：成交型内容，把粉丝变成客户</li>
+      </ul>
+    </div>
+    <div class="g wide">
+      <div class="t">◆ 声画<span class="n">8 节 · 让观众眼看、耳听都留得住</span></div>
+      <ul>
+        <li><span class="no">15</span>表现篇：录之前先进状态，从念稿到唠嗑</li>
+        <li><span class="no">16</span>画面篇：名词动词可视化，说的每个词都有画面</li>
+        <li><span class="no">17</span>镜头篇：景别视角影调三步，同句话机位差十倍</li>
+        <li><span class="no">18</span>拍摄篇：大动作拆小动作，难镜头也拍得下来</li>
+        <li><span class="no">21</span>封面篇：行业标签+人设点，让号被人搜到</li>
+        <li><span class="no">22</span>剪辑篇：断裂感设计，太顺的片留不住人</li>
+        <li><span class="no">23</span>配乐篇：BGM 起承转合，音乐替你推情绪</li>
+        <li><span class="no">24</span>留人篇：进度条设计，把人吊到最后一秒</li>
+      </ul>
+    </div>
+    <div class="g wide">
+      <div class="t">◆ 复盘<span class="n">7 节 · 看懂数据、自己操盘、毕业</span></div>
+      <ul>
+        <li><span class="no">13</span>数据篇：把后台读成观众在跟你说话</li>
+        <li><span class="no">25</span>预判篇：预判对实绩，押着自己的爆款发</li>
+        <li><span class="no">31</span>操盘篇：全流程你一个人走，一次排三条连发</li>
+        <li><span class="no">32</span>排期篇：数据反哺选题，把号排成不断更的连载</li>
+        <li><span class="no">33</span>代表作篇：全部武器合成一条，做你的置顶</li>
+        <li><span class="no">35</span>复盘篇：账号体检，把一个月的成长拍成一条</li>
+        <li><span class="no">36</span>毕业篇：独立打出最强一条，你的号起来了</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span class="name">柯建军 · 新媒体短视频创作课 36 节</span>
+    <span>五边形 v2.0</span>
+  </div>
+</div>
+</body>
+</html>
