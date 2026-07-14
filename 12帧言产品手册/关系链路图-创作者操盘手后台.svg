@@ -1,0 +1,64 @@
+<svg viewBox="0 0 680 516" xmlns="http://www.w3.org/2000/svg" role="img" font-family="ui-sans-serif, system-ui, sans-serif">
+  <title>创作者、操盘手与后台的关系链路</title>
+  <desc>创作者与操盘手双向确认绑定，操盘手只读并批注创作者内容，创作者可申请成为操盘手由后台审批，后台可封禁、强制解绑并留审计。</desc>
+  <defs>
+    <marker id="aT" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#0F6E56"/></marker>
+    <marker id="aP" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#534AB7"/></marker>
+    <marker id="aC" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#993C1D"/></marker>
+  </defs>
+
+  <rect x="20" y="10" width="196" height="44" rx="10" fill="#CECBF6" stroke="#534AB7"/>
+  <text x="118" y="31" text-anchor="middle" font-size="15" font-weight="500" fill="#26215C">操盘手</text>
+  <text x="118" y="47" text-anchor="middle" font-size="11" fill="#534AB7">审阅 · 不代管</text>
+
+  <rect x="242" y="10" width="196" height="44" rx="10" fill="#9FE1CB" stroke="#0F6E56"/>
+  <text x="340" y="31" text-anchor="middle" font-size="15" font-weight="500" fill="#04342C">创作者</text>
+  <text x="340" y="47" text-anchor="middle" font-size="11" fill="#0F6E56">内容作者</text>
+
+  <rect x="462" y="10" width="196" height="44" rx="10" fill="#F5C4B3" stroke="#993C1D"/>
+  <text x="560" y="31" text-anchor="middle" font-size="15" font-weight="500" fill="#4A1B0C">后台 · 柯哥</text>
+  <text x="560" y="47" text-anchor="middle" font-size="11" fill="#993C1D">审批与管控</text>
+
+  <line x1="118" y1="58" x2="118" y2="236" stroke="#D3D1C7" stroke-dasharray="3 4"/>
+  <line x1="340" y1="58" x2="340" y2="236" stroke="#D3D1C7" stroke-dasharray="3 4"/>
+  <line x1="560" y1="58" x2="560" y2="236" stroke="#D3D1C7" stroke-dasharray="3 4"/>
+
+  <text x="229" y="80" text-anchor="middle" font-size="13" font-weight="500" fill="#26215C">① 绑定 · 双向确认</text>
+  <text x="229" y="103" text-anchor="middle" font-size="11" fill="#5F5E5A">创作者发起</text>
+  <line x1="322" y1="112" x2="126" y2="112" stroke="#0F6E56" stroke-width="1.5" marker-end="url(#aT)"/>
+  <line x1="126" y1="140" x2="322" y2="140" stroke="#534AB7" stroke-width="1.5" marker-end="url(#aP)"/>
+  <text x="229" y="157" text-anchor="middle" font-size="11" fill="#5F5E5A">操盘手接受 → 成立(active)</text>
+
+  <text x="229" y="184" text-anchor="middle" font-size="13" font-weight="500" fill="#26215C">② 审阅 · 只审不代管</text>
+  <text x="229" y="201" text-anchor="middle" font-size="11" fill="#5F5E5A">只读内容 + 朱批</text>
+  <line x1="126" y1="206" x2="322" y2="206" stroke="#534AB7" stroke-width="1.5" marker-end="url(#aP)"/>
+  <rect x="138" y="214" width="182" height="20" rx="6" fill="#FCEBEB"/>
+  <text x="229" y="228" text-anchor="middle" font-size="11" fill="#791F1F">红线：只读，改不了稿子</text>
+
+  <text x="450" y="80" text-anchor="middle" font-size="13" font-weight="500" fill="#4A1B0C">③ 申请成为操盘手</text>
+  <text x="450" y="103" text-anchor="middle" font-size="11" fill="#5F5E5A">创作者申请</text>
+  <line x1="362" y1="112" x2="552" y2="112" stroke="#0F6E56" stroke-width="1.5" marker-end="url(#aT)"/>
+  <line x1="552" y1="140" x2="362" y2="140" stroke="#993C1D" stroke-width="1.5" marker-end="url(#aC)"/>
+  <text x="450" y="157" text-anchor="middle" font-size="11" fill="#5F5E5A">后台批准 → 变操盘手</text>
+
+  <rect x="30" y="252" width="620" height="150" rx="12" fill="#FAECE7" stroke="#F0997B"/>
+  <text x="50" y="278" font-size="14" font-weight="500" fill="#4A1B0C">④ 后台管控（作用于 创作者 &amp; 操盘手）</text>
+
+  <rect x="50" y="288" width="580" height="30" rx="7" fill="#FFFFFF" stroke="#F5C4B3"/>
+  <text x="64" y="307" font-size="12" font-weight="500" fill="#4A1B0C">封禁 / 停用 / 恢复</text>
+  <text x="210" y="307" font-size="11" fill="#5F5E5A">待结算佣金作废 · 订单退款登记 · 社群帖保留不删</text>
+
+  <rect x="50" y="324" width="580" height="30" rx="7" fill="#FFFFFF" stroke="#F5C4B3"/>
+  <text x="64" y="343" font-size="12" font-weight="500" fill="#4A1B0C">强制解绑</text>
+  <text x="210" y="343" font-size="11" fill="#5F5E5A">解除任意 创作者↔操盘手 绑定，并通知双方</text>
+
+  <rect x="50" y="360" width="580" height="30" rx="7" fill="#FFFFFF" stroke="#F5C4B3"/>
+  <text x="64" y="379" font-size="12" font-weight="500" fill="#4A1B0C">审计日志</text>
+  <text x="210" y="379" font-size="11" fill="#5F5E5A">封禁 · 审批 · 解绑 等管理操作全程留痕</text>
+
+  <rect x="30" y="416" width="620" height="90" rx="12" fill="#FCEBEB" stroke="#F09595"/>
+  <text x="46" y="437" font-size="13" font-weight="500" fill="#791F1F">三条红线（贯穿全链）</text>
+  <text x="46" y="458" font-size="11" fill="#791F1F">① 数据不互串 — 操盘手只能看到与自己有绑定关系的创作者</text>
+  <text x="46" y="476" font-size="11" fill="#791F1F">② 只审不代管 — 操盘手对创作者内容只读，改不了稿子</text>
+  <text x="46" y="494" font-size="11" fill="#791F1F">③ 退款只登记状态 — 封号触发退款仅记账，不碰真实转账</text>
+</svg>
