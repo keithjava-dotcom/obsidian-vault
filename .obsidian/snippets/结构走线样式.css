@@ -1,51 +1,106 @@
 /* 结构走线代码块专用配色
- * 作者：Claude（Anthropic）· 为柯哥的 OpenClaw 编写 · 2026-07-21
+ * 作者：Claude（Anthropic）· 为柯哥的 OpenClaw 编写 · 2026-07-21（v3）
  *
  * 柯哥问："知识格式引导和正文需要有字体或者颜色的区别，但是代码块好像改不了颜色？"
- * 答：能改。代码块是 <pre><code>，可以单独配色和换字体，右上角复制按钮照旧保留。
+ * 答：能改。代码块可以单独配色换字体，右上角复制按钮照旧保留。
  *
- * 启用方法（一次性）：
- *   Obsidian → 设置 → 外观 → 最下面「CSS 代码片段」→ 点刷新 → 打开「结构走线样式」开关
+ * v2 修了 v1 没效果的两个原因（柯哥实测"看没感觉"后查出来的）：
+ *   ① v1 只写了「阅读模式」的选择器，而柯哥默认用「实时预览」——那是另一套 DOM
+ *      （CodeMirror 的 .HyperMD-codeblock，按行渲染），完全没被覆盖到。
+ *   ② 柯哥的主题是 Blue Topaz，它自己的代码块样式优先级更高，把 v1 压掉了。
+ *      所以这里提高选择器权重并对关键属性加 !important。
+ *
+ * 启用：设置 → 外观 → CSS 代码片段 → 刷新 → 打开「结构走线样式」
+ * 改完 css 文件后，回到那个面板点一下刷新按钮即可生效，不用重启 Obsidian。
  */
 
-/* ── 结构走线代码块整体：跟正文明显区分 ────────────────────── */
+/* ══════════ 一、阅读模式（Reading view）══════════ */
 .markdown-preview-view pre,
+.markdown-reading-view pre,
 .markdown-rendered pre {
-  background: #f7f3e9;              /* 宣纸底，暖色，跟白正文拉开 */
-  border-left: 4px solid #7a8b5a;   /* 左侧竹青色标条 */
-  border-radius: 6px;
-  padding: 14px 16px;
-  line-height: 1.85;                /* 走线要一行行读，行距放开 */
+  background: #f7f3e9 !important;            /* 宣纸底：跟白正文拉开 */
+  border-left: 4px solid #7a8b5a !important; /* 竹青标条 */
+  border-radius: 6px !important;
+  padding: 14px 16px !important;
+  line-height: 1.85 !important;
 }
 
-/* 深色模式下换一套，别刺眼 */
-.theme-dark .markdown-preview-view pre,
-.theme-dark .markdown-rendered pre {
-  background: #1e2419;
-  border-left-color: #8fa06a;
-}
-
-/* ── 代码块里的字：用正文字体，不用等宽字体 ─────────────────
- * 默认代码块是程序员的等宽字体，读中文口播稿很别扭。
- * 换成你系统里的中文字体（有字体插件的话，插件设置会覆盖这里，以插件为准）。 */
 .markdown-preview-view pre code,
+.markdown-reading-view pre code,
 .markdown-rendered pre code {
-  font-family: "PingFang SC", "Songti SC", -apple-system, sans-serif;
-  font-size: 1.02em;
-  color: #2f3b2a;
-  white-space: pre-wrap;            /* 长句自动折行，不用左右拖 */
-  word-break: break-word;
+  /* 关键：换掉等宽字体——读中文口播稿别用程序员字体 */
+  font-family: "PingFang SC", "Songti SC", -apple-system, sans-serif !important;
+  font-size: 1.02em !important;
+  color: #2f3b2a !important;
+  white-space: pre-wrap !important;          /* 长句自动折行，不用左右拖 */
+  word-break: break-word !important;
+  background: transparent !important;
+}
+
+/* ══════════ 二、实时预览 / 编辑模式（Live Preview · CodeMirror 6）══════════
+ * 这是柯哥默认看到的视图。v2 在这里失手了两处，v3 照 Blue Topaz 的真实写法对齐：
+ *   ① 背景不在 .HyperMD-codeblock 上，在 **.HyperMD-codeblock-bg** 上——v2 瞄错了元素。
+ *   ② 双方都用 !important 时比的是**选择器权重**，不是先后。主题用
+ *      `.cm-s-obsidian div.HyperMD-codeblock-bg`（权重 0,2,1），
+ *      所以这里统一堆到 4 个 class（0,4,0）确保压过。 */
+.markdown-source-view.mod-cm6 .cm-s-obsidian .HyperMD-codeblock-bg,
+.markdown-source-view.mod-cm6 .cm-s-obsidian div.HyperMD-codeblock-bg,
+.markdown-source-view.mod-cm6 .cm-s-obsidian .HyperMD-codeblock,
+.markdown-source-view.mod-cm6 .cm-s-obsidian .cm-line.HyperMD-codeblock {
+  background: #f7f3e9 !important;            /* 宣纸底 */
+  border-left: 4px solid #7a8b5a !important; /* 竹青标条 */
+  padding-left: 16px !important;
+  line-height: 1.85 !important;
+}
+
+/* 块内文字：换掉等宽字体 + 统一文字色。
+ * 主题会把中文按代码 token 染色（.cm-property/.cm-atom 等），所以这里用
+ * span[class*="cm-"] 一次性罩住全部 token，权重同样堆到 4 class 以上。 */
+.markdown-source-view.mod-cm6 .cm-s-obsidian .HyperMD-codeblock,
+.markdown-source-view.mod-cm6 .cm-s-obsidian .HyperMD-codeblock span,
+.markdown-source-view.mod-cm6 .cm-s-obsidian .HyperMD-codeblock span[class*="cm-"] {
+  font-family: "PingFang SC", "Songti SC", -apple-system, sans-serif !important;
+  font-size: 1.02em !important;
+  color: #2f3b2a !important;
+}
+
+/* 首尾 ``` 那两行补圆角，看起来是一整块 */
+.markdown-source-view.mod-cm6 .cm-s-obsidian .HyperMD-codeblock-begin,
+.markdown-source-view.mod-cm6 .cm-s-obsidian .HyperMD-codeblock-begin-bg {
+  border-radius: 6px 6px 0 0 !important;
+  padding-top: 10px !important;
+}
+.markdown-source-view.mod-cm6 .cm-s-obsidian .HyperMD-codeblock-end,
+.markdown-source-view.mod-cm6 .cm-s-obsidian .HyperMD-codeblock-end-bg {
+  border-radius: 0 0 6px 6px !important;
+  padding-bottom: 10px !important;
+}
+
+/* ══════════ 三、深色模式（两种视图共用）══════════ */
+.theme-dark .markdown-preview-view pre,
+.theme-dark .markdown-reading-view pre,
+.theme-dark .markdown-rendered pre,
+.theme-dark .markdown-source-view.mod-cm6 .cm-s-obsidian .HyperMD-codeblock,
+.theme-dark .markdown-source-view.mod-cm6 .cm-s-obsidian .HyperMD-codeblock-bg {
+  background: #1e2419 !important;
+  border-left-color: #8fa06a !important;
 }
 .theme-dark .markdown-preview-view pre code,
-.theme-dark .markdown-rendered pre code {
-  color: #d9e0cf;
+.theme-dark .markdown-reading-view pre code,
+.theme-dark .markdown-rendered pre code,
+.theme-dark .markdown-source-view.mod-cm6 .cm-s-obsidian .HyperMD-codeblock,
+.theme-dark .markdown-source-view.mod-cm6 .cm-s-obsidian .HyperMD-codeblock span,
+.theme-dark .markdown-source-view.mod-cm6 .cm-s-obsidian .HyperMD-codeblock span[class*="cm-"] {
+  color: #d9e0cf !important;
 }
 
-/* ── 复制按钮：留着，只是低调一点 ─────────────────────────── */
-.markdown-rendered pre .copy-code-button {
+/* ══════════ 四、复制按钮：留着，平时低调、悬停变亮 ══════════ */
+.markdown-rendered pre .copy-code-button,
+.markdown-preview-view pre .copy-code-button {
   opacity: 0.35;
   transition: opacity 0.15s;
 }
-.markdown-rendered pre:hover .copy-code-button {
+.markdown-rendered pre:hover .copy-code-button,
+.markdown-preview-view pre:hover .copy-code-button {
   opacity: 1;
 }
