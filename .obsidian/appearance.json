@@ -3,5 +3,8 @@
   "baseFontSizeAction": true,
   "nativeMenus": true,
   "translucency": true,
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "结构走线样式"
+  ]
 }
