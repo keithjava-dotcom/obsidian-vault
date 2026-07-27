@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "draft": "第01稿-宋民案件",
+  "date": "2026-07-27",
+  "facts": [
+    {"claim": "宋民想去北京上访", "source": "日记07-14", "status": "confirmed"},
+    {"claim": "在徐州停留", "source": "日记07-14", "status": "confirmed"},
+    {"claim": "户籍所在地政府让他连夜回南通", "source": "日记07-14", "status": "confirmed"},
+    {"claim": "他说没有高铁，第二天再走", "source": "日记07-14", "status": "confirmed"},
+    {"claim": "政府安排人员开车带他回去", "source": "日记07-14", "status": "confirmed"},
+    {"claim": "半路发生车祸", "source": "日记07-14", "status": "confirmed"},
+    {"claim": "一级伤残", "source": "日记07-14", "status": "confirmed"},
+    {"claim": "高位截瘫", "source": "日记07-14", "status": "confirmed"},
+    {"claim": "肺部感染", "source": "日记07-14", "status": "confirmed"},
+    {"claim": "插管靠机器存活", "source": "日记07-14", "status": "confirmed"},
+    {"claim": "没有经济来源，自己垫医药费", "source": "日记07-14", "status": "confirmed"},
+    {"claim": "起诉政府和保险公司偿还", "source": "日记07-14", "status": "confirmed"},
+    {"claim": "政府和保险公司觉得护理费治疗费过高", "source": "日记07-14", "status": "confirmed"},
+    {"claim": "希望宋民降低护理标准", "source": "日记07-14", "status": "confirmed"},
+    {"claim": "宋民案件是帮徐磊主任开庭", "source": "日记07-14", "status": "confirmed"},
+    {"claim": "开完庭选择和对方律师沟通", "source": "日记07-14", "status": "confirmed"},
+    {"claim": "建议政府为宋民聘请护工", "source": "日记07-14", "status": "confirmed"},
+    {"claim": "降低政府开支，减少宋民每次起诉困境", "source": "日记07-14", "status": "confirmed"}
+  ]
+}

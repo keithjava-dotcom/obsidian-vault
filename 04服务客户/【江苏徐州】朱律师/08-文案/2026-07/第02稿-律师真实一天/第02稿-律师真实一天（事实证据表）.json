@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "draft": "第02稿-律师真实一天",
+  "date": "2026-07-27",
+  "facts": [
+    {"claim": "凌晨5点起床", "source": "日记07-15", "status": "confirmed"},
+    {"claim": "11小时高铁从徐州到温岭", "source": "日记07-15", "status": "confirmed"},
+    {"claim": "租车从温岭开到玉环60公里", "source": "日记07-15", "status": "confirmed"},
+    {"claim": "调工商档案跑了三个地方：工商局、行政服务中心、档案局", "source": "日记07-15", "status": "confirmed"},
+    {"claim": "网上查不到该去哪调", "source": "日记07-15", "status": "confirmed"},
+    {"claim": "玉环法院不给开调查令", "source": "日记07-15", "status": "confirmed"},
+    {"claim": "法官说律师可以直接拿律师证去派出所调任何人身份信息", "source": "日记07-15", "status": "confirmed"},
+    {"claim": "在中国法律里找不到支持依据", "source": "日记07-15", "status": "confirmed"},
+    {"claim": "七八次电话沟通坚决不让步", "source": "日记07-15", "status": "confirmed"},
+    {"claim": "法院最终从内部系统拿到了被告信息", "source": "日记07-15", "status": "confirmed"},
+    {"claim": "深夜11点到徐州", "source": "日记07-15", "status": "confirmed"},
+    {"claim": "一天没吃饭，路上吃了一块牛肉", "source": "日记07-15", "status": "confirmed"},
+    {"claim": "人发晕", "source": "日记07-15", "status": "confirmed"},
+    {"claim": "去李玉尧烧烤店吃面", "source": "日记07-15", "status": "confirmed"},
+    {"claim": "被咨询房屋买卖纠纷", "source": "日记07-15", "status": "confirmed"},
+    {"claim": "出门不想说自己是律师，躲不掉", "source": "日记07-15", "status": "confirmed"}
+  ]
+}
