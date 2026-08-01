@@ -1,0 +1,36 @@
+{
+  "draftNumber": "09",
+  "title": "证据链的七寸",
+  "facts": [
+    {
+      "claim": "15年查案经历，四个单位",
+      "source": "整理版·于建新口述（多话题交叉验证）",
+      "category": "原始素材",
+      "confidence": "confirmed"
+    },
+    {
+      "claim": "查案视角做辩护，看案卷与纯律师不同",
+      "source": "整理版话题三、四、五、八·于建新反复强调",
+      "category": "原始素材",
+      "confidence": "confirmed"
+    },
+    {
+      "claim": "刑警现场勘查易出问题",
+      "source": "模型桥接：基于话题二刑警经历推断",
+      "category": "模型桥接",
+      "confidence": "inferred"
+    },
+    {
+      "claim": "经侦审计报告是关键",
+      "source": "整理版话题三·于建新口述",
+      "category": "原始素材",
+      "confidence": "confirmed"
+    },
+    {
+      "claim": "反贪口供笔录的对应关系",
+      "source": "模型桥接：基于话题四反贪经历推断",
+      "category": "模型桥接",
+      "confidence": "inferred"
+    }
+  ]
+}
