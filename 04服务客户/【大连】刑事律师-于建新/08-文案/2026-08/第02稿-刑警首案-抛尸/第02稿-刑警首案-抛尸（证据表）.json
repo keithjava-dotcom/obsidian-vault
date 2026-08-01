@@ -1,0 +1,28 @@
+{
+  "draft_number": "02",
+  "title": "刑警首案-抛尸",
+  "final_sha256": "c6ee63d1990f007791fce36453ba51b52ea0924ced99092b8c10380b93bcd2c9",
+  "facts": [
+    {"claim": "刑警学院侦查专业", "source": "整理版话题二", "type": "原始素材", "verified": true},
+    {"claim": "重案大队", "source": "整理版话题二", "type": "原始素材", "verified": true},
+    {"claim": "第一次案件是杀人抛尸案", "source": "整理版话题二", "type": "原始素材", "verified": true},
+    {"claim": "抛尸郊外，非第一现场", "source": "整理版话题二", "type": "原始素材", "verified": true},
+    {"claim": "BP机年代", "source": "整理版话题二", "type": "原始素材", "verified": true},
+    {"claim": "212吉普", "source": "整理版话题二", "type": "原始素材", "verified": true},
+    {"claim": "桑塔纳是领导坐的", "source": "整理版话题二", "type": "原始素材", "verified": true},
+    {"claim": "无监控无DNA无大数据", "source": "整理版话题二", "type": "原始素材", "verified": true},
+    {"claim": "冰天雪地走访", "source": "整理版话题二", "type": "原始素材", "verified": true},
+    {"claim": "喝酒矛盾→打人→被杀→抛尸", "source": "整理版话题二", "type": "原始素材", "verified": true},
+    {"claim": "做警察没做过刑警等于没干过警察", "source": "整理版话题二（原话verbatim）", "type": "原始素材", "verified": true},
+    {"claim": "好人不愿干坏人干不来", "source": "整理版话题二（原话verbatim）", "type": "原始素材", "verified": true},
+    {"claim": "刑警→经侦→反贪→纪委→律师", "source": "整理版话题二/三/四/五", "type": "原始素材", "verified": true},
+    {"claim": "现在做律师用侦查思维", "source": "整理版话题二", "type": "原始素材", "verified": true},
+    {"claim": "想打电话得找公用电话", "source": "BP机年代常识推理", "type": "模型桥接", "verified": false, "note": "素材未明确提及公用电话，仅说BP机年代"},
+    {"claim": "二十多年", "source": "时间跨度推理", "type": "模型桥接", "verified": false, "note": "素材未给精确年份，只说'我刚毕业那些年'到现在"}
+  ],
+  "pending_confirmations": [
+    "城市名→已降级为不出现具体地名",
+    "周总理名言→已决定不使用",
+    "案件年份→已用'我刚毕业'替代"
+  ]
+}
