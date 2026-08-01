@@ -1,0 +1,54 @@
+{
+  "draftNumber": "07",
+  "title": "辩护席上见老同事",
+  "facts": [
+    {
+      "claim": "在反贪局当过5年大要案主任",
+      "source": "整理版话题八·于建新口述",
+      "category": "原始素材",
+      "confidence": "confirmed"
+    },
+    {
+      "claim": "第一场辩护在原任职地区开庭",
+      "source": "整理版话题八·于建新口述",
+      "category": "原始素材",
+      "confidence": "confirmed"
+    },
+    {
+      "claim": "支持公诉的是以前同事",
+      "source": "整理版话题八·于建新口述",
+      "category": "原始素材",
+      "confidence": "confirmed"
+    },
+    {
+      "claim": "申请出庭的审计是经侦时合作的会计师事务所老友",
+      "source": "整理版话题八·于建新口述",
+      "category": "原始素材",
+      "confidence": "confirmed"
+    },
+    {
+      "claim": "带团队多次会见、反复阅卷、调取证据、与法官多次沟通论证",
+      "source": "整理版话题八·于建新口述",
+      "category": "原始素材",
+      "confidence": "confirmed"
+    },
+    {
+      "claim": "工作是对手，私下是朋友",
+      "source": "整理版话题八·于建新原话",
+      "category": "原始素材",
+      "confidence": "confirmed"
+    },
+    {
+      "claim": "立场不同，目的一样——查明事实，让当事人受到公正惩罚",
+      "source": "整理版话题八·于建新口述",
+      "category": "原始素材",
+      "confidence": "confirmed"
+    },
+    {
+      "claim": "他出的审计报告，我看了不下几十份",
+      "source": "模型桥接：基于'经侦时长期合作'推断合理互动细节",
+      "category": "模型桥接",
+      "confidence": "inferred"
+    }
+  ]
+}
