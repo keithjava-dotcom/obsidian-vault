@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "account": "朱律师",
+  "rubric_version": "v0",
+  "calibration_samples": 0,
+  "calibration_samples_at_last_bump": 0,
+  "data_collection": "manual",
+  "pool_status": "none",
+  "last_bump_at": null,
+  "last_published_at": null,
+  "last_retro_at": null,
+  "pending_retros": [],
+  "shoots": [],
+  "consecutive_directional_errors": [],
+  "initialized_at": "2026-08-04T00:20:00+08:00"
+}
