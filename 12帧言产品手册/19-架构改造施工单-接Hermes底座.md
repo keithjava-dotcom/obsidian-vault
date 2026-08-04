@@ -1,5 +1,6 @@
 ---
 author: Hermes
+maintainer: Hermes
 created: 2026-08-04
 type: 施工单
 tags: [帧言, 架构改造, Hermes底座, 施工]

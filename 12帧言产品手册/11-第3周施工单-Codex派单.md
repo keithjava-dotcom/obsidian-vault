@@ -1,10 +1,14 @@
 ---
 author: Claude
+maintainer: Hermes
 created: 2026-07-09
 updated: 2026-07-09
 type: 施工单
 tags: [帧言, 第3周, 功能完善, Codex派单]
 ---
+
+> 🔗 **当前状态**：本文档为历史记录。当前方向以 [[22-目录导航与当前状态-v1]] 为准（接 Hermes 底座 + 商城/圈子/广告/超管后台都要实现）。
+
 
 # 第 3 周施工单 · Codex 派单(v2 · 功能完善周)
 
