@@ -321,7 +321,7 @@ McKinsey Quarterly 2026 Q2 ：A Time For courage
 &nbsp;合作&nbsp;
 ---
 
-## Hermes判断
+## 碰撞
 
 这篇跟你的业务直接对上四件事：
 
